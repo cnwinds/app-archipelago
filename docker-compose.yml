@@ -1,0 +1,11 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        NPM_REGISTRY: ${NPM_REGISTRY:-https://registry.npmjs.org}
+    image: app-archipelago:latest
+    container_name: app-archipelago
+    ports:
+      - "${BIND_ADDR:-127.0.0.1}:${PORT:-5320}:80"
+    restart: unless-stopped
