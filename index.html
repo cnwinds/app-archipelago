@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>应用群岛 · App Archipelago</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;900&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+    <div id="labels"></div>
+    <div class="vignette"></div>
+    <div class="warp-flash"></div>
+
+    <header class="brand glass">
+      <div class="brand-mark"><span></span></div>
+      <div>
+        <h1>应用群岛</h1>
+        <p>App Archipelago · 每天都有新岛民</p>
+      </div>
+      <dl class="brand-stats">
+        <div><dt>作品</dt><dd id="stat-total">0</dd></div>
+        <div><dt>精品</dt><dd id="stat-featured">0</dd></div>
+        <div><dt>3 日新作</dt><dd id="stat-new">0</dd></div>
+      </dl>
+      <span class="sample-tag">示例数据</span>
+    </header>
+
+    <div class="search-wrap">
+      <div class="search glass">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M20 20l-4-4" /></svg>
+        <input id="search" placeholder="搜索作品、标签或方向" autocomplete="off" />
+        <kbd>/</kbd>
+      </div>
+      <div id="results" class="results glass"></div>
+    </div>
+
+    <nav class="island-nav glass" id="island-nav">
+      <h3>群岛航线</h3>
+    </nav>
+
+    <div class="legend glass">
+      <div><span class="lg lg-castle"></span>城堡 · 精品</div>
+      <div><span class="lg lg-house"></span>房屋 · 优质</div>
+      <div><span class="lg lg-hut"></span>小屋 · 新人作品</div>
+      <div><span class="lg lg-beam"></span>光柱 · 3 日内新作</div>
+    </div>
+
+    <div class="dock glass">
+      <button class="dock-btn" id="btn-overview" title="回到群岛全景">
+        <svg viewBox="0 0 24 24"><path d="M3 12h4M17 12h4M12 3v4M12 17v4" /><circle cx="12" cy="12" r="4" /></svg>
+        全景
+      </button>
+      <button class="dock-random" id="btn-random">
+        <svg viewBox="0 0 24 24"><path d="M4 17l5-5-5-5M12 19h8" /></svg>
+        随机传送
+      </button>
+      <div class="explore" title="你已逛过的作品">
+        <svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15" class="track" /><circle cx="18" cy="18" r="15" id="explore-ring" class="bar" /></svg>
+        <div><b id="explore-count">0</b><span>/<span id="explore-total">0</span></span><small>探索度</small></div>
+      </div>
+    </div>
+
+    <div id="hint" class="hint">左键拖动平移 · 右键拖动旋转 · 滚轮缩放 · 点击建筑即可试玩</div>
+
+    <div id="tooltip" class="tooltip"></div>
+
+    <aside id="panel" class="panel glass"></aside>
+
+    <div id="play" class="play">
+      <div class="play-frame">
+        <header>
+          <div><span class="play-dot"></span><b class="play-title"></b><small class="play-sub"></small></div>
+          <button class="play-close" aria-label="关闭试玩">返回群岛</button>
+        </header>
+        <iframe sandbox="allow-scripts" title="试玩"></iframe>
+      </div>
+    </div>
+
+    <div id="tweaks" class="tweaks glass">
+      <button id="tweaks-toggle" class="tweaks-head">Tweaks</button>
+      <div class="tweaks-body">
+        <label>时间</label>
+        <div class="seg">
+          <button data-tod="day">白天</button>
+          <button data-tod="dusk" class="on">黄昏</button>
+          <button data-tod="night">夜晚</button>
+        </div>
+        <label>光效强度</label>
+        <div class="seg">
+          <button data-fx="soft">柔和</button>
+          <button data-fx="normal">标准</button>
+          <button data-fx="vivid">绚丽</button>
+        </div>
+        <label class="row"><input type="checkbox" id="tw-cruise" />自动巡航</label>
+        <label class="row"><input type="checkbox" id="tw-labels" checked />显示标签</label>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
