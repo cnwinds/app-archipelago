@@ -171,7 +171,8 @@ export function createSeabed() {
 
 export function createIslandShape(cat, seed) {
   const rng = mulberry32(seed);
-  const R = 14 + Math.sqrt(cat.count) * 2.6;
+  // Islands keep a minimum size so the centrepiece and a handful of works still fit.
+  const R = 14 + Math.sqrt(Math.max(cat.count, 24)) * 2.6;
   const ph = [rng() * TAU, rng() * TAU, rng() * TAU, rng() * TAU];
   const radiusAt = (a) =>
     R * (1 + 0.1 * Math.sin(3 * a + ph[0]) + 0.06 * Math.sin(5 * a + ph[1]) + 0.035 * Math.sin(8 * a + ph[2]));

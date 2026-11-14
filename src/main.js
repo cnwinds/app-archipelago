@@ -4,7 +4,7 @@ import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
-import { CATEGORIES, generateApps } from './data.js';
+import { CATEGORIES, loadApps } from './data.js';
 import { createWorld, createSky, createWater, createSeabed, applyGlow, setLightFx } from './world.js';
 import './style.css';
 
@@ -15,10 +15,12 @@ const smoothstep = (a, b, x) => {
 };
 const easeInOut = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 const fmt = (n) => (n >= 10000 ? (n / 10000).toFixed(1) + ' 万' : n.toLocaleString('zh-CN'));
+// Catalog text comes from outside the codebase, so it is escaped before going into HTML.
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 
 /* ---------------------------------------------------------------- data ---- */
 
-const apps = generateApps();
+const apps = loadApps();
 const byCat = new Map(CATEGORIES.map((c) => [c.id, apps.filter((a) => a.cat === c)]));
 const STORAGE_KEY = 'archipelago-explored';
 const explored = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
@@ -238,6 +240,7 @@ const islandLabels = world.shapes.map((shape) => {
   el.innerHTML = `
     <span class="il-title">${shape.cat.title}</span>
     <span class="il-stats"><b>${list.length}</b> 作品<i></i><b>${featured}</b> 精品<i></i><b>${fresh}</b> 新作</span>`;
+  if (!list.length) el.classList.add('empty');
   el.addEventListener('click', () => flyToIsland(shape));
   labelLayer.appendChild(el);
   const lift = shape.cat.theme === 'volcano' ? 34 : 28;
@@ -250,7 +253,7 @@ for (const app of labelOrder) {
   const el = document.createElement('button');
   el.className = `app-label tier-${app.tier}${app.isNew ? ' is-new' : ''}`;
   el.style.setProperty('--c', app.cat.color);
-  el.innerHTML = `${app.tier === 2 ? `<em>${app.score}</em>` : ''}<span>${app.name}</span>${app.isNew ? '<strong>NEW</strong>' : ''}`;
+  el.innerHTML = `${app.tier === 2 ? `<em>${app.score}</em>` : ''}<span>${esc(app.name)}</span>${app.isNew ? '<strong>NEW</strong>' : ''}`;
   el.addEventListener('click', () => focusApp(app));
   labelLayer.appendChild(el);
   app.label = el;
@@ -395,7 +398,7 @@ function setHovered(app) {
   hovered = app;
   if (app) {
     world.buildings.setHighlight(app, true);
-    tooltip.innerHTML = `<b>${app.name}</b><span><i style="--c:${app.cat.color}"></i>${app.cat.name} · 品质 ${app.score}${app.isNew ? ' · 新作' : ''}</span><small>点击查看与试玩</small>`;
+    tooltip.innerHTML = `<img src="${esc(app.shot)}" alt="" /><b>${esc(app.name)}</b><span><i style="--c:${app.cat.color}"></i>${app.cat.name} · 品质 ${app.score}${app.isNew ? ' · 新作' : ''}</span><small>${app.embed ? '点击查看与试玩' : '点击查看 · 新标签页打开'}</small>`;
     tooltip.classList.add('on');
   } else tooltip.classList.remove('on');
   renderer.domElement.style.cursor = app ? 'pointer' : '';
@@ -435,7 +438,19 @@ function focusApp(app, { teleport = false } = {}) {
   selRing.visible = true;
   markExplored(app);
   openPanel(app);
+  history.replaceState(null, '', `#/app/${app.id}`);
 }
+
+// Every work has its own shareable address: <site>/#/app/<id>
+const linkFor = (app) => `${location.origin}${location.pathname}#/app/${app.id}`;
+function appFromHash() {
+  const m = /^#\/app\/([\w-]+)$/.exec(location.hash);
+  return m ? apps.find((a) => a.id === m[1]) : null;
+}
+window.addEventListener('hashchange', () => {
+  const app = appFromHash();
+  if (app && app !== selected) focusApp(app);
+});
 
 function markExplored(app) {
   if (explored.has(app.id)) return;
@@ -447,37 +462,6 @@ function markExplored(app) {
 
 /* -------------------------------------------------------------- panel ---- */
 
-function demoHTML(app) {
-  const c = app.cat.color;
-  return `<!doctype html><html><head><meta charset="utf-8"><style>
-    html,body{margin:0;height:100%;overflow:hidden;background:#0b1320;font-family:'Noto Sans SC',sans-serif;color:#f4efe6}
-    canvas{display:block;width:100%;height:100%}
-    .t{position:absolute;inset:auto 0 18px 0;text-align:center;pointer-events:none}
-    .t b{display:block;font-size:22px;letter-spacing:.04em}
-    .t span{font-size:12px;opacity:.6}
-  </style></head><body><canvas></canvas>
-  <div class="t"><b>${app.name}</b><span>示例画面 · 正式上线后这里直接加载作品本体</span></div>
-  <script>
-    const cv=document.querySelector('canvas'),g=cv.getContext('2d');
-    let W,H,mx=-1,my=-1;const P=[];
-    function rs(){W=cv.width=innerWidth*devicePixelRatio;H=cv.height=innerHeight*devicePixelRatio}
-    addEventListener('resize',rs);rs();
-    addEventListener('pointermove',e=>{mx=e.clientX*devicePixelRatio;my=e.clientY*devicePixelRatio});
-    addEventListener('pointerdown',e=>{for(let i=0;i<40;i++){const a=Math.random()*6.28,s=2+Math.random()*6;P.push({x:e.clientX*devicePixelRatio,y:e.clientY*devicePixelRatio,vx:Math.cos(a)*s,vy:Math.sin(a)*s,l:1})}});
-    for(let i=0;i<160;i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:0,vy:0,l:-1});
-    (function f(){g.fillStyle='rgba(11,19,32,.22)';g.fillRect(0,0,W,H);
-      for(const p of P){
-        if(mx>0){const dx=mx-p.x,dy=my-p.y,d=Math.hypot(dx,dy)+30;p.vx+=dx/d*.35;p.vy+=dy/d*.35}
-        else{p.vx+=Math.sin(p.y*.01+performance.now()*.001)*.08;p.vy+=Math.cos(p.x*.01)*.08}
-        p.vx*=.96;p.vy*=.96;p.x+=p.vx;p.y+=p.vy;
-        if(p.l>0)p.l-=.012;
-        g.fillStyle='${c}';g.globalAlpha=p.l>0?p.l:.85;g.beginPath();g.arc(p.x,p.y,(p.l>0?3:2)*devicePixelRatio,0,6.28);g.fill();
-      }
-      g.globalAlpha=1;for(let i=P.length-1;i>=0;i--)if(P[i].l>=0&&P[i].l<=.01)P.splice(i,1);
-      requestAnimationFrame(f)})();
-  <\/script></body></html>`;
-}
-
 function daysAgo(d) {
   if (d < 1) return '今天发布';
   if (d < 2) return '昨天发布';
@@ -487,45 +471,57 @@ function daysAgo(d) {
 function openPanel(app) {
   const related = byCat
     .get(app.cat.id)
-    .filter((a) => a !== app && a.tier === 2)
+    .filter((a) => a !== app)
     .slice(0, 4);
+  const hn = app.source?.type === 'hn' ? app.source : null;
   panel.style.setProperty('--c', app.cat.color);
   panel.innerHTML = `
     <button class="panel-close" aria-label="关闭">×</button>
-    <div class="cover">
-      <iframe sandbox="allow-scripts" title="${app.name} 预览"></iframe>
-      <span class="cover-tag">实时预览 · 可交互</span>
-    </div>
+    <button class="cover" data-act="play" aria-label="试玩 ${esc(app.name)}">
+      <img src="${esc(app.shot)}" alt="${esc(app.name)} 截图" />
+      <span class="cover-tag">${app.embed ? '点击试玩' : '新标签页打开'}</span>
+    </button>
     <div class="panel-body">
       <div class="meta">
         <span class="chip"><i></i>${app.cat.title}</span>
         ${app.tier === 2 ? '<span class="badge gold">精品</span>' : app.tier === 1 ? '<span class="badge">优质</span>' : ''}
         ${app.isNew ? '<span class="badge new">NEW</span>' : ''}
       </div>
-      <h2>${app.name}</h2>
-      <p class="author">${app.author} · ${daysAgo(app.ageDays)}</p>
-      <p class="desc">${app.desc}</p>
+      <h2>${esc(app.name)}</h2>
+      <p class="author">${app.author ? esc(app.author) + ' · ' : ''}${daysAgo(app.ageDays)} · ${esc(app.host)}</p>
+      <p class="desc">${esc(app.desc)}</p>
       <dl class="stats">
         <div><dt>品质分</dt><dd>${app.score}</dd></div>
-        <div><dt>试玩次数</dt><dd>${fmt(app.plays)}</dd></div>
-        <div><dt>标签</dt><dd class="tags">${app.tags.map((t) => `<span>${t}</span>`).join('')}</dd></div>
+        ${hn ? `<div><dt>HN 热度</dt><dd>${fmt(hn.points)}</dd></div>` : ''}
+        <div><dt>标签</dt><dd class="tags">${app.tags.map((t) => `<span>${esc(t)}</span>`).join('')}</dd></div>
       </dl>
       <div class="actions">
-        <button class="btn primary" data-act="play">开始试玩</button>
+        <button class="btn primary" data-act="play">${app.embed ? '开始试玩' : '打开作品 ↗'}</button>
         <button class="btn ghost" data-act="island">逛逛这座岛</button>
       </div>
+      ${app.embed ? '' : '<p class="note">这个作品不能在本页内直接运行，会在新标签页打开。</p>'}
+      <p class="links">
+        <a href="${esc(app.url)}" target="_blank" rel="noopener noreferrer">原站 ↗</a>
+        ${hn ? `<a href="${esc(hn.link)}" target="_blank" rel="noopener noreferrer">HN 讨论 ↗</a>` : ''}
+        <button data-act="copy">复制链接</button>
+      </p>
       ${
         related.length
-          ? `<h4>同岛精品</h4><ul class="related">${related
-              .map((r) => `<li><button data-id="${r.id}"><em>${r.score}</em><span>${r.name}</span><small>${r.tags[0]}</small></button></li>`)
+          ? `<h4>同岛作品</h4><ul class="related">${related
+              .map((r) => `<li><button data-id="${r.id}"><em>${r.score}</em><span>${esc(r.name)}</span><small>${esc(r.tags[0] ?? '')}</small></button></li>`)
               .join('')}</ul>`
           : ''
       }
     </div>`;
-  panel.querySelector('iframe').srcdoc = demoHTML(app);
   panel.querySelector('.panel-close').onclick = closePanel;
-  panel.querySelector('[data-act="play"]').onclick = () => openPlay(app);
+  panel.querySelectorAll('[data-act="play"]').forEach((b) => (b.onclick = () => play(app)));
   panel.querySelector('[data-act="island"]').onclick = () => flyToIsland(world.shapes.find((s) => s.cat === app.cat));
+  panel.querySelector('[data-act="copy"]').onclick = (e) => {
+    navigator.clipboard.writeText(linkFor(app)).then(
+      () => (e.target.textContent = '已复制'),
+      () => (e.target.textContent = '复制失败'),
+    );
+  };
   panel.querySelectorAll('.related button').forEach((b) => {
     b.onclick = () => focusApp(apps.find((a) => a.id === b.dataset.id));
   });
@@ -539,23 +535,45 @@ function closePanel() {
   document.body.classList.remove('panel-open');
   selected = null;
   selRing.visible = false;
+  history.replaceState(null, '', location.pathname + location.search);
   setTimeout(() => {
     if (!panel.classList.contains('open')) panel.innerHTML = '';
   }, 400);
 }
 
+// Works that cannot run inside our iframe open in a new tab instead: they forbid framing
+// (X-Frame-Options / CSP), need cross-origin isolation, or a reviewer turned embedding off.
+function play(app) {
+  if (app.embed) openPlay(app);
+  else window.open(app.url, '_blank', 'noopener,noreferrer');
+}
+
 const playModal = $('#play');
+let playFrame = null;
 function openPlay(app) {
+  closePlay();
   playModal.style.setProperty('--c', app.cat.color);
   playModal.querySelector('.play-title').textContent = app.name;
-  playModal.querySelector('.play-sub').textContent = `${app.cat.title} · ${app.author}`;
-  playModal.querySelector('iframe').srcdoc = demoHTML(app);
+  playModal.querySelector('.play-sub').textContent = `${app.cat.title} · ${app.host}`;
+  playModal.querySelector('.play-open').href = app.url;
+  // allow-same-origin lets a work use its own storage. That is only safe because works load
+  // from their own domains, never from ours: do not serve works from this origin. There is
+  // no allow-top-navigation, so a work cannot redirect this page.
+  playFrame = document.createElement('iframe');
+  playFrame.title = `${app.name} 试玩`;
+  playFrame.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-forms allow-pointer-lock');
+  playFrame.allow = 'fullscreen; gamepad; autoplay';
+  playFrame.referrerPolicy = 'no-referrer';
+  playFrame.src = app.url;
+  playModal.querySelector('.play-frame').appendChild(playFrame);
   playModal.classList.add('open');
 }
-playModal.querySelector('.play-close').onclick = () => {
+function closePlay() {
   playModal.classList.remove('open');
-  playModal.querySelector('iframe').srcdoc = '';
-};
+  playFrame?.remove();
+  playFrame = null;
+}
+playModal.querySelector('.play-close').onclick = closePlay;
 
 /* ---------------------------------------------------------------- hud ---- */
 
@@ -636,14 +654,21 @@ function renderResults() {
     return;
   }
   resultList = apps
-    .filter((a) => a.name.toLowerCase().includes(q) || a.tags.some((t) => t.toLowerCase().includes(q)) || a.cat.name.includes(q))
+    .filter(
+      (a) =>
+        a.name.toLowerCase().includes(q) ||
+        a.tags.some((t) => t.toLowerCase().includes(q)) ||
+        a.cat.name.includes(q) ||
+        a.desc.toLowerCase().includes(q) ||
+        a.host.includes(q),
+    )
     .sort((a, b) => b.score - a.score)
     .slice(0, 8);
   results.innerHTML = resultList.length
     ? resultList
         .map(
           (a, i) =>
-            `<button data-i="${i}" style="--c:${a.cat.color}"><i></i><span>${a.name}</span><small>${a.cat.name} · ${a.score}${a.tier === 2 ? ' · 精品' : ''}${a.isNew ? ' · 新作' : ''}</small></button>`,
+            `<button data-i="${i}" style="--c:${a.cat.color}"><i></i><span>${esc(a.name)}</span><small>${a.cat.name} · ${a.score}${a.tier === 2 ? ' · 精品' : ''}${a.isNew ? ' · 新作' : ''}</small></button>`,
         )
         .join('')
     : '<p class="empty">没有找到相关作品，换个关键词试试</p>';
@@ -750,5 +775,8 @@ function frame(now) {
 
 applyTimeOfDay(1);
 frame();
-flyTo(OVERVIEW.target, OVERVIEW.distance, { polar: OVERVIEW.polar, duration: 3.4, spin: 0.5 });
+// A shared link (#/app/<id>) lands straight on that work; otherwise open on the overview.
+const linked = appFromHash();
+if (linked) focusApp(linked, { teleport: true });
+else flyTo(OVERVIEW.target, OVERVIEW.distance, { polar: OVERVIEW.polar, duration: 3.4, spin: 0.5 });
 requestAnimationFrame(() => document.body.classList.add('ready'));

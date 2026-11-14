@@ -636,6 +636,15 @@ body.panel-open .dock {
 .tooltip.on {
   opacity: 1;
 }
+.tooltip img {
+  width: 220px;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 7px;
+  margin-bottom: 5px;
+  background: #0b1320;
+}
 .tooltip b {
   font-size: 14px;
 }
@@ -694,15 +703,29 @@ body.panel-open .dock {
 }
 .cover {
   position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
   aspect-ratio: 16 / 10;
   background: #0b1320;
   border-bottom: 1px solid var(--line);
+  overflow: hidden;
 }
-.cover iframe {
+.cover img {
   width: 100%;
   height: 100%;
-  border: 0;
+  object-fit: cover;
+  object-position: top;
   display: block;
+  transition: transform 0.6s var(--ease);
+}
+.cover:hover img,
+.cover:focus-visible img {
+  transform: scale(1.04);
+}
+.cover:focus-visible {
+  outline: 2px solid var(--c);
+  outline-offset: -2px;
 }
 .cover-tag {
   position: absolute;
@@ -836,6 +859,31 @@ body.panel-open .dock {
 .btn.ghost:hover {
   background: rgba(255, 255, 255, 0.12);
 }
+.note {
+  margin: 10px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--faint);
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 14px 0 0;
+  font-size: 13px;
+}
+.links a,
+.links button {
+  padding: 0;
+  font-size: inherit;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.links a:hover,
+.links button:hover {
+  color: var(--text);
+}
 .panel h4 {
   margin: 26px 0 8px;
   font-size: 11px;
@@ -931,6 +979,15 @@ body.panel-open .dock {
 .play-sub {
   color: var(--faint);
   font-size: 12px;
+}
+.play-open {
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 8px 6px;
+}
+.play-open:hover {
+  color: var(--text);
 }
 .play-close {
   padding: 8px 14px;

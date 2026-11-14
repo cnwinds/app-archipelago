@@ -28,7 +28,7 @@
         <div><dt>精品</dt><dd id="stat-featured">0</dd></div>
         <div><dt>3 日新作</dt><dd id="stat-new">0</dd></div>
       </dl>
-      <span class="sample-tag">示例数据</span>
+      <span class="sample-tag">首批收录 · Show HN</span>
     </header>
 
     <div class="search-wrap">
@@ -76,9 +76,12 @@
       <div class="play-frame">
         <header>
           <div><span class="play-dot"></span><b class="play-title"></b><small class="play-sub"></small></div>
-          <button class="play-close" aria-label="关闭试玩">返回群岛</button>
+          <div>
+            <a class="play-open" target="_blank" rel="noopener noreferrer">新窗口打开 ↗</a>
+            <button class="play-close" aria-label="关闭试玩">返回群岛</button>
+          </div>
         </header>
-        <iframe sandbox="allow-scripts" title="试玩"></iframe>
+        <!-- The work's iframe is created by openPlay() in src/main.js and removed on close. -->
       </div>
     </div>
 

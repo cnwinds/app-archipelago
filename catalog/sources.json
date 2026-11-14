@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "hackerbooks-org",
+    "url": "https://hackerbooks.org/",
+    "title": "HackerBooks – HackerTube, but for books mentioned on HN",
+    "source": {
+      "type": "hn",
+      "id": "50326821",
+      "link": "https://news.ycombinator.com/item?id=50326821",
+      "points": 1870,
+      "author": "roansh",
+      "postedAt": "2026-11-01T15:58:28Z"
+    }
+  },
+  {
+    "id": "permit-petercai-com",
+    "url": "https://permit.petercai.com/",
+    "title": "SimCity, but with Permits",
+    "source": {
+      "type": "hn",
+      "id": "50170593",
+      "link": "https://news.ycombinator.com/item?id=50170593",
+      "points": 941,
+      "author": "pcai",
+      "postedAt": "2026-10-20T18:29:09Z"
+    }
+  },
+  {
+    "id": "bigwords-page",
+    "url": "https://bigwords.page/",
+    "title": "Bigwords.page – Turn any screen into a sign. The URL is the app",
+    "source": {
+      "type": "hn",
+      "id": "49994443",
+      "link": "https://news.ycombinator.com/item?id=49994443",
+      "points": 728,
+      "author": "SpeakingOfBrad",
+      "postedAt": "2026-10-07T15:44:21Z"
+    }
+  },
+  {
+    "id": "stealmybitcoin-com",
+    "url": "https://stealmybitcoin.com/",
+    "title": "Steal My Bitcoin",
+    "source": {
+      "type": "hn",
+      "id": "50224916",
+      "link": "https://news.ycombinator.com/item?id=50224916",
+      "points": 627,
+      "author": "cloudlandsdev",
+      "postedAt": "2026-10-24T20:30:31Z"
+    }
+  },
+  {
+    "id": "guitoro-com",
+    "url": "https://guitoro.com/",
+    "title": "Guitoro, a virtual guitar you strum with your keyboard",
+    "source": {
+      "type": "hn",
+      "id": "50077020",
+      "link": "https://news.ycombinator.com/item?id=50077020",
+      "points": 573,
+      "author": "gloja",
+      "postedAt": "2026-10-13T19:11:48Z"
+    }
+  },
+  {
+    "id": "watched-earth",
+    "url": "https://www.watched.earth/",
+    "title": "Every satellite that passed over any place this week, and its photos",
+    "source": {
+      "type": "hn",
+      "id": "50428907",
+      "link": "https://news.ycombinator.com/item?id=50428907",
+      "points": 490,
+      "author": "a585gupt",
+      "postedAt": "2026-11-09T17:51:31Z"
+    }
+  },
+  {
+    "id": "hackertv-org",
+    "url": "https://hackertv.org/",
+    "title": "HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+    "source": {
+      "type": "hn",
+      "id": "50346755",
+      "link": "https://news.ycombinator.com/item?id=50346755",
+      "points": 490,
+      "author": "dsalzman",
+      "postedAt": "2026-11-03T01:18:09Z"
+    }
+  },
+  {
+    "id": "hackertimes-ca",
+    "url": "https://hackertimes.ca/",
+    "title": "Hacker Times, a New York Times-inspired version of Hacker News",
+    "source": {
+      "type": "hn",
+      "id": "50346981",
+      "link": "https://news.ycombinator.com/item?id=50346981",
+      "points": 477,
+      "author": "polpenn",
+      "postedAt": "2026-11-03T01:53:34Z"
+    }
+  },
+  {
+    "id": "carrierexplode-com",
+    "url": "https://carrierexplode.com/",
+    "title": "Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+    "source": {
+      "type": "hn",
+      "id": "50024499",
+      "link": "https://news.ycombinator.com/item?id=50024499",
+      "points": 433,
+      "author": "simplyalec",
+      "postedAt": "2026-10-09T18:10:55Z"
+    }
+  },
+  {
+    "id": "titleart-dvy-io",
+    "url": "https://titleart.dvy.io/",
+    "title": "TitleArt – Make text like it's 1997",
+    "source": {
+      "type": "hn",
+      "id": "50238708",
+      "link": "https://news.ycombinator.com/item?id=50238708",
+      "points": 411,
+      "author": "davidbarker",
+      "postedAt": "2026-10-26T03:23:57Z"
+    }
+  },
+  {
+    "id": "stillwet-art",
+    "url": "https://stillwet.art/",
+    "title": "Giving Opus 5.5 a simulated paint canvas",
+    "source": {
+      "type": "hn",
+      "id": "49928566",
+      "link": "https://news.ycombinator.com/item?id=49928566",
+      "points": 392,
+      "author": "alstonite",
+      "postedAt": "2026-10-02T00:27:56Z"
+    }
+  },
+  {
+    "id": "wikihack-netlify-app",
+    "url": "https://wikihack.netlify.app/",
+    "title": "Wikihack – HackerTube, but for Wikipedia articles mentioned on HN",
+    "source": {
+      "type": "hn",
+      "id": "50333339",
+      "link": "https://news.ycombinator.com/item?id=50333339",
+      "points": 339,
+      "author": "aizk",
+      "postedAt": "2026-11-02T05:06:30Z"
+    }
+  },
+  {
+    "id": "llmspeed-dev",
+    "url": "https://llmspeed.dev/",
+    "title": "Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+    "source": {
+      "type": "hn",
+      "id": "50127979",
+      "link": "https://news.ycombinator.com/item?id=50127979",
+      "points": 331,
+      "author": "albinstman",
+      "postedAt": "2026-10-17T04:36:53Z"
+    }
+  },
+  {
+    "id": "p-migdal-pl-warsaw-vibe-voxel",
+    "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+    "title": "Warsaw in voxels – An interactive 3D map of the city centre",
+    "source": {
+      "type": "hn",
+      "id": "50339221",
+      "link": "https://news.ycombinator.com/item?id=50339221",
+      "points": 328,
+      "author": "stared",
+      "postedAt": "2026-11-02T16:25:26Z"
+    }
+  },
+  {
+    "id": "unfenced-land",
+    "url": "https://unfenced.land/",
+    "title": "Unfenced – Land for sale that borders public land",
+    "source": {
+      "type": "hn",
+      "id": "50102247",
+      "link": "https://news.ycombinator.com/item?id=50102247",
+      "points": 319,
+      "author": "otherwatersflow",
+      "postedAt": "2026-10-15T11:38:57Z"
+    }
+  },
+  {
+    "id": "wallhop-io",
+    "url": "https://wallhop.io/",
+    "title": "WallHop – 12ft.io is gone, so I built a replacement",
+    "source": {
+      "type": "hn",
+      "id": "50038634",
+      "link": "https://news.ycombinator.com/item?id=50038634",
+      "points": 289,
+      "author": "TheWaffleHax",
+      "postedAt": "2026-10-11T00:46:48Z"
+    }
+  },
+  {
+    "id": "linum-ai-field-notes-pjit-21k",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "title": "A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+    "source": {
+      "type": "hn",
+      "id": "50368208",
+      "link": "https://news.ycombinator.com/item?id=50368208",
+      "points": 287,
+      "author": "schopra909",
+      "postedAt": "2026-11-04T16:45:11Z"
+    }
+  },
+  {
+    "id": "outcrop-rocks",
+    "url": "https://outcrop.rocks/",
+    "title": "Point your camera at a landscape to learn about its geology",
+    "source": {
+      "type": "hn",
+      "id": "50290533",
+      "link": "https://news.ycombinator.com/item?id=50290533",
+      "points": 263,
+      "author": "headsupernova",
+      "postedAt": "2026-10-29T15:22:41Z"
+    }
+  },
+  {
+    "id": "tinyvalencia-com",
+    "url": "https://tinyvalencia.com/",
+    "title": "Valencia, Spain in Sim City/Isometric View",
+    "source": {
+      "type": "hn",
+      "id": "50441518",
+      "link": "https://news.ycombinator.com/item?id=50441518",
+      "points": 258,
+      "author": "leugim",
+      "postedAt": "2026-11-10T15:12:16Z"
+    }
+  },
+  {
+    "id": "fireflyk64-github-io-wcmulti",
+    "url": "https://fireflyk64.github.io/wcmulti/",
+    "title": "After a decade of reversing, I got co-op working in DOS Wing Commander",
+    "source": {
+      "type": "hn",
+      "id": "50369895",
+      "link": "https://news.ycombinator.com/item?id=50369895",
+      "points": 257,
+      "author": "daniel_rh",
+      "postedAt": "2026-11-04T18:51:27Z"
+    }
+  },
+  {
+    "id": "starskirmish-com-bench-v0-2",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "title": "Gemini 4 Argon plays StarCraft",
+    "source": {
+      "type": "hn",
+      "id": "50118688",
+      "link": "https://news.ycombinator.com/item?id=50118688",
+      "points": 254,
+      "author": "__cayenne__",
+      "postedAt": "2026-10-16T14:18:44Z"
+    }
+  },
+  {
+    "id": "sphinx-six-theta-vercel-app",
+    "url": "https://sphinx-six-theta.vercel.app/",
+    "title": "Sphinx – A hook that quizzes you on your AI's code before shipping",
+    "source": {
+      "type": "hn",
+      "id": "50137950",
+      "link": "https://news.ycombinator.com/item?id=50137950",
+      "points": 253,
+      "author": "critiquebrowser",
+      "postedAt": "2026-10-18T04:33:49Z"
+    }
+  },
+  {
+    "id": "tng-episodle-com",
+    "url": "https://tng.episodle.com/",
+    "title": "To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+    "source": {
+      "type": "hn",
+      "id": "50311686",
+      "link": "https://news.ycombinator.com/item?id=50311686",
+      "points": 245,
+      "author": "francisofascii",
+      "postedAt": "2026-10-30T23:51:24Z"
+    }
+  },
+  {
+    "id": "termsheetplease-com",
+    "url": "https://termsheetplease.com/",
+    "title": "I recreated Papers Please but you're deciding which YC startups to fund",
+    "source": {
+      "type": "hn",
+      "id": "50457230",
+      "link": "https://news.ycombinator.com/item?id=50457230",
+      "points": 243,
+      "author": "bolau",
+      "postedAt": "2026-11-11T19:12:16Z"
+    }
+  },
+  {
+    "id": "quake-srp-pages-dev",
+    "url": "https://quake-srp.pages.dev/",
+    "title": "Quake ported to safe Rust, playable in browser",
+    "source": {
+      "type": "hn",
+      "id": "50016312",
+      "link": "https://news.ycombinator.com/item?id=50016312",
+      "points": 241,
+      "author": "ilreb",
+      "postedAt": "2026-10-09T05:22:58Z"
+    }
+  },
+  {
+    "id": "syscall-sh",
+    "url": "https://syscall.sh/",
+    "title": "I've updated my Linux System Call website and API",
+    "source": {
+      "type": "hn",
+      "id": "50334704",
+      "link": "https://news.ycombinator.com/item?id=50334704",
+      "points": 238,
+      "author": "guitmz",
+      "postedAt": "2026-11-02T09:29:16Z"
+    }
+  },
+  {
+    "id": "niklasroy-com-gtc",
+    "url": "https://niklasroy.com/gtc/",
+    "title": "Glashütte Trash Clock – A 30-minute pendulum clock made from trash",
+    "source": {
+      "type": "hn",
+      "id": "49930439",
+      "link": "https://news.ycombinator.com/item?id=49930439",
+      "points": 236,
+      "author": "r0r0",
+      "postedAt": "2026-10-02T06:33:06Z"
+    }
+  },
+  {
+    "id": "legendofhyrule-com",
+    "url": "https://legendofhyrule.com/",
+    "title": "The Zelda timeline to catch up before the Ocarina of Time remake",
+    "source": {
+      "type": "hn",
+      "id": "50140769",
+      "link": "https://news.ycombinator.com/item?id=50140769",
+      "points": 231,
+      "author": "jsomau",
+      "postedAt": "2026-10-18T13:06:54Z"
+    }
+  },
+  {
+    "id": "petal-live",
+    "url": "https://petal.live/",
+    "title": "Petal, open-source CoScreen/ScreenHero finally free",
+    "source": {
+      "type": "hn",
+      "id": "50092470",
+      "link": "https://news.ycombinator.com/item?id=50092470",
+      "points": 228,
+      "author": "thedracle",
+      "postedAt": "2026-10-14T18:23:14Z"
+    }
+  },
+  {
+    "id": "isometricsf-com",
+    "url": "https://isometricsf.com/",
+    "title": "Isometric SF – A pixel-art map of the SF Bay Area",
+    "source": {
+      "type": "hn",
+      "id": "50487228",
+      "link": "https://news.ycombinator.com/item?id=50487228",
+      "points": 222,
+      "author": "juscha1",
+      "postedAt": "2026-11-13T17:58:37Z"
+    }
+  },
+  {
+    "id": "scottbezek-blogspot-com-2026-10-making-flexible-neon-t-shirt",
+    "url": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html",
+    "title": "Making a flexible \"neon\" t-shirt with LED filaments",
+    "source": {
+      "type": "hn",
+      "id": "50008047",
+      "link": "https://news.ycombinator.com/item?id=50008047",
+      "points": 222,
+      "author": "scottbez1",
+      "postedAt": "2026-10-08T16:37:24Z"
+    }
+  },
+  {
+    "id": "betterwispr-com",
+    "url": "https://betterwispr.com/",
+    "title": "BetterWispr – Free, open-source dictation for Mac",
+    "source": {
+      "type": "hn",
+      "id": "50042333",
+      "link": "https://news.ycombinator.com/item?id=50042333",
+      "points": 220,
+      "author": "kartik017",
+      "postedAt": "2026-10-11T12:01:28Z"
+    }
+  },
+  {
+    "id": "jrcpl-us-contrib-2020-gardening-for-engineers",
+    "url": "https://jrcpl.us/contrib/2020/gardening-for-engineers/",
+    "title": "Vegetable Gardening for Engineers",
+    "source": {
+      "type": "hn",
+      "id": "50362963",
+      "link": "https://news.ycombinator.com/item?id=50362963",
+      "points": 219,
+      "author": "jrcplus",
+      "postedAt": "2026-11-04T08:54:27Z"
+    }
+  },
+  {
+    "id": "lab-specr-net-rigged-draw",
+    "url": "https://lab.specr.net/rigged-draw/",
+    "title": "How random are you?",
+    "source": {
+      "type": "hn",
+      "id": "50074909",
+      "link": "https://news.ycombinator.com/item?id=50074909",
+      "points": 217,
+      "author": "vunderba",
+      "postedAt": "2026-10-13T16:57:57Z"
+    }
+  },
+  {
+    "id": "readrare-com",
+    "url": "https://readrare.com/",
+    "title": "The rarest tech books and docs you've probably never read",
+    "source": {
+      "type": "hn",
+      "id": "50024055",
+      "link": "https://news.ycombinator.com/item?id=50024055",
+      "points": 191,
+      "author": "miletus",
+      "postedAt": "2026-10-09T17:39:44Z"
+    }
+  },
+  {
+    "id": "celphase-github-io-duck-pond",
+    "url": "https://celphase.github.io/duck-pond/",
+    "title": "High-quality duck audio synthesizer",
+    "source": {
+      "type": "hn",
+      "id": "50131006",
+      "link": "https://news.ycombinator.com/item?id=50131006",
+      "points": 180,
+      "author": "celphase",
+      "postedAt": "2026-10-17T13:28:46Z"
+    }
+  },
+  {
+    "id": "bigwhalehunting-com-workforce",
+    "url": "https://bigwhalehunting.com/workforce/",
+    "title": "I put employees inside S&P 500 market-cap bubbles",
+    "source": {
+      "type": "hn",
+      "id": "50232312",
+      "link": "https://news.ycombinator.com/item?id=50232312",
+      "points": 178,
+      "author": "vfxGer",
+      "postedAt": "2026-10-25T15:05:39Z"
+    }
+  },
+  {
+    "id": "firenook-dev",
+    "url": "https://firenook.dev/",
+    "title": "Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+    "source": {
+      "type": "hn",
+      "id": "50378643",
+      "link": "https://news.ycombinator.com/item?id=50378643",
+      "points": 176,
+      "author": "sanjevirau",
+      "postedAt": "2026-11-05T13:07:29Z"
+    }
+  },
+  {
+    "id": "pdftomp3-com-connect-ai",
+    "url": "https://pdftomp3.com/connect-ai/",
+    "title": "Use your OpenAI subscription to create audiobooks",
+    "source": {
+      "type": "hn",
+      "id": "50069337",
+      "link": "https://news.ycombinator.com/item?id=50069337",
+      "points": 175,
+      "author": "janpmz",
+      "postedAt": "2026-10-13T10:08:34Z"
+    }
+  },
+  {
+    "id": "artmuseum-artfrompixels-com",
+    "url": "https://artmuseum.artfrompixels.com/",
+    "title": "A walkable 3D art history museum built from Wikipedia",
+    "source": {
+      "type": "hn",
+      "id": "49992057",
+      "link": "https://news.ycombinator.com/item?id=49992057",
+      "points": 174,
+      "author": "jasontr",
+      "postedAt": "2026-10-07T12:51:08Z"
+    }
+  },
+  {
+    "id": "grounds-top",
+    "url": "https://grounds.top/",
+    "title": "Live map of U.S. flights during tonight's FAA nationwide ground stop",
+    "source": {
+      "type": "hn",
+      "id": "50491545",
+      "link": "https://news.ycombinator.com/item?id=50491545",
+      "points": 166,
+      "author": "gvsi",
+      "postedAt": "2026-11-13T23:17:39Z"
+    }
+  },
+  {
+    "id": "benwinding-github-io-encarta-95-web",
+    "url": "https://benwinding.github.io/encarta_95_web/",
+    "title": "Encarta 95 Web",
+    "source": {
+      "type": "hn",
+      "id": "50218975",
+      "link": "https://news.ycombinator.com/item?id=50218975",
+      "points": 151,
+      "author": "gitgud",
+      "postedAt": "2026-10-24T07:18:37Z"
+    }
+  },
+  {
+    "id": "corgi-computer",
+    "url": "https://corgi.computer/",
+    "title": "Corgi, a helpful {agent, terminal} multiplexer",
+    "source": {
+      "type": "hn",
+      "id": "50214373",
+      "link": "https://news.ycombinator.com/item?id=50214373",
+      "points": 142,
+      "author": "eiopa",
+      "postedAt": "2026-10-23T19:46:38Z"
+    }
+  },
+  {
+    "id": "uncracked-city",
+    "url": "https://uncracked.city/",
+    "title": "Uncracked City, detective game where you question LLM suspects that lie",
+    "source": {
+      "type": "hn",
+      "id": "50358352",
+      "link": "https://news.ycombinator.com/item?id=50358352",
+      "points": 128,
+      "author": "passkey1510",
+      "postedAt": "2026-11-03T21:20:03Z"
+    }
+  },
+  {
+    "id": "uberblok-storagebits-workers-dev",
+    "url": "https://uberblok.storagebits.workers.dev/",
+    "title": "Uberblok – an interactive museum of ZFS internals",
+    "source": {
+      "type": "hn",
+      "id": "50180257",
+      "link": "https://news.ycombinator.com/item?id=50180257",
+      "points": 126,
+      "author": "storagebits",
+      "postedAt": "2026-10-21T13:04:25Z"
+    }
+  },
+  {
+    "id": "wonderhop-io-en",
+    "url": "https://wonderhop.io/en/",
+    "title": "Wonderhop – A daily game: guess what most people say, or what none do",
+    "source": {
+      "type": "hn",
+      "id": "50080246",
+      "link": "https://news.ycombinator.com/item?id=50080246",
+      "points": 124,
+      "author": "mtlduo",
+      "postedAt": "2026-10-13T23:10:04Z"
+    }
+  },
+  {
+    "id": "pcdealcheck-com",
+    "url": "https://pcdealcheck.com/",
+    "title": "I built a tool that prices a pre-built PC part by part",
+    "source": {
+      "type": "hn",
+      "id": "50366929",
+      "link": "https://news.ycombinator.com/item?id=50366929",
+      "points": 122,
+      "author": "adlep",
+      "postedAt": "2026-11-04T15:25:33Z"
+    }
+  },
+  {
+    "id": "pulseos-finance",
+    "url": "https://pulseos.finance/",
+    "title": "Pulse Local, a Mac budgeting app whose AI models run on your machine",
+    "source": {
+      "type": "hn",
+      "id": "50080275",
+      "link": "https://news.ycombinator.com/item?id=50080275",
+      "points": 122,
+      "author": "niztk",
+      "postedAt": "2026-10-13T23:13:23Z"
+    }
+  },
+  {
+    "id": "oss-lsantos-dev-proton-drive-linux-fs",
+    "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+    "title": "Proton Drive for Linux",
+    "source": {
+      "type": "hn",
+      "id": "50003545",
+      "link": "https://news.ycombinator.com/item?id=50003545",
+      "points": 122,
+      "author": "khaosdoctor",
+      "postedAt": "2026-10-08T09:10:42Z"
+    }
+  },
+  {
+    "id": "mailaccess-pro",
+    "url": "https://mailaccess.pro/",
+    "title": "MailAccess – the true Email OSINT framework",
+    "source": {
+      "type": "hn",
+      "id": "49977385",
+      "link": "https://news.ycombinator.com/item?id=49977385",
+      "points": 122,
+      "author": "coding-maniac",
+      "postedAt": "2026-10-06T12:24:18Z"
+    }
+  },
+  {
+    "id": "pipod-dev",
+    "url": "https://pipod.dev/",
+    "title": "Pi pod – Run your pi coding agent in sandboxes on your own server",
+    "source": {
+      "type": "hn",
+      "id": "49937304",
+      "link": "https://news.ycombinator.com/item?id=49937304",
+      "points": 121,
+      "author": "edverma2",
+      "postedAt": "2026-10-02T19:10:38Z"
+    }
+  },
+  {
+    "id": "indigene-app",
+    "url": "https://indigene.app/",
+    "title": "Indigene – Native plants for where you stand",
+    "source": {
+      "type": "hn",
+      "id": "50064470",
+      "link": "https://news.ycombinator.com/item?id=50064470",
+      "points": 120,
+      "author": "olivierlacan",
+      "postedAt": "2026-10-12T23:25:20Z"
+    }
+  },
+  {
+    "id": "meowdisplay-app",
+    "url": "https://meowdisplay.app/",
+    "title": "MeowDisplay Is iPhone Mirroring, but in Reverse",
+    "source": {
+      "type": "hn",
+      "id": "50429636",
+      "link": "https://news.ycombinator.com/item?id=50429636",
+      "points": 120,
+      "author": "raiseCatError",
+      "postedAt": "2026-11-09T18:39:22Z"
+    }
+  },
+  {
+    "id": "blumify-io-people",
+    "url": "https://blumify.io/people",
+    "title": "I built a tool to track what AI leaders say and how their views change",
+    "source": {
+      "type": "hn",
+      "id": "50081151",
+      "link": "https://news.ycombinator.com/item?id=50081151",
+      "points": 119,
+      "author": "gcsydney",
+      "postedAt": "2026-10-14T01:09:13Z"
+    }
+  },
+  {
+    "id": "someonewashere-app",
+    "url": "https://someonewashere.app/",
+    "title": "Someone Was Here – Find out who used your Mac while you were away",
+    "source": {
+      "type": "hn",
+      "id": "50429812",
+      "link": "https://news.ycombinator.com/item?id=50429812",
+      "points": 116,
+      "author": "4onthefloor124",
+      "postedAt": "2026-11-09T18:50:56Z"
+    }
+  },
+  {
+    "id": "ghanastreetgames-com",
+    "url": "https://www.ghanastreetgames.com/",
+    "title": "Ghanaian street games you can play in the browser",
+    "source": {
+      "type": "hn",
+      "id": "50414117",
+      "link": "https://news.ycombinator.com/item?id=50414117",
+      "points": 116,
+      "author": "samuelaidoo45",
+      "postedAt": "2026-11-08T15:31:52Z"
+    }
+  },
+  {
+    "id": "clova-email",
+    "url": "https://clova.email/",
+    "title": "I wrote an email app that accepts only one sender per inbox",
+    "source": {
+      "type": "hn",
+      "id": "50090932",
+      "link": "https://news.ycombinator.com/item?id=50090932",
+      "points": 115,
+      "author": "edpin2000",
+      "postedAt": "2026-10-14T17:00:59Z"
+    }
+  },
+  {
+    "id": "deathplanswitch-com",
+    "url": "https://deathplanswitch.com/",
+    "title": "Death Plan Switch, a self-hosted dead man's switch for solo devs",
+    "source": {
+      "type": "hn",
+      "id": "50161408",
+      "link": "https://news.ycombinator.com/item?id=50161408",
+      "points": 111,
+      "author": "romeo19361",
+      "postedAt": "2026-10-20T04:37:43Z"
+    }
+  },
+  {
+    "id": "proa-so",
+    "url": "https://proa.so/",
+    "title": "Proa – A Rust web framework with fast SSR and multi-target rendering",
+    "source": {
+      "type": "hn",
+      "id": "50105467",
+      "link": "https://news.ycombinator.com/item?id=50105467",
+      "points": 107,
+      "author": "burnrate",
+      "postedAt": "2026-10-15T15:52:08Z"
+    }
+  },
+  {
+    "id": "kevs3d-co-uk-phoria2",
+    "url": "https://kevs3d.co.uk/phoria2/",
+    "title": "I rebuilt my old canvas 3D library as a small WebGL 2 library – phoria2",
+    "source": {
+      "type": "hn",
+      "id": "50314508",
+      "link": "https://news.ycombinator.com/item?id=50314508",
+      "points": 107,
+      "author": "kevs3d",
+      "postedAt": "2026-10-31T09:49:42Z"
+    }
+  },
+  {
+    "id": "astrohelm-app",
+    "url": "https://astrohelm.app/",
+    "title": "AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+    "source": {
+      "type": "hn",
+      "id": "49954015",
+      "link": "https://news.ycombinator.com/item?id=49954015",
+      "points": 100,
+      "author": "HeavenFox",
+      "postedAt": "2026-10-04T14:01:09Z"
+    }
+  },
+  {
+    "id": "thoreaubasic-com",
+    "url": "https://thoreaubasic.com/",
+    "title": "Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
+    "source": {
+      "type": "hn",
+      "id": "49942103",
+      "link": "https://news.ycombinator.com/item?id=49942103",
+      "points": 96,
+      "author": "Gorsefound",
+      "postedAt": "2026-10-03T07:28:54Z"
+    }
+  },
+  {
+    "id": "aircad-com",
+    "url": "https://aircad.com/",
+    "title": "Aircad – Professional drafting and 3D modeling in the browser",
+    "source": {
+      "type": "hn",
+      "id": "50441350",
+      "link": "https://news.ycombinator.com/item?id=50441350",
+      "points": 95,
+      "author": "peetle",
+      "postedAt": "2026-11-10T15:01:19Z"
+    }
+  },
+  {
+    "id": "epoyraz-github-io-nes-contra-us",
+    "url": "https://epoyraz.github.io/nes-contra-us/",
+    "title": "NES Contra (1987) port (ASM –> C and then C –> WebAssembly)",
+    "source": {
+      "type": "hn",
+      "id": "50319169",
+      "link": "https://news.ycombinator.com/item?id=50319169",
+      "points": 93,
+      "author": "tevlon",
+      "postedAt": "2026-10-31T19:18:48Z"
+    }
+  },
+  {
+    "id": "museumofages-org-w-vinci",
+    "url": "https://museumofages.org/w/vinci",
+    "title": "A guided 3D Leonardo da Vinci museum, built in code",
+    "source": {
+      "type": "hn",
+      "id": "50085022",
+      "link": "https://news.ycombinator.com/item?id=50085022",
+      "points": 90,
+      "author": "micstradev",
+      "postedAt": "2026-10-14T10:00:24Z"
+    }
+  },
+  {
+    "id": "parseable-com",
+    "url": "https://www.parseable.com/",
+    "title": "Parseable, an open observability datalake, handles 100M time-series/min",
+    "source": {
+      "type": "hn",
+      "id": "49978171",
+      "link": "https://news.ycombinator.com/item?id=49978171",
+      "points": 90,
+      "author": "yashdotrv",
+      "postedAt": "2026-10-06T13:30:50Z"
+    }
+  },
+  {
+    "id": "music-xy-dev",
+    "url": "https://music.xy.dev/",
+    "title": "XY Music Notation",
+    "source": {
+      "type": "hn",
+      "id": "50075665",
+      "link": "https://news.ycombinator.com/item?id=50075665",
+      "points": 87,
+      "author": "jmole",
+      "postedAt": "2026-10-13T17:43:05Z"
+    }
+  },
+  {
+    "id": "peterszentkiralyi-eu-darkplug",
+    "url": "https://peterszentkiralyi.eu/darkplug/",
+    "title": "I turned my iPhone and a $20 smart plug into an f-stop timer",
+    "source": {
+      "type": "hn",
+      "id": "49978595",
+      "link": "https://news.ycombinator.com/item?id=49978595",
+      "points": 87,
+      "author": "pentakkusu",
+      "postedAt": "2026-10-06T13:58:07Z"
+    }
+  },
+  {
+    "id": "catcopter-com",
+    "url": "https://catcopter.com/",
+    "title": "I built a multiplayer game where you're an aerial fighter cat",
+    "source": {
+      "type": "hn",
+      "id": "50305320",
+      "link": "https://news.ycombinator.com/item?id=50305320",
+      "points": 85,
+      "author": "pawelwentpawel",
+      "postedAt": "2026-10-30T15:29:40Z"
+    }
+  },
+  {
+    "id": "slidebyside-com",
+    "url": "https://slidebyside.com/",
+    "title": "SlideBySide – Present slides without sharing your screen",
+    "source": {
+      "type": "hn",
+      "id": "50276883",
+      "link": "https://news.ycombinator.com/item?id=50276883",
+      "points": 84,
+      "author": "denismenace",
+      "postedAt": "2026-10-28T17:07:09Z"
+    }
+  },
+  {
+    "id": "brickbrag-com",
+    "url": "https://brickbrag.com/",
+    "title": "Brickbrag – A multiplayer brick-building world in the browser",
+    "source": {
+      "type": "hn",
+      "id": "50063042",
+      "link": "https://news.ycombinator.com/item?id=50063042",
+      "points": 82,
+      "author": "neuling",
+      "postedAt": "2026-10-12T21:03:36Z"
+    }
+  },
+  {
+    "id": "opper-ai-jevman-benchmark",
+    "url": "https://opper.ai/jevman-benchmark/",
+    "title": "Jevman – AI decision models play Pac-Man",
+    "source": {
+      "type": "hn",
+      "id": "50007993",
+      "link": "https://news.ycombinator.com/item?id=50007993",
+      "points": 82,
+      "author": "felix089",
+      "postedAt": "2026-10-08T16:34:13Z"
+    }
+  },
+  {
+    "id": "impossiblemachines-xyz",
+    "url": "https://www.impossiblemachines.xyz/",
+    "title": "Impossible Machines: declaratively program the physical world",
+    "source": {
+      "type": "hn",
+      "id": "50202746",
+      "link": "https://news.ycombinator.com/item?id=50202746",
+      "points": 82,
+      "author": "bhaprayan",
+      "postedAt": "2026-10-22T23:54:28Z"
+    }
+  },
+  {
+    "id": "typeui-sh-micro-interactions",
+    "url": "https://www.typeui.sh/micro-interactions",
+    "title": "UI micro interactions prompts for AI",
+    "source": {
+      "type": "hn",
+      "id": "50199290",
+      "link": "https://news.ycombinator.com/item?id=50199290",
+      "points": 80,
+      "author": "elwingo1",
+      "postedAt": "2026-10-22T18:32:57Z"
+    }
+  },
+  {
+    "id": "offrun-dev",
+    "url": "https://offrun.dev/",
+    "title": "Offrun – manage every coding agent from one workspace",
+    "source": {
+      "type": "hn",
+      "id": "49942434",
+      "link": "https://news.ycombinator.com/item?id=49942434",
+      "points": 78,
+      "author": "arunbhatia",
+      "postedAt": "2026-10-03T08:40:17Z"
+    }
+  },
+  {
+    "id": "swurf-org",
+    "url": "https://swurf.org/",
+    "title": "Swurf – Swipe through the real web",
+    "source": {
+      "type": "hn",
+      "id": "50205320",
+      "link": "https://news.ycombinator.com/item?id=50205320",
+      "points": 78,
+      "author": "webtjb096",
+      "postedAt": "2026-10-23T06:54:52Z"
+    }
+  },
+  {
+    "id": "parsimony-lasu-dev",
+    "url": "https://parsimony.lasu.dev/",
+    "title": "Parsimony – an open-source benchmark for how much code AI models add",
+    "source": {
+      "type": "hn",
+      "id": "50077619",
+      "link": "https://news.ycombinator.com/item?id=50077619",
+      "points": 77,
+      "author": "lasu",
+      "postedAt": "2026-10-13T19:50:31Z"
+    }
+  },
+  {
+    "id": "tkgally-github-io-500-clocks",
+    "url": "https://tkgally.github.io/500-clocks/",
+    "title": "500 clocks in one 6.3 MB HTML file by Opus 5.5",
+    "source": {
+      "type": "hn",
+      "id": "50137820",
+      "link": "https://news.ycombinator.com/item?id=50137820",
+      "points": 75,
+      "author": "tkgally",
+      "postedAt": "2026-10-18T04:04:58Z"
+    }
+  },
+  {
+    "id": "uji-sh-ito",
+    "url": "https://uji.sh/ito/",
+    "title": "Ito – Build Terminal UIs in Lua",
+    "source": {
+      "type": "hn",
+      "id": "50096300",
+      "link": "https://news.ycombinator.com/item?id=50096300",
+      "points": 74,
+      "author": "cat-whisperer",
+      "postedAt": "2026-10-14T22:23:53Z"
+    }
+  },
+  {
+    "id": "agent-reviews",
+    "url": "https://agent.reviews/",
+    "title": "Agent.reviews – Where AI agents read and write reviews on tools",
+    "source": {
+      "type": "hn",
+      "id": "49995539",
+      "link": "https://news.ycombinator.com/item?id=49995539",
+      "points": 73,
+      "author": "screm",
+      "postedAt": "2026-10-07T16:59:11Z"
+    }
+  },
+  {
+    "id": "fable52-games",
+    "url": "https://fable52.games/",
+    "title": "Fable52.games – Play and inspect Fable 5.2 single-file HTML games",
+    "source": {
+      "type": "hn",
+      "id": "50469007",
+      "link": "https://news.ycombinator.com/item?id=50469007",
+      "points": 72,
+      "author": "felixne",
+      "postedAt": "2026-11-12T15:30:01Z"
+    }
+  },
+  {
+    "id": "hjkl-duy-run",
+    "url": "https://hjkl.duy.run/",
+    "title": "I built a little browser game to practice Vim commands",
+    "source": {
+      "type": "hn",
+      "id": "50347552",
+      "link": "https://news.ycombinator.com/item?id=50347552",
+      "points": 72,
+      "author": "dh1011",
+      "postedAt": "2026-11-03T03:10:04Z"
+    }
+  },
+  {
+    "id": "jevcards-com",
+    "url": "https://jevcards.com/",
+    "title": "Jev Cards, Can you beat a vision model at a picture quiz?",
+    "source": {
+      "type": "hn",
+      "id": "50167617",
+      "link": "https://news.ycombinator.com/item?id=50167617",
+      "points": 72,
+      "author": "totisjosema",
+      "postedAt": "2026-10-20T15:11:56Z"
+    }
+  },
+  {
+    "id": "thisandthat-chat-enron",
+    "url": "https://www.thisandthat.chat/enron/",
+    "title": "We had AI write a wiki from 45k Enron emails, every fact cited",
+    "source": {
+      "type": "hn",
+      "id": "50207620",
+      "link": "https://news.ycombinator.com/item?id=50207620",
+      "points": 71,
+      "author": "jreynar",
+      "postedAt": "2026-10-23T12:02:53Z"
+    }
+  },
+  {
+    "id": "hissingkitty-com-hacker-churn",
+    "url": "https://hissingkitty.com/hacker-churn",
+    "title": "HackerChurn – which SaaS tools HN wants to cancel",
+    "source": {
+      "type": "hn",
+      "id": "50353386",
+      "link": "https://news.ycombinator.com/item?id=50353386",
+      "points": 71,
+      "author": "drewlem",
+      "postedAt": "2026-11-03T15:41:52Z"
+    }
+  },
+  {
+    "id": "adrs-systems",
+    "url": "https://adrs.systems/",
+    "title": "ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+    "source": {
+      "type": "hn",
+      "id": "50227041",
+      "link": "https://news.ycombinator.com/item?id=50227041",
+      "points": 66,
+      "author": "lumbroso",
+      "postedAt": "2026-10-25T00:43:47Z"
+    }
+  },
+  {
+    "id": "rhun-app",
+    "url": "https://rhun.app/",
+    "title": "Rhun, an open-source code editor written in assembly",
+    "source": {
+      "type": "hn",
+      "id": "49926726",
+      "link": "https://news.ycombinator.com/item?id=49926726",
+      "points": 64,
+      "author": "vladcodes",
+      "postedAt": "2026-10-01T20:32:18Z"
+    }
+  },
+  {
+    "id": "3anddoneapp-com-try",
+    "url": "https://3anddoneapp.com/try",
+    "title": "I built a task system to handle the drudgery so I could focus on tasks",
+    "source": {
+      "type": "hn",
+      "id": "50151980",
+      "link": "https://news.ycombinator.com/item?id=50151980",
+      "points": 61,
+      "author": "dmayle",
+      "postedAt": "2026-10-19T13:07:07Z"
+    }
+  },
+  {
+    "id": "buildcores-com",
+    "url": "https://www.buildcores.com/",
+    "title": "Build a PC in 3D in the Browser",
+    "source": {
+      "type": "hn",
+      "id": "50415379",
+      "link": "https://news.ycombinator.com/item?id=50415379",
+      "points": 61,
+      "author": "ozaiworld",
+      "postedAt": "2026-11-08T17:45:08Z"
+    }
+  },
+  {
+    "id": "rstation-ai",
+    "url": "https://rstation.ai/",
+    "title": "rStation – A shared research lab for your AI agents",
+    "source": {
+      "type": "hn",
+      "id": "50118876",
+      "link": "https://news.ycombinator.com/item?id=50118876",
+      "points": 60,
+      "author": "stephenchung",
+      "postedAt": "2026-10-16T14:35:43Z"
+    }
+  }
+]

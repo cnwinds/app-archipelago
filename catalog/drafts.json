@@ -1,0 +1,2315 @@
+{
+  "quake-srp-pages-dev": {
+    "id": "quake-srp-pages-dev",
+    "url": "https://quake-srp.pages.dev/",
+    "checkedAt": "2026-11-14T14:33:35.722Z",
+    "ok": true,
+    "loadMs": 1976,
+    "httpStatus": 200,
+    "finalUrl": "https://quake-srp.pages.dev/",
+    "meta": {
+      "title": "Quake-SRP",
+      "description": "Quake (1996), faithfully ported to dependency-free safe Rust and compiled to WebAssembly — play the shareware episode in your browser.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "click (or press Enter) to start · then press any key for the menu click to capture mouse QUAKE·SRP ready — click to play fullscreen sound off keys load source explainer"
+    },
+    "jsErrors": 0,
+    "shot": "quake-srp-pages-dev.webp",
+    "shotBytes": 13758,
+    "embed": {
+      "ok": false,
+      "reason": "needs-cross-origin-isolation"
+    }
+  },
+  "hackerbooks-org": {
+    "id": "hackerbooks-org",
+    "url": "https://hackerbooks.org/",
+    "checkedAt": "2026-11-14T13:13:33.254Z",
+    "ok": true,
+    "loadMs": 7807,
+    "httpStatus": 200,
+    "finalUrl": "https://hackerbooks.org/",
+    "meta": {
+      "title": "HackerBooks: Books mentioned in Hacker News comments",
+      "description": "Browse thousands of books mentioned in Hacker News comments, 2007–2026. Ranked by how many different people recommend them.",
+      "siteName": "HackerBooks",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content HackerBooks Search books and authors ? Home Top recommended Most mentioned Rising Trends 2026 in books Ask HN Books by month For You About TOPICS Computing Programming 1,246 Computer Science 694 Systems & OS 492 Web & Internet 433 Electronics & Hardware 369 Software Engineering 353 Data & Statistics 322 Security & Privacy 287 AI & Machine Learning 268 Tech History & Industry 170 Lisp & Functional 128 Science Mathematics 894 Biology 631 Health & Medicine 522 Physics 440 Space & Astronomy 287 Climate & Energy 186 Mind Psychology & Behavior 1,150 Philosophy 908 Religion & Spiritua"
+    },
+    "jsErrors": 0,
+    "shot": "hackerbooks-org.webp",
+    "shotBytes": 35940,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "wallhop-io": {
+    "id": "wallhop-io",
+    "url": "https://wallhop.io/",
+    "checkedAt": "2026-11-14T13:14:41.862Z",
+    "ok": true,
+    "loadMs": 4643,
+    "httpStatus": 200,
+    "finalUrl": "https://wallhop.io/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "wallhop · Free Paywall Bypass – Read Any Article",
+      "description": "wallhop is a free paywall bypass. Paste any article link to read it without paywall popups, ads or clutter. No signup, no extension. A simple 12ft.io alternative.",
+      "siteName": "wallhop",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "wallhop Read the article. Skip the wall. Paste a link. Get the story. No paywall, no signup. Hop over No https:// needed. /shortcut iPhone Shortcut Hop any article from the Share button. wallhop.io/https://… Prefix any link Put wallhop.io/ in front of any URL. javascript: Bookmarklet Drag to your bookmarks bar: wallhop it /raw · /api Raw & API /raw/https://… /api/https://… Paywalls pay for journalism. If there’s a paper or news site you read every day, please subscribe to it. WallHop is for the one-off article someone texts you from a site you’ll never visit again. ☕ Help keep WallHop running "
+    },
+    "jsErrors": 0,
+    "shot": "wallhop-io.webp",
+    "shotBytes": 14562,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "celphase-github-io-duck-pond": {
+    "id": "celphase-github-io-duck-pond",
+    "url": "https://celphase.github.io/duck-pond/",
+    "checkedAt": "2026-11-14T14:03:52.556Z",
+    "ok": true,
+    "loadMs": 3040,
+    "httpStatus": 200,
+    "finalUrl": "https://celphase.github.io/duck-pond/",
+    "meta": {
+      "title": "The Duck Pond",
+      "description": "A live duck pond: a small flock of mallards, every call synthesized as it happens and heard from where you stand on the bank.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "THE DUCK POND hen drake duckling 0 peas Throw peas Headphones p peas · h headphones · space pause · rings at 5, 10, 20 and 40 m The Duck Pond A small flock of mallards going about their day: three hens, two drakes and two broods of ducklings. No recordings. Every quack is synthesized as it happens and heard from where you stand on the bank. I'm wearing headphones Listen"
+    },
+    "jsErrors": 0,
+    "shot": "celphase-github-io-duck-pond.webp",
+    "shotBytes": 6626,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "guitoro-com": {
+    "id": "guitoro-com",
+    "url": "https://guitoro.com/",
+    "checkedAt": "2026-11-14T13:13:43.209Z",
+    "ok": true,
+    "loadMs": 7956,
+    "httpStatus": 200,
+    "finalUrl": "https://guitoro.com/",
+    "meta": {
+      "title": "Virtual Guitar: Play Guitar Online Free | Guitoro",
+      "description": "Play a free virtual guitar online with your keyboard or touch. Slow songs down and see every chord, string and strum. Acoustic, classic, electric and bass.",
+      "siteName": "Guitoro",
+      "author": null,
+      "lang": "zh-CN",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "Guitoro Online Virtual Guitar 民谣 古典 单线圈 双线圈 低音 歌曲与录音 播放 速度： 90 BPM 乐队 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 6 E 5 A 4 D 3 G 2 B 1 e 吉他视角 正面 点一下或按任意键开始弹 按 C 是 C 和弦，按 G 是 G。按住会响得更久。 和弦 独奏 扫弦 下扫 按和弦键即扫弦 循环 默认 C · 大调 G · 大调 D · 大调 A · 大调 E · 大调 B · 大调 F# · 大调 Db · 大调 Ab · 大调 Eb · 大调 Bb · 大调 F · 大调 A · 小调 E · 小调 B · 小调 F# · 小调 C# · 小调 G# · 小调 Eb · 小调 Bb · 小调 F · 小调 C · 小调 G · 小调 D · 小调 七和弦 Tab Am Q Eb W E E F# R Ab T 琶音 Y 拇指 U 3 弦 I 2 弦 O 1 弦 P 小和弦 Caps A A Bb S D D F F G G 下扫 H 上扫 J 下/上 K 切音 L 闷音 ; sus4 Shift Em Z Dm X C C C# V B B 重扫 N 慢扫 M 编辑 + . + / 音色已就绪 最真实的在线虚拟吉他 Guitoro 是什么？ Gu"
+    },
+    "jsErrors": 0,
+    "shot": "guitoro-com.webp",
+    "shotBytes": 20432,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "permit-petercai-com": {
+    "id": "permit-petercai-com",
+    "url": "https://permit.petercai.com/",
+    "checkedAt": "2026-11-14T13:13:33.255Z",
+    "ok": true,
+    "loadMs": 21592,
+    "httpStatus": 200,
+    "finalUrl": "https://permit.petercai.com/",
+    "meta": {
+      "title": "Permit Pending: build the city of your dreams, subject to approval",
+      "description": "A free city-building game in your browser. You are the mayor. You know what the city needs. Now get it past the zoning board, the neighbors, the appeals court and the next election.",
+      "siteName": "Permit Pending",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "HOW IT PLAYS FEATURES SCENARIOS FAQ MANUAL PLAY BUILD THE CITY OF YOUR DREAMS. SUBJECT TO APPROVAL You are the mayor. You know exactly what this city needs. Now get it past the zoning board, the neighbors, the appeals court and the next election. PLAY Read game manual Free, because you are loved Permit Pending is a city simulation in the spirit of the classics, with one difference: you are not a god. You are an elected mayor. Every apartment block, bus lane and factory goes through hearings, reviews, objections, lawsuits and appeals. The economy underneath is real. The neighbors are not always"
+    },
+    "jsErrors": 0,
+    "shot": "permit-petercai-com.webp",
+    "shotBytes": 56872,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "aircad-com": {
+    "id": "aircad-com",
+    "url": "https://aircad.com/",
+    "checkedAt": "2026-11-14T13:20:10.520Z",
+    "ok": true,
+    "loadMs": 6322,
+    "httpStatus": 200,
+    "finalUrl": "https://aircad.com/",
+    "meta": {
+      "title": "Aircad - Draft, model, and document. Together.",
+      "description": "Precision 2D drafting and 3D modeling, with multiplayer editing and an AI agent that drafts, models, and renders alongside you.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Product Examples Docs Blog Sign in Start for Free Draft, model, and document. Together. Precision 2D drafting and 3D modeling, with multiplayer editing and an AI agent that drafts, models, and renders alongside you. Start for Free See what's inside Woven Grove Pavilion - Aircad aircad.com/f/woven-grove-pavilion 9:41 No installs Open a browser and start drawing, always on the latest version. Pro 2D & 3D drafting Precision drafting and solid modeling in one app. Version history Every change is on record. Opens your DWGs With their layouts, blocks, and dimensions. 01/DRAFTING & 3D Pro 2D & pro 3D"
+    },
+    "jsErrors": 0,
+    "shot": "aircad-com.webp",
+    "shotBytes": 22788,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "parseable-com": {
+    "id": "parseable-com",
+    "url": "https://www.parseable.com/",
+    "checkedAt": "2026-11-14T13:20:14.891Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://www.parseable.com/",
+    "meta": {
+      "title": "Parseable | Observability infrastructure",
+      "description": "Unified observability platform for logs, metrics, and traces. AI-native insights, S3-native storage, SQL queries, OpenTelemetry-native, and 80x lower cost than Datadog and Splunk.",
+      "siteName": null,
+      "author": "Parseable",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Powered by Home Product Resources Documentation Pricing Download Parseable Cloud Exascale columnar data lake for observability OTel Native Smart Caching PromQL & SQL Purpose built for telemetry data. Written in Rust. Open core, open Parquet, and open standards, at a fraction of the cost. Deploy in public or private cloud, or use managed Parseable Download now Schedule a "
+    },
+    "jsErrors": 0,
+    "shot": "parseable-com.webp",
+    "shotBytes": 15826,
+    "embed": {
+      "ok": false,
+      "reason": "timeout"
+    }
+  },
+  "stealmybitcoin-com": {
+    "id": "stealmybitcoin-com",
+    "url": "https://stealmybitcoin.com/",
+    "checkedAt": "2026-11-14T13:13:33.255Z",
+    "ok": true,
+    "loadMs": 553,
+    "httpStatus": 200,
+    "finalUrl": "https://stealmybitcoin.com/",
+    "meta": {
+      "title": "Challenge won · Steal my Bitcoin",
+      "description": "The Steal my Bitcoin challenge has been won. Thanks for playing!",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "My bitcoin was stolen after: 19.28 hours. Thanks for playing and congrats to the winner. More challenges may appear here in the future. For now, there are no bitcoin on this server. Date won 25 October 2026 Time won 15:47 UTC Prize pot at the win 0.02511679 BTC ($2,021.22) View the prize wallet ↗ Winner writeup: https://github.com/KillaBoi/StealMyBitcoin-PoC Read my blog post about the experience of hosting this challenge. stealmybitcoin.com"
+    },
+    "jsErrors": 0,
+    "shot": "stealmybitcoin-com.webp",
+    "shotBytes": 11408,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "bigwords-page": {
+    "id": "bigwords-page",
+    "url": "https://bigwords.page/",
+    "checkedAt": "2026-11-14T14:38:11.676Z",
+    "ok": true,
+    "loadMs": 4916,
+    "httpStatus": 200,
+    "finalUrl": "https://bigwords.page/",
+    "meta": {
+      "title": "BIGWORDS.PAGE: Turn any screen into a sign",
+      "description": "Turn a phone, tablet or TV into a sign. Type a message and it fills the screen: welcome signs, timers, Wi-Fi passwords and more. No app, no account, free.",
+      "siteName": "BIGWORDS.PAGE",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "BIGWORDS PAGE Editor Docs Big words for any screen Make a full-screen sign, timer or message from a link. Hold up your phone at arrivals, put a countdown on the TV, or show the Wi-Fi password at the front desk. No account, no app, nothing stored on a server. The link is the whole display, so you can share it or bookmark it. Open the editor Read the docs View fullscreen Say it big. Any screen. Any size. https://bigwords.page/#Say%20it%20**big.**||Any%20screen.%0AAny%20size.||No%20app.%20No%20login.%0AJust%20a%20**URL.**&bg=111111&fg=ffd60a&font=4&interval=3 Make one by hand Using the built-in e"
+    },
+    "jsErrors": 0,
+    "shot": "bigwords-page.webp",
+    "shotBytes": 21780,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "hackertimes-ca": {
+    "id": "hackertimes-ca",
+    "url": "https://hackertimes.ca/",
+    "checkedAt": "2026-11-14T13:14:01.186Z",
+    "ok": true,
+    "loadMs": 4856,
+    "httpStatus": 200,
+    "finalUrl": "https://hackertimes.ca/",
+    "meta": {
+      "title": "Hacker Times",
+      "description": "A newspaper from Hacker News, regularly updated. Independent headlines, original sources.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to news Hacker Times Today Technology AI Software Science Culture Business Games Report alleges Nvidia funded AI startups to sustain GPU demand A report alleges Nvidia invested in AI startups and cloud providers to sustain GPU demand, despite concerns that some could not afford the chips. 10h ago · TechPowerUp · 418 comments TechPowerUp ggml 1.0.0 adds FP8 support and backend performance updates The ggml 1.0.0 release removes deprecated APIs and adds YaRN truncation controls, FP8 support and backend updates across several platforms. 10h ago · GitHub · 48 comments Monkey Island versions co"
+    },
+    "jsErrors": 0,
+    "shot": "hackertimes-ca.webp",
+    "shotBytes": 39164,
+    "embed": {
+      "ok": false,
+      "reason": "csp-frame-ancestors"
+    }
+  },
+  "watched-earth": {
+    "id": "watched-earth",
+    "url": "https://www.watched.earth/",
+    "checkedAt": "2026-11-14T14:00:31.327Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://www.watched.earth/",
+    "meta": {
+      "title": "Watched · Something watched you this week",
+      "description": "Enter any place on Earth. See every satellite that passed over it this week, and the actual pictures they took.",
+      "siteName": "Watched",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "LAST 7 DAYS · 7 → 14 NOV 2026 UTC Something watched you this week. Enter any place on Earth. See every satellite that passed over it in the last 7 days, and the actual pictures they took. 01 / PLACE / USE MY LOCATION 02 / OR TRY OR CLICK THE GLOBE TO DROP A PIN AREA 51 CENTRAL PARK GIZA SURPRISE ME BUILT BY @ARMAANGUPT0 HOW THIS WORKS ? 2026-11-14 14:01:16 UTC — OBJECTS LOADING CATALOG SUN 18.3°S 034.2°W SUB-SOLAR POINT · GMST 17:36:01"
+    },
+    "jsErrors": 0,
+    "shot": "watched-earth.webp",
+    "shotBytes": 10834,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "hackertv-org": {
+    "id": "hackertv-org",
+    "url": "https://hackertv.org/",
+    "checkedAt": "2026-11-14T13:13:51.036Z",
+    "ok": true,
+    "loadMs": 9369,
+    "httpStatus": 200,
+    "finalUrl": "https://hackertv.org/",
+    "meta": {
+      "title": "HackerTV",
+      "description": "The videos Hacker News keeps recommending, broadcast 24/7 on channels. Same schedule for everyone.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "HN TV The videos Hacker News keeps telling each other to watch. Broadcasting 24/7. Everyone sees the same thing. ⏻ TURN ON HNTV MODEL HN-1986 02 CH ▲ CH ▼ GUIDE PICTURE MUTE THEATER FULLSCR INFO CC POWER 1 2 3 4 5 6 7 8 9 PREV 0 ENT PICTURE: CLEAN 02 HN PRIME The all-time most recommended videos on Hacker News Keys: ↑↓ channel · 0-9 tune · G guide · F picture · M mute · C captions · I info · T theater · double-click screen for fullscreen · P power Discuss on Hacker News ↗ Made by Danny Salzman Catalog seeded from HackerTube (ODC-By), built on the open-index/hacker-news archive. Kept current we"
+    },
+    "jsErrors": 0,
+    "shot": "hackertv-org.webp",
+    "shotBytes": 9510,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "carrierexplode-com": {
+    "id": "carrierexplode-com",
+    "url": "https://carrierexplode.com/",
+    "checkedAt": "2026-11-14T14:00:31.327Z",
+    "ok": true,
+    "loadMs": 4874,
+    "httpStatus": 200,
+    "finalUrl": "https://carrierexplode.com/",
+    "meta": {
+      "title": "iPhone, Pixel and Galaxy carrier settings, decoded · carrier-explode",
+      "description": "Carrier settings from iPhone, Pixel and Galaxy firmware, decoded and compared: APNs, VoLTE, 5G and Wi-Fi Calling per carrier, and what each build changed.",
+      "siteName": "carrier-explode",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "carrier-explode Explode and decode carrier data GitHub About Carriers Countries Features Builds Compare News Apple has released two builds of iOS 27.2: a normal one, and a special one for the iPhone Duo. The site didn't handle this very well. Should be fixed! carrier-explode 2.0 is out with a much improved backend. We're still working on our decoders, please contribute :) Using carrier-explode for research? I'd love to collaborate, send me an email. About Carrier settings from iPhone, Pixel and Galaxy firmware, decoded and compared. Look up a carrier's APNs, VoLTE, Wi-Fi Calling and 5G on each"
+    },
+    "jsErrors": 0,
+    "shot": "carrierexplode-com.webp",
+    "shotBytes": 21390,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "wikihack-netlify-app": {
+    "id": "wikihack-netlify-app",
+    "url": "https://wikihack.netlify.app/",
+    "checkedAt": "2026-11-14T14:01:03.211Z",
+    "ok": true,
+    "loadMs": 1884,
+    "httpStatus": 200,
+    "finalUrl": "https://wikihack.netlify.app/",
+    "meta": {
+      "title": "WikiHack · Wikipedia, as linked by Hacker News",
+      "description": "The Wikipedia articles Hacker News keeps linking to, ranked by how many different commenters linked them.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "W WikiHack top | rising | front page | topics | about Random Top Rising Front page #212 Biology & Medicine Milgram experiment The Milgram experiment was a series of social psychology experiments that were conducted in the early 1960s by Yale University psychologist Stanley Milgram, who intended to measure the willingness of study participants to obey an authority figure who instructed them to perform acts conflicting with their personal conscience. Participants were led to believe that they were assisting in a fictitious experiment, in which they had to administer electric shocks to a \"learner"
+    },
+    "jsErrors": 0,
+    "shot": "wikihack-netlify-app.webp",
+    "shotBytes": 18308,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "stillwet-art": {
+    "id": "stillwet-art",
+    "url": "https://stillwet.art/",
+    "checkedAt": "2026-11-14T14:01:03.043Z",
+    "ok": true,
+    "loadMs": 5550,
+    "httpStatus": 200,
+    "finalUrl": "https://stillwet.art/",
+    "meta": {
+      "title": "stillwet: paintings by AI models",
+      "description": "AI models paint in code with simulated oil paint and watercolor. No image generator. Watch the pictures being made.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "stillwet Studio Paintings Rooms Experiments About STUDIO · LATEST SESSION Over the Brow, Rain Coming Claude Opus 5.5 Play Replay in the studio → EARLIER SESSIONS Nocturne: The Silver Path Harbour Gate at Evening The Choir in Snow (Winter Dusk, with a Procession) Last Call at the Silver Dollar Where the Light Comes Down (Autumn Falls) The Ice Keeps Her Rooms Friedrich The empty band of glowing sky between the crows and the far woods is the picture; I kept it empty. Enter → The Gate of the Silent Lake The Oak in Snow at Evening The Oak above the Sea of Fog Evening on the Upland Lake Flooded Birc"
+    },
+    "jsErrors": 0,
+    "shot": "stillwet-art.webp",
+    "shotBytes": 17598,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "llmspeed-dev": {
+    "id": "llmspeed-dev",
+    "url": "https://llmspeed.dev/",
+    "checkedAt": "2026-11-14T14:01:30.298Z",
+    "ok": true,
+    "loadMs": 3802,
+    "httpStatus": 200,
+    "finalUrl": "https://llmspeed.dev/",
+    "meta": {
+      "title": "llmspeed — feel local LLM speed before you buy",
+      "description": "Pick hardware and a model, and feel the real speed of a local LLM before you buy. Simulates tokens/sec and time-to-first-token from verified benchmarks for GPUs, Macs, and more.",
+      "siteName": "llmspeed",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Star 173 How fast will your local model feel? Pick hardware and a model. Feel the real speed before you buy. ~42 tok Run ▸ Short chat ▾ NVIDIA RTX 4090 24GB ▾ Llama 3.1 8B ▾ Q4_K_M ▾ ? + Race a config 86–129 tok/s ? TTFT 0.31 s ? Measured ? How we calculated this ▾ Browse by hardware NVIDIA RTX 3090 24GB AMD Ryzen AI Max+ 395 128GB (Strix Halo) NVIDIA RTX 5090 32GB AMD Radeon AI PRO R9700 32GB NVIDIA RTX 4090 24GB Mac Studio M5 Ultra 256GB MacBook Pro M5 Max 128GB NVIDIA DGX Spark 128GB NVIDIA RTX 5060 Ti 16GB NVIDIA RTX PRO 6000 96GB Mac Studio M5 Ultra 512GB NVIDIA Tesla V100 32GB Intel Arc "
+    },
+    "jsErrors": 0,
+    "shot": "llmspeed-dev.webp",
+    "shotBytes": 7678,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "unfenced-land": {
+    "id": "unfenced-land",
+    "url": "https://unfenced.land/",
+    "checkedAt": "2026-11-14T13:14:34.236Z",
+    "ok": false,
+    "loadMs": 9191,
+    "httpStatus": 403,
+    "finalUrl": "https://unfenced.land/",
+    "error": "HTTP 403"
+  },
+  "titleart-dvy-io": {
+    "id": "titleart-dvy-io",
+    "url": "https://titleart.dvy.io/",
+    "checkedAt": "2026-11-14T13:14:17.241Z",
+    "ok": true,
+    "loadMs": 7709,
+    "httpStatus": 200,
+    "finalUrl": "https://titleart.dvy.io/",
+    "meta": {
+      "title": "TitleArt — Make text like it’s 1997",
+      "description": "Every classic WordArt style, shape and 3-D effect, in your browser.",
+      "siteName": "TitleArt",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 2,
+      "text": "TitleArt File Edit Insert Format Arrange View Help Open My Pages (Ctrl+O) Save (Ctrl+S) Cut (Ctrl+X) Copy (Ctrl+C) Paste (Ctrl+V) Format Painter: copy this layer’s formatting to another (double-click to paint several) Undo (Ctrl+Z) Redo (Ctrl+Y) Export as PNG, SVG, GIF or video Insert TitleArt: add another to the page Edit Text… Edit the TitleArt’s text Gallery: choose a style Picture: add one from a file Shapes and Clip Art: add a shape, sticker or clip art Click or use the bracket keys to choose a layer. Arrow keys move it, comma and full stop rotate it, minus and plus resize it, Delete remo"
+    },
+    "jsErrors": 0,
+    "shot": "titleart-dvy-io.webp",
+    "shotBytes": 20648,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "p-migdal-pl-warsaw-vibe-voxel": {
+    "id": "p-migdal-pl-warsaw-vibe-voxel",
+    "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+    "checkedAt": "2026-11-14T14:31:07.389Z",
+    "ok": true,
+    "loadMs": 7678,
+    "httpStatus": 200,
+    "finalUrl": "https://p.migdal.pl/warsaw-vibe-voxel/",
+    "meta": {
+      "title": "Warsaw in voxels: an interactive 3D map of the city centre",
+      "description": "Central Warsaw in 1 m voxels, built from OpenStreetMap, LiDAR and the city's tree database. Walk around the Palace of Culture, change the date, hour and weather, or possess a pedestrian. Inspired by Minecraft, MagicaVoxel and Dungeon Keeper.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "Pałac Kultury i Nauki Palace of Culture and Science Varso Tower office tower PGE Narodowy National Stadium Zamek Królewski Royal Castle Uniwersytet Warszawski University of Warsaw Pałac Prezydencki Presidential Palace Warszawa Centralna Warsaw Central Station Teatr Wielki Grand Theatre Sejm Parliament Rynek Starego Miasta Old Town Market Square Wisła Vistula Grób Nieznanego Żołnierza Tomb of the Unknown Soldier Kościół św. Krzyża Holy Cross Church Muzeum Narodowe National Museum Kolumna Zygmunta Sigismund's Column Złota 44 residential tower POLIN Museum of the History of Polish Jews Pałac Kras"
+    },
+    "jsErrors": 0,
+    "shot": "p-migdal-pl-warsaw-vibe-voxel.webp",
+    "shotBytes": 60770,
+    "embed": {
+      "ok": true,
+      "reason": null,
+      "warnings": [
+        "embedded view has 3% of the detail of the standalone view after 28s"
+      ]
+    }
+  },
+  "linum-ai-field-notes-pjit-21k": {
+    "id": "linum-ai-field-notes-pjit-21k",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "checkedAt": "2026-11-14T13:14:44.448Z",
+    "ok": true,
+    "loadMs": 12468,
+    "httpStatus": 200,
+    "finalUrl": "https://www.linum.ai/field-notes/pjit-21k",
+    "meta": {
+      "title": "Training a Text-to-Image Model for $21K | Field Notes by Linum",
+      "description": "2B-Parameter P-JiT (Apache 2.0)",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Field Notes RESEARCH · 10 MIN READ Training a Text-to-Image Model for $21K Sahil Chopra & Manu Chopra Co-CEOs @ Linum · November 4, 2026 RSS Subscribe ROAD TO LINUM V3 · ISSUE 04 PREVIOUSLY: P-JIT In our last blog post, we iterated towards P-JiT, a pixel-space architecture that cut attention context windows by 4× while converging in 11× fewer samples. Here, we train the P-JiT for 660M samples (just $21K in compute) as a stepping stone towards larger, video models. RESEARCH RELEASE · APACHE 2.0 Model code Model weights 249 SAMPLES · 2B PYRAMID-JIT CLICK ANY PICTURE FOR FULL RESOLUTION AND ITS P"
+    },
+    "jsErrors": 0,
+    "shot": "linum-ai-field-notes-pjit-21k.webp",
+    "shotBytes": 22706,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "outcrop-rocks": {
+    "id": "outcrop-rocks",
+    "url": "https://outcrop.rocks/",
+    "checkedAt": "2026-11-14T13:14:46.010Z",
+    "ok": true,
+    "loadMs": 3730,
+    "httpStatus": 200,
+    "finalUrl": "https://outcrop.rocks/",
+    "meta": {
+      "title": "Outcrop — Geology app with geologic maps in augmented reality",
+      "description": "Outcrop is a geology app for iPhone and Android with geologic maps in augmented reality. Point your camera at the landscape around you to learn about its geology: what the rocks are, when and how they formed, and where the continents were at the time. It also works offline.",
+      "siteName": "Outcrop",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "Macrostrat · USGS Redwall Limestone 7.6 km away Mississippian Drag the phone across the canyon Outcrop Point your camera at the landscape around you to learn about its geology: what the rocks are, when and how they formed, and where the continents were at the time. It also works offline. Download on the App Store Get it on Google Play Free, for iPhone and Android. Geologic maps worldwide from Macrostrat. Earth’s history See where each rock fits in Earth’s 4.5-billion-year history. CENOZOIC 66–0 Ma MESOZOIC 252–66 Ma PALEOZOIC 539–252 Ma PRECAMBRIAN 4540–539 Ma 1.2 billion years missing The can"
+    },
+    "jsErrors": 0,
+    "shot": "outcrop-rocks.webp",
+    "shotBytes": 29270,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "sphinx-six-theta-vercel-app": {
+    "id": "sphinx-six-theta-vercel-app",
+    "url": "https://sphinx-six-theta.vercel.app/",
+    "checkedAt": "2026-11-14T13:15:21.075Z",
+    "ok": true,
+    "loadMs": 11913,
+    "httpStatus": 200,
+    "finalUrl": "https://sphinx-six-theta.vercel.app/",
+    "meta": {
+      "title": "Sphinx — you can outsource your thinking, but not your understanding",
+      "description": "A Git hook for agent-assisted development. Before your agent’s code ships, Sphinx asks you a question about what it actually does.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "sphinx Install GitHub Free FOSS “You can outsource your thinking, but not your understanding.” — Sun Tzu Sphinx is a Git hook for agent-assisted development. Before your agent’s code ships, it asks you a question about what that code actually does. $ npm install -g sphinx-understand Copy Built to run on minimal tokens, from your existing coding agent, OpenRouter, or any OpenAI-compatible endpoint. $ git push origin main sphinx · understanding check for main 11 files changed · +5,012 −3,147 SPHINX Your webhook handler now saves the event ID before calling charge(). Stripe times out and sends th"
+    },
+    "jsErrors": 0,
+    "shot": "sphinx-six-theta-vercel-app.webp",
+    "shotBytes": 14898,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "fireflyk64-github-io-wcmulti": {
+    "id": "fireflyk64-github-io-wcmulti",
+    "url": "https://fireflyk64.github.io/wcmulti/",
+    "checkedAt": "2026-11-14T13:15:13.081Z",
+    "ok": true,
+    "loadMs": 23597,
+    "httpStatus": 200,
+    "finalUrl": "https://fireflyk64.github.io/wcmulti/",
+    "meta": {
+      "title": "Wing Commander Together",
+      "description": "How two brothers reverse-engineered DOS Wing Commander for two-player co-op starting in 2015, then in 2026 brought it to the browser with WebRTC and voice chat.",
+      "siteName": null,
+      "author": "danielrh",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "An 11 year journey to play DOS Wing Commander together By danielrh Watch on YouTube Play it in your browser When we were kids, my brother Patrick and I would steer our space fighter with one of us on controls and the other on the lasers and afterburner boost. We always dreamed of playing the Wing Commander series cooperatively as wingmates rather than as a two headed hydra in a single craft. In the beginning we were searching for where we were On October 4, 2015 as I was playing the classic Wing Commander in Dosbox I realized the whole memory probably fit in that 640K Bill Gates apocryphally s"
+    },
+    "jsErrors": 0,
+    "shot": "fireflyk64-github-io-wcmulti.webp",
+    "shotBytes": 29672,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "starskirmish-com-bench-v0-2": {
+    "id": "starskirmish-com-bench-v0-2",
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "checkedAt": "2026-11-14T13:15:16.471Z",
+    "ok": true,
+    "loadMs": 11163,
+    "httpStatus": 200,
+    "finalUrl": "https://starskirmish.com/bench/v0-2/",
+    "meta": {
+      "title": "StarSkirmish Bench v0.2",
+      "description": "StarSkirmish: where LLMs write code to play StarCraft.",
+      "siteName": "StarSkirmish",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 5,
+      "text": "BENCH Kai McPheeters·October 15, 2026 TL;DR StarSkirmish is a benchmark where LLMs write bots for StarCraft: Brood War Each LLM gets one hour to write a Protoss bot in C++, which is then evaluated against other LLMs' bots and established human written bots StarSkirmish tests long horizon reasoning and agentic coding as LLMs must incorporate learnings from practice games to improve their StarCraft bot STARSKIRMISH BENCH V0.2 The StarSkirmish Bench evaluates how strong of a StarCraft bot can each LLM write given 1 hour of wall clock time. v0.2 updates StarSkirmish Bench v0.1 with flagship models"
+    },
+    "jsErrors": 0,
+    "shot": "starskirmish-com-bench-v0-2.webp",
+    "shotBytes": 31214,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "tinyvalencia-com": {
+    "id": "tinyvalencia-com",
+    "url": "https://tinyvalencia.com/",
+    "checkedAt": "2026-11-14T14:01:35.958Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://tinyvalencia.com/?lat=39.473800&lng=-0.376800&zoom=17.20",
+    "meta": {
+      "title": "Tiny València · a pixel-art map of the city",
+      "description": "An isometric pixel-art map of València, painted block by block. Zoom from the Micalet to the beach.",
+      "siteName": "Tiny València",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 12,
+      "text": "Tiny València ≈120 km² of València, painted @ 1 3 u g 1 m b Play Share EN Places ▾ Enjoying the map? Tiny València is free, with no ads. Help keep it painted and online. Support on Patreon ✕ About · Patreon · Data © OpenStreetMap, Catastro, IGN, Google"
+    },
+    "jsErrors": 0,
+    "shot": "tinyvalencia-com.webp",
+    "shotBytes": 91288,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "tng-episodle-com": {
+    "id": "tng-episodle-com",
+    "url": "https://tng.episodle.com/",
+    "checkedAt": "2026-11-14T14:02:05.618Z",
+    "ok": true,
+    "loadMs": 11236,
+    "httpStatus": 200,
+    "finalUrl": "https://tng.episodle.com/",
+    "meta": {
+      "title": "TNG: Episodle",
+      "description": null,
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "TNG.EPISODLE Game: 318 ⬜⬜⬜⬜⬜⬜ GUESS SKIP Guesses Remaining: 6 Know this episode? Search, select the name, and click `Guess`. How to Play Click to Begin This is an episode guessing game using Star Trek: The Next Generation (TNG) episode images as clues. Your objective is to correctly identify the episode featured in the given images. You have a maximum of six attempts at guessing. If you select the correct season, even if your episode guess is incorrect, you'll receive feedback. Strive to guess the episode with as few guesses as possible. Each image clue is easier that the previous. Come back t"
+    },
+    "jsErrors": 0,
+    "shot": "tng-episodle-com.webp",
+    "shotBytes": 21966,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "syscall-sh": {
+    "id": "syscall-sh",
+    "url": "https://syscall.sh/",
+    "checkedAt": "2026-11-14T13:15:59.022Z",
+    "ok": true,
+    "loadMs": 4748,
+    "httpStatus": 200,
+    "finalUrl": "https://syscall.sh/",
+    "meta": {
+      "title": "Linux System Call Tables by Architecture · syscall.sh",
+      "description": "The Linux syscall table for 38 architectures: every system call number, argument and register, with a table per architecture, from Linux 3.3 to 7.3.",
+      "siteName": "syscall.sh",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "skip to content syscall.sh x64 x86 arm64 arm riscv64 all arches releases guide api about Linux syscall tables Linux syscall tables in one place, grouped by architecture: system calls for 38 architectures with their numbers, arguments and registers, from Linux 3.3 to 7.3. find a syscall Searches every architecture at once. Press / to jump here. Architectures x64 x86_64 369 syscalls · since 3.3 x86 i386, 32 bit x86 441 syscalls · since 3.3 arm64 AArch64 326 syscalls · since 3.7 arm ARM EABI, 32 bit 426 syscalls · since 4.10 riscv64 RISC-V, 64 bit 327 syscalls · since 4.15 ia32 IA-32 compat on x8"
+    },
+    "jsErrors": 0,
+    "shot": "syscall-sh.webp",
+    "shotBytes": 26652,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "termsheetplease-com": {
+    "id": "termsheetplease-com",
+    "url": "https://termsheetplease.com/",
+    "checkedAt": "2026-11-14T14:02:48.594Z",
+    "ok": true,
+    "loadMs": 8346,
+    "httpStatus": 200,
+    "finalUrl": "https://termsheetplease.com/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "Term Sheet, Please",
+      "description": "YC founders are raising a round. Inspect the financials, question the records, and decide who gets funded.",
+      "siteName": "Term Sheet, Please",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 3,
+      "text": "NEXT 16:12 1 DAY AFTER DEMO DAY CASE 01 MAIL NOTES 17:00 INSPECT Term Sheet, Please STORY created by Bo Lau"
+    },
+    "jsErrors": 0,
+    "shot": "termsheetplease-com.webp",
+    "shotBytes": 9488,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "petal-live": {
+    "id": "petal-live",
+    "url": "https://petal.live/",
+    "checkedAt": "2026-11-14T13:16:16.992Z",
+    "ok": true,
+    "loadMs": 5300,
+    "httpStatus": 200,
+    "finalUrl": "https://petal.live/",
+    "meta": {
+      "title": "Petal — Open Source Pair Programming",
+      "description": "Low latency, high resolution screensharing and remote control. Free and open source, from the makers of CoScreen.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "petal Open on Github Docs Download from the makers of CoScreen Open Source Pair Programming Low latency, high resolution screensharing and remote control Download for Mac Download for Windows View source free (Linux support coming next) Petal File Edit View Window Help Fri Jul 31 9:41 AM compositor.rs by Mira 41/// Never show a black frame. 42pub fn hold_last_frame(id: WindowId) { 43 let Some(w) = windows.get_mut(&id) 44 else { return }; 45 w.layer.retain_frame(); 46 w.tracked = false; 47} Google Chrome by Theo Open URL Google Chrome eng-sync notes petal.live/docs/remote-control Google Chrome "
+    },
+    "jsErrors": 0,
+    "shot": "petal-live.webp",
+    "shotBytes": 12394,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "legendofhyrule-com": {
+    "id": "legendofhyrule-com",
+    "url": "https://legendofhyrule.com/",
+    "checkedAt": "2026-11-14T13:16:12.044Z",
+    "ok": true,
+    "loadMs": 5867,
+    "httpStatus": 200,
+    "finalUrl": "https://legendofhyrule.com/",
+    "meta": {
+      "title": "The Legend of Hyrule: the Zelda timeline",
+      "description": "The Zelda timeline and Hyrule's history from Creation to the Upheaval. After Ocarina of Time the timeline branches into the child, adult and fallen-hero eras.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 8,
+      "text": "OCARINA OF TIME OUT NOW BEFORE YOU PLAY → MAPS OF HYRULE Breath of the Wild → THE LEGEND OF The Legend of Hyrule Hyrule Hyrule THE RIVER OF TIME THE RIVER OF TIME HYRULE'S HISTORY RELEASE ORDER Nintendo's official timeline. After Ocarina of Time it branches into the child, adult and fallen-hero eras. Hyrule's History ERA OF MYTH TO THE HERO OF TIME ERA OF MYTH TO THE HERO OF TIME THE HERO ISDEFEATED THE HERO ISDEFEATED CHILD ERA CHILD ERA ADULT ERA ADULT ERA 1986 1987 1989 1990 1991 1993 1996 1998 2000 2001 2002 2004 2006 2007 2009 2011 2012 2013 2015 2017 2023 2024 2025 2026 The Golden Goddes"
+    },
+    "jsErrors": 0,
+    "shot": "legendofhyrule-com.webp",
+    "shotBytes": 16840,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "niklasroy-com-gtc": {
+    "id": "niklasroy-com-gtc",
+    "url": "https://niklasroy.com/gtc/",
+    "checkedAt": "2026-11-14T13:16:04.241Z",
+    "ok": true,
+    "loadMs": 15121,
+    "httpStatus": 200,
+    "finalUrl": "https://niklasroy.com/gtc/",
+    "meta": {
+      "title": "Niklas Roy - Glashütte Trash Clock",
+      "description": "“Glashütte Trash Clock” is a fully functioning clockwork made from trash and other stuff that I found in Glashütte, Saxony.",
+      "siteName": "Niklas Roy",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "Glashütte Trash Clock Embedded from YouTube Mechanical Clockwork Glashütte, 2026 “Glashütte Trash Clock” is a fully functioning clockwork made from trash and other stuff that I found in Glashütte, Saxony. Since the mechanism just runs for about half an hour, it only displays seconds and minutes, striking a gong whenever the minute hand reaches the 12 o’clock position. As a little extra, the clock also triggers an external randomizer just before it runs out of energy. While working on this clock, I also invented a new time scale: GTC. It blends the concepts of GMT and UTC, and the Glashütte Tra"
+    },
+    "jsErrors": 0,
+    "shot": "niklasroy-com-gtc.webp",
+    "shotBytes": 22184,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "isometricsf-com": {
+    "id": "isometricsf-com",
+    "url": "https://isometricsf.com/",
+    "checkedAt": "2026-11-14T14:28:27.867Z",
+    "ok": true,
+    "loadMs": 11896,
+    "httpStatus": 200,
+    "finalUrl": "https://isometricsf.com/",
+    "meta": {
+      "title": "isometric sf · the Bay Area in pixel art",
+      "description": "An isometric pixel-art map of the whole San Francisco Bay Area. Search a place, a town or an address, then send someone the view.",
+      "siteName": "isometric sf",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 5,
+      "text": "LOADING THE BAY / made by @jus10chavez how it was made → © OpenStreetMap · Google Maps · ⓘ Share this view"
+    },
+    "jsErrors": 0,
+    "shot": "isometricsf-com.webp",
+    "shotBytes": 50774,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "betterwispr-com": {
+    "id": "betterwispr-com",
+    "url": "https://betterwispr.com/",
+    "checkedAt": "2026-11-14T13:16:42.027Z",
+    "ok": true,
+    "loadMs": 6976,
+    "httpStatus": 200,
+    "finalUrl": "https://betterwispr.com/",
+    "meta": {
+      "title": "BetterWispr: local dictation for macOS",
+      "description": "Hold a shortcut, speak, and BetterWispr types clean text into any Mac app. Local speech models, a style for each app, meeting notes and insights. Free and open source, with no account required.",
+      "siteName": "BetterWispr",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content BetterWispr Blog Changelog Buy me a coffee Download OPEN SOURCE DICTATION FOR MAC Speak it messy. Send it clean. Hold ⌥ Space in any app and just talk. BetterWispr drops the ums and false starts, spells names your way and writes in the style you set for each app. Speech stays on your Mac. Download for Apple Silicon Download for Intel Free · macOS 14+ · Apple Silicon recommended No account Local speech models Meeting notes built in Typing 0.0s 0 wpm BetterWispr 0.0s Listening Illustration, not a benchmark. Simulated at 40 wpm typing and 150 wpm speaking with a Parakeet model, wi"
+    },
+    "jsErrors": 1,
+    "shot": "betterwispr-com.webp",
+    "shotBytes": 26162,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "jrcpl-us-contrib-2020-gardening-for-engineers": {
+    "id": "jrcpl-us-contrib-2020-gardening-for-engineers",
+    "url": "https://jrcpl.us/contrib/2020/gardening-for-engineers/",
+    "checkedAt": "2026-11-14T13:16:43.807Z",
+    "ok": true,
+    "loadMs": 10844,
+    "httpStatus": 200,
+    "finalUrl": "https://jrcpl.us/contrib/2020/gardening-for-engineers/",
+    "meta": {
+      "title": "Vegetable Gardening for Engineers | John Chang (jrc+)",
+      "description": null,
+      "siteName": "John Chang (jrc+)",
+      "author": null,
+      "lang": "en-US",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Vegetable Gardening for Engineers This is a starting point for understanding how to grow vegetables at home. I created this document out of dissatisfaction with popular gardening books (too little detail) and social media (too much talking and clickbait). I found myself organizing and synthesizing concepts, data, and advice from disparate sources. I even turned to material from agricultural university extension programs, crop guides from commercial seed and fertilizer companies, high school biology courses, live farmer training courses and gardening workshops, and techniques from indoor cannab"
+    },
+    "jsErrors": 0,
+    "shot": "jrcpl-us-contrib-2020-gardening-for-engineers.webp",
+    "shotBytes": 23138,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "lab-specr-net-rigged-draw": {
+    "id": "lab-specr-net-rigged-draw",
+    "url": "https://lab.specr.net/rigged-draw/",
+    "checkedAt": "2026-11-14T13:16:56.545Z",
+    "ok": true,
+    "loadMs": 3463,
+    "httpStatus": 200,
+    "finalUrl": "https://lab.specr.net/rigged-draw/",
+    "meta": {
+      "title": "How random are you?",
+      "description": "Say numbers out loud as randomly as you can. Before each one, a predictor in your browser seals its guess, and a split-flap board shows how far ahead of chance it gets.",
+      "siteName": "Shaun's Lab",
+      "author": "Shaun Pedicini",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "LIVE FROM STUDIO B The Daily Pick Tonight's draw machine is you. Say numbers out loud, as randomly as you can, one after another. Don't think too hard, just keep them coming. Speak clearly, and if the house mishears one now and then, don't stop. The more numbers you say, the more accurate your result. Before each one, the house seals its guess in an envelope. Say the number and the envelope opens. You pick from 1 to 9. Your first 10 numbers are a warm-up while the house gets to know you. At the end, your ticket shows how you compare with 206 people from a psychology study. DRAW NO. 0001 3 7 1 "
+    },
+    "jsErrors": 0,
+    "shot": "lab-specr-net-rigged-draw.webp",
+    "shotBytes": 51036,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "scottbezek-blogspot-com-2026-10-making-flexible-neon-t-shirt": {
+    "id": "scottbezek-blogspot-com-2026-10-making-flexible-neon-t-shirt",
+    "url": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html",
+    "checkedAt": "2026-11-14T13:16:36.696Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html",
+    "meta": {
+      "title": "Making a flexible “neon” t-shirt with LED filaments",
+      "description": "Earlier this year I had the perfect excuse to experiment with some flexible LED filaments that had been sitting in my “interesting parts” bi...",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to main content bezblog Projects and hacks SEARCH Making a flexible “neon” t-shirt with LED filaments October 08, 2026 Earlier this year I had the perfect excuse to experiment with some flexible LED filaments that had been sitting in my “interesting parts” bin for years -- the company I work for was putting on a neon-themed event, so obviously I had to custom-build some LED neon attire! The only problem was this was announced less than a week in advance.... This is how I designed and assembled a wearable neon shirt in just a few days. A rough parts list, in case you want to try something "
+    },
+    "jsErrors": 0,
+    "shot": "scottbezek-blogspot-com-2026-10-making-flexible-neon-t-shirt.webp",
+    "shotBytes": 17354,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "readrare-com": {
+    "id": "readrare-com",
+    "url": "https://readrare.com/",
+    "checkedAt": "2026-11-14T14:02:52.975Z",
+    "ok": true,
+    "loadMs": 5021,
+    "httpStatus": 200,
+    "finalUrl": "https://readrare.com/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "Read Rare: Rare internal memos and forgotten books",
+      "description": "Steve Jobs' Top 100 email, Sequoia's YouTube memo, Netflix's culture deck, Facebook's Little Red Book and 50 more rare memos and forgotten books. Free to read.",
+      "siteName": "Read Rare",
+      "author": "Sahil Patel",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Read Rare Submit a rare one The rarest docs and books you've probably never read. Pick one off the shelf. Free to read or borrow. Shelf List 1989 WORD POSTMORTEM 1972 SEE'S CANDY LETTER 1968 INTEL OFFERING MEMO 1977 APPLE MARKETING 2005 YOUTUBE MEMO 2012 THE INSTAGRAM EMAILS 2014 THOUGHTS ON MESSENGER 1993 INFO HIGHWAY ROAD KILL 2010 HOLY WAR WITH GOOGLE 1983 TINKERINGS OF ROBERT NOYCE 1949 P-N JUNCTION TRANSISTORS 1978 UNIX FOREWORD 2009 ETERNAL PURSUIT OF UNHAPPINESS 2012 THE LITTLE RED BOOK 2025 SUTSKEVER DEPOSITION DOCUMENTS · 29 2015 OPENAI EMAILS 1995 THE INTERNET TIDAL WAVE 2006 PEANUT "
+    },
+    "jsErrors": 0,
+    "shot": "readrare-com.webp",
+    "shotBytes": 18862,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "bigwhalehunting-com-workforce": {
+    "id": "bigwhalehunting-com-workforce",
+    "url": "https://bigwhalehunting.com/workforce/",
+    "checkedAt": "2026-11-14T14:03:56.258Z",
+    "ok": true,
+    "loadMs": 10543,
+    "httpStatus": 200,
+    "finalUrl": "https://bigwhalehunting.com/workforce/",
+    "meta": {
+      "title": "S&P 500 Market Cap vs. Employees, 12 Nov 2026 | Big Whale Hunting",
+      "description": "The biggest S&P 500 companies as bubbles sized by market cap, each filled with stick figures for its employees: who is worth a lot per worker, and who employs the most.",
+      "siteName": "Big Whale Hunting",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Big Whale Hunting: Market Cap vs. Employees, 12 Nov 2026 × Each bubble is an S&P 500 company, its area proportional to its market capitalization as of 12 Nov 2026, grouped by sector. Inside it, one stick figure stands for 10,000 employees, so a bubble crowded with small figures is worth little per worker and a big bubble with a handful of figures is worth a lot. Every figure is the same size, so how densely a bubble is filled shows its employees per dollar of market cap. Only companies with at least 10,000 employees and a market cap of at least $20B are shown (339 of the S&P 500), plus a few b"
+    },
+    "jsErrors": 0,
+    "shot": "bigwhalehunting-com-workforce.webp",
+    "shotBytes": 34722,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "pdftomp3-com-connect-ai": {
+    "id": "pdftomp3-com-connect-ai",
+    "url": "https://pdftomp3.com/connect-ai/",
+    "checkedAt": "2026-11-14T13:17:13.174Z",
+    "ok": true,
+    "loadMs": 15142,
+    "httpStatus": 200,
+    "finalUrl": "https://pdftomp3.com/connect-ai",
+    "meta": {
+      "title": "Connect your AI — PDF TO MP3",
+      "description": "Copy a prompt into Codex or Claude and send text to the free PDF TO MP3 player.",
+      "siteName": "PDF TO MP3",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "PDF TO MP3 Upload PDF Example Connect AI Copy this prompt into Codex or Claude. Add your text or request. Copy Instructions for the AI: Please send text into this player. Read https://github.com/janpmz/pdftomp3-plugin/blob/main/GUIDE.md. Show or open the player link. My text or request: [Add your text / request here.] PDF TO MP3 © 2026 pdftomp3.com Explore Examples Experiments About Blog Info Legal Notice Privacy Policy Terms and Conditions Connect jan@pdftomp3.com X Bluesky"
+    },
+    "jsErrors": 0,
+    "shot": "pdftomp3-com-connect-ai.webp",
+    "shotBytes": 12532,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "firenook-dev": {
+    "id": "firenook-dev",
+    "url": "https://firenook.dev/",
+    "checkedAt": "2026-11-14T13:17:12.464Z",
+    "ok": true,
+    "loadMs": 6705,
+    "httpStatus": 200,
+    "finalUrl": "https://firenook.dev/",
+    "meta": {
+      "title": "Firenook: A faster drop-in for the Firebase emulators",
+      "description": "Firenook runs the Firebase emulators with your firebase.json, SDKs and ports: 40× faster writes, 10× less memory, no Java, and data that survives restarts.",
+      "siteName": "Firenook",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 4,
+      "text": "Skip to content Product Docs Benchmarks Blog Get started 0.2.5 What’s new A faster drop-in replacement for the Firebase Local Emulator Suite Keep your firebase.json, SDKs and ports, and change one word in your script. No Java to install, and your data survives restarts. $npm install --save-dev firenook Get started 40× faster writes 5.1 ms against 208.2 ms, median 10× less memory 2.11 GiB against 22.57 GiB at peak 0.59 s to restart with your data against 30.8 s demo-shop recorded from firenook 0.2.0 $ npx firebase emulators:start Firenook’s own screen, recorded from 0.2.0 on a demo shop: it sta"
+    },
+    "jsErrors": 0,
+    "shot": "firenook-dev.webp",
+    "shotBytes": 18040,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "artmuseum-artfrompixels-com": {
+    "id": "artmuseum-artfrompixels-com",
+    "url": "https://artmuseum.artfrompixels.com/",
+    "checkedAt": "2026-11-14T13:17:24.760Z",
+    "ok": true,
+    "loadMs": 5950,
+    "httpStatus": 200,
+    "finalUrl": "https://artmuseum.artfrompixels.com/",
+    "meta": {
+      "title": "A Walkable History of Art · Every artist, every work, under one roof",
+      "description": "An interactive 3D museum of art history. Zoom through more than a thousand years of periods and artists, then walk first-person galleries of their real paintings — all drawn from Wikipedia.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "CHINESE PAINTING 950 – 1950 MEDIEVAL & GOTHIC PERSIAN MINIATURE 1300 – 1700 EARLY RENAISSANCE JAPANESE PAINTING 1400 – 1900 NORTHERN RENAISSANCE CRETAN & IONIAN SCHOOLS 1450 – 1830 HIGH RENAISSANCE MANNERISM 1520 – 1600 COLONIAL LATIN AMERICAN PAINTING 1550 – 1800 INDIAN PAINTING 1550 – 1950 DUTCH GOLDEN AGE 1588 – 1720 BAROQUE 1600 – 1725 UKIYO-E 1670 – 1900 ROCOCO 1700 – 1780 NEOCLASSICISM ROMANTICISM HUDSON RIVER SCHOOL ACADEMIC ART REALISM PRE-RAPHAELITES IMPRESSIONISM SYMBOLISM & ART NOUVEAU POST-IMPRESSIONISM FAUVISM EXPRESSIONISM CUBISM ABSTRACT ART GROUP OF SEVEN AMERICAN MODERNISM MEX"
+    },
+    "jsErrors": 0,
+    "shot": "artmuseum-artfrompixels-com.webp",
+    "shotBytes": 18308,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "benwinding-github-io-encarta-95-web": {
+    "id": "benwinding-github-io-encarta-95-web",
+    "url": "https://benwinding.github.io/encarta_95_web/",
+    "checkedAt": "2026-11-14T13:26:00.039Z",
+    "ok": true,
+    "loadMs": 3387,
+    "httpStatus": 200,
+    "finalUrl": "https://benwinding.github.io/encarta_95_web/#/article/Art",
+    "meta": {
+      "title": "Encarta 95",
+      "description": null,
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "0.9 MB transferred Source ↗"
+    },
+    "jsErrors": 0,
+    "shot": "benwinding-github-io-encarta-95-web.webp",
+    "shotBytes": 1462,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "grounds-top": {
+    "id": "grounds-top",
+    "url": "https://grounds.top/",
+    "checkedAt": "2026-11-14T13:17:27.625Z",
+    "ok": true,
+    "loadMs": 3400,
+    "httpStatus": 200,
+    "finalUrl": "https://grounds.top/",
+    "meta": {
+      "title": "FAA Nationwide Ground Stop, Nov 13, 2026: Live U.S. Flight Map | Ground Stop Watch",
+      "description": "Live and replayable map of U.S. air traffic during the FAA nationwide ground stop of Nov 13, 2026: flights airborne against a normal Friday, departures, and the backlog at major airports.",
+      "siteName": "Ground Stop Watch",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 2,
+      "text": "grounds.top : FAA nationwide ground stop, Nov 13, 2026 3:26 PM ET 4:26 AM your time 3,565 −1% airline flights in the air 91% of normal departures 0 departures missed since 3:30 pm Recovering · departures at 58% of normal Updated 82 s ago 8:17:53 AM Eastern At 3:26 PM ET, 3,565 commercial flights are airborne over the US, in line with last Friday (3,593). 132 airliners are climbing out. ATL DFW DEN ORD LAX JFK LAS MCO MIA CLT SEA PHX SFO IAH BOS MSP DTW PHL SLC DCA SAN BNA AUS Replay · 15 min/s 3:26 PM ET · 4:26 AM your time Skip to live grounds.top Commercial flights: below 10,000 ft 10,000 to"
+    },
+    "jsErrors": 0,
+    "shot": "grounds-top.webp",
+    "shotBytes": 43188,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "uncracked-city": {
+    "id": "uncracked-city",
+    "url": "https://uncracked.city/",
+    "checkedAt": "2026-11-14T14:04:20.456Z",
+    "ok": true,
+    "loadMs": 4934,
+    "httpStatus": 200,
+    "finalUrl": "https://uncracked.city/",
+    "meta": {
+      "title": "Uncracked City · A detective game in real cities",
+      "description": "A detective game set in real cities. Every day, a new file: search the places, question the suspects, catch the lie, write the report. And every week, a cold case nobody has cracked yet.",
+      "siteName": "Uncracked City",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Uncracked City English Français Español Deutsch Italiano Português A NEW CASE EVERY DAY UNCRACKED CITY The cases nobody has cracked. A detective game set in real cities. Every day, a new file: search the places, question the suspects, catch the lie, write the report. And every week, a cold case nobody has cracked yet. CASE OPEN PLAY IN YOUR BROWSER Today's file: Antwerp · about 7 min Free · No download · Phone or computer Download on the App Store Get it on Google Play Watch with sound on YouTube HALLOWEEN CASE The Thirteenth Step SALEM, 2025 Salem, the morning after Halloween. Meg Ashcombe, t"
+    },
+    "jsErrors": 0,
+    "shot": "uncracked-city.webp",
+    "shotBytes": 21594,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "corgi-computer": {
+    "id": "corgi-computer",
+    "url": "https://corgi.computer/",
+    "checkedAt": "2026-11-14T13:17:38.733Z",
+    "ok": true,
+    "loadMs": 8917,
+    "httpStatus": 200,
+    "finalUrl": "https://corgi.computer/zh/",
+    "meta": {
+      "title": "Corgi",
+      "description": "智能体的贴心小帮手。",
+      "siteName": null,
+      "author": null,
+      "lang": "zh-CN",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "简体中文 corgi ^ ᐯ • . • ᐯ ⡠ 为人类（和智能体）打造的终端复用器。 $ curl -fsSL https://corgi.computer/install.sh | bash 复制 ✓ 支持 macOS、Linux、WSL 和 Omarchy tals/corgi ~ / d e v $ 懂你的智能体 ▶ 工作中 ● 等你处理 ● 未读 ○ 已读 按 F1 查看进展。 c o r g i ↑ 2 ▶ 3 ● 1 · 1 条 未 读 → C P U 4 9 % 内 存 1 . 9 G › m o o n l a n d e r 游 戏 ↗ ▶ 1 > f i x t h e s i d e b a r f l i c k e r C P U 1 4 % 内 存 8 0 1 M › ⏺ R e a d ( s i d e b a r . z i g ) ⎿ R e a d 2 1 0 4 l i n e s ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ┥ ⏺ d r a w A g e n t d r a w s r o w s 智 能 体 t w i c e . F i x i n g t h a t . ⏺ U p d a t e ( s i d e b a r . z i g ) ▶ 修 复 侧 边 "
+    },
+    "jsErrors": 0,
+    "shot": "corgi-computer.webp",
+    "shotBytes": 6340,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "uberblok-storagebits-workers-dev": {
+    "id": "uberblok-storagebits-workers-dev",
+    "url": "https://uberblok.storagebits.workers.dev/",
+    "checkedAt": "2026-11-14T13:17:56.106Z",
+    "ok": true,
+    "loadMs": 4693,
+    "httpStatus": 200,
+    "finalUrl": "https://uberblok.storagebits.workers.dev/en/",
+    "meta": {
+      "title": "Uberblok, an interactive museum of ZFS",
+      "description": "An interactive museum of ZFS, room by room: each idea of the OpenZFS source made visible, with the real code.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content Uberblok Hall Rooms History Why this? Uberblok on GitHub EN English FR Français ES Español A museum of ZFS, read in its source Uberblok Uberblok explains how ZFS keeps data safe through crashes, failing disks and interrupted writes. Most rooms take one idea, show it in a figure you can operate, and quotes the OpenZFS code that implements it. The figures and excerpts follow OpenZFS zfs-2.4.4, frozen at commit 71a9f9578616. Every excerpt is checked against that commit, and none is written from memory. All rooms ↓ · Why this museum? ↓ 1 2 3 4 Fig. 1. The Hall’s object under the gl"
+    },
+    "jsErrors": 0,
+    "shot": "uberblok-storagebits-workers-dev.webp",
+    "shotBytes": 30542,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "pcdealcheck-com": {
+    "id": "pcdealcheck-com",
+    "url": "https://pcdealcheck.com/",
+    "checkedAt": "2026-11-14T14:04:38.005Z",
+    "ok": true,
+    "loadMs": 6990,
+    "httpStatus": 200,
+    "finalUrl": "https://app.pcdealcheck.com/check",
+    "meta": {
+      "title": "PC Deal Check — Check before checkout",
+      "description": "Compare a PC deal against US component prices. Upload a screenshot or paste a listing, then save a 72-hour report.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content PC DealCheck CHECK BEFORE CHECKOUT Deal alerts Hall of Fame How we rate Support Us Light Dark BETA Quick PC price checks · US prices Is that computer a good deal? Paste a listing or upload a photo of the price and specs. See whether the asking price looks fair, based on the parts inside. We check market prices daily. No hardware knowledge needed. Your check is free. See a sample report FOUR PARTS. ONE CLEARER PICTURE. A FREE SECOND OPINION BEFORE YOU BUY 01 Bring us the deal US market beta. Check supported US retailer links from anywhere. Photos and pasted text require a US con"
+    },
+    "jsErrors": 0,
+    "shot": "pcdealcheck-com.webp",
+    "shotBytes": 25570,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "wonderhop-io-en": {
+    "id": "wonderhop-io-en",
+    "url": "https://wonderhop.io/en/",
+    "checkedAt": "2026-11-14T14:04:34.992Z",
+    "ok": true,
+    "loadMs": 7212,
+    "httpStatus": 200,
+    "finalUrl": "https://wonderhop.io/en/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "Wonderhop · Daily trivia: guess the most common answer",
+      "description": "Free daily survey game: give the answer everyone gives, or the one nobody gives. 4 games a day, 30 to 40 seconds per question, no account.",
+      "siteName": "Wonderhop",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "Bunny-272039 Sign in SURFACE 0 M Wonderhop Hop Pass TODAY'S GAMES 0 My stats SKY the most common answer ABYSS the rarest answer PAST the oldest answer FUTURE the most recent answer UNLIMITED ARCHIVE THEMED PACKS FILMS AND GAMES LEADERBOARD LEAGUE SHARE MY DAY HELP Language Français English Español Português Deutsch Italiano Nederlands Polski Türkçe SkyAbyssPast / FuturePlay with family and friendsSurvey questions for game nightQuizzes for fansFree daily trivia gameUnlimited and archivesWonderhop in the classroomWhat came first? 30 questionsWonderhop todayPress FrançaisEnglishEspañolPortuguêsDe"
+    },
+    "jsErrors": 0,
+    "shot": "wonderhop-io-en.webp",
+    "shotBytes": 10740,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "oss-lsantos-dev-proton-drive-linux-fs": {
+    "id": "oss-lsantos-dev-proton-drive-linux-fs",
+    "url": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+    "checkedAt": "2026-11-14T13:18:09.014Z",
+    "ok": true,
+    "loadMs": 17340,
+    "httpStatus": 200,
+    "finalUrl": "https://oss.lsantos.dev/proton-drive-linux-fs/",
+    "meta": {
+      "title": "proton-drive-linux-fs",
+      "description": "FUSE virtual filesystem for Proton Drive on Linux.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content proton-drive-linux-fs Home Type to start searching khaosdoctor/proton-drive-linux-fs proton-drive-linux-fs Home Quick start Install Usage Configuration Tray How it works Troubleshooting FAQ Contributing Table of contents What it does Status Quick start Components proton-drive-linux-fs¶ A FUSE virtual filesystem that mounts Proton Drive as a local folder on Linux. What it does¶ This package mounts your Proton Drive at a directory you choose. All the files and folders are listed from Proton's metadata directly. But we also don't download the file content from all your files eithe"
+    },
+    "jsErrors": 0,
+    "shot": "oss-lsantos-dev-proton-drive-linux-fs.webp",
+    "shotBytes": 20932,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "pipod-dev": {
+    "id": "pipod-dev",
+    "url": "https://pipod.dev/",
+    "checkedAt": "2026-11-14T13:26:36.538Z",
+    "ok": true,
+    "loadMs": 966,
+    "httpStatus": 200,
+    "finalUrl": "https://pipod.dev/",
+    "meta": {
+      "title": "pi pod",
+      "description": "pi pod runs your pi session in a cloud pod. pipod.dev",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "pi pod Run pi sessions in isolated sandboxes (\"pods\") on a server you run, in composable environments. Open source on GitHub: github.com/pi-pod/pipod Email me when the hosted service is available Notify me simple software For me, pi is the epitome of simple, elegant software. Its maintainers embue true craftmanship into the harness. It allows for endless customization and tinkering. My pi harness truly feels like my own. It frees me from lock-in from any of the multitude of AI companies vying for my wallet and data. At the same time, its minimal approach leaves certain aspects of a standard \"a"
+    },
+    "jsErrors": 0,
+    "shot": "pipod-dev.webp",
+    "shotBytes": 19212,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "mailaccess-pro": {
+    "id": "mailaccess-pro",
+    "url": "https://mailaccess.pro/",
+    "checkedAt": "2026-11-14T13:18:24.129Z",
+    "ok": true,
+    "loadMs": 6574,
+    "httpStatus": 200,
+    "finalUrl": "https://mailaccess.pro/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "MailAccess: Email OSINT, fully documented",
+      "description": "One address in: breaches, social accounts, DNS and open-web findings fanned into one identity graph. 75 email-OSINT modules, every finding sourced.",
+      "siteName": "MailAccess",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content MailAccess How it works Pricing Open source Investigate Email scraper For agencies Sign in Start free 1.8k on GitHub Open source, MIT Email recon that shows its work. One address in. The person, every account behind it, and how each one was found. investigate› Investigate Free: the full report on any email · no card Pentest recon Map a target's footprint before the engagement. Check your exposure See what one email gives away about you. Learn email OSINT Watch each technique run, in plain English. PayPal Possible Gravatar Confirmed GitHub Confirmed Spotify Possible @ @janedoe 4"
+    },
+    "jsErrors": 0,
+    "shot": "mailaccess-pro.webp",
+    "shotBytes": 15246,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "pulseos-finance": {
+    "id": "pulseos-finance",
+    "url": "https://pulseos.finance/",
+    "checkedAt": "2026-11-14T13:18:07.795Z",
+    "ok": true,
+    "loadMs": 13128,
+    "httpStatus": 200,
+    "finalUrl": "https://pulseos.finance/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "Pulse Local: budgeting that never leaves your machine",
+      "description": "A budgeting app with AI on your own machine. Your ledger and your questions both stay on disk. The models download once, then nothing about you leaves.",
+      "siteName": "Pulse Local",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 4,
+      "text": "Skip to content Pulse Local How it works · BudgetBench · Docs · Pricing · Roadmap · Blog EN 日本語 Download Budgeting that never leaves your machine. Pulse Local is a complete budgeting app, with a chat that answers from your own figures. Other apps keep your ledger on their servers, or send your questions to someone else's model. We keep both on your machine. Download Getting started Local Connected MAC TODAY · WINDOWS NEXT · NO ACCOUNT · ANY CURRENCY Network activity Lifetime 2 kinds of request App and AI models ONCE App updates OPTIONAL Your transactions NEVER Your questions NEVER Analytics, c"
+    },
+    "jsErrors": 0,
+    "shot": "pulseos-finance.webp",
+    "shotBytes": 23550,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "meowdisplay-app": {
+    "id": "meowdisplay-app",
+    "url": "https://meowdisplay.app/",
+    "checkedAt": "2026-11-14T13:18:54.974Z",
+    "ok": true,
+    "loadMs": 5773,
+    "httpStatus": 200,
+    "finalUrl": "https://meowdisplay.app/",
+    "meta": {
+      "title": "MeowDisplay — Mac Everywhere, On Whatever Display.",
+      "description": "Use your Mac on iPhone, iPad or another display. Arrange windows into panes, switch with Stage Peek, use touch and keyboard controls, and access files. Free and open source.",
+      "siteName": "MeowDisplay",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content MeowDisplay Overview Features Setup Downloads Android Closed Testing ↗ App Store ↗ GitHub ↗ MeowDisplay is free and open source on Mac, iPhone and iPad. Android is in closed testing. Get MeowDisplay › Explore the features › MeowDisplay Mac Everywhere. On Whatever Display. Turn an iPhone, iPad, Android device or another Mac into a display for your Mac. Mirror it, extend it, and control it with touch. Download Mac 2.1 JOIN CLOSED TESTING ON Google Play Free and open source. iOS 2.1 on the App Store · Mac 2.1 for macOS 14+ · Android 10+ in closed testing. All downloads › Finder Fi"
+    },
+    "jsErrors": 0,
+    "shot": "meowdisplay-app.webp",
+    "shotBytes": 17482,
+    "embed": {
+      "ok": false,
+      "reason": "csp-frame-ancestors"
+    }
+  },
+  "indigene-app": {
+    "id": "indigene-app",
+    "url": "https://indigene.app/",
+    "checkedAt": "2026-11-14T14:04:56.068Z",
+    "ok": true,
+    "loadMs": 12036,
+    "httpStatus": 200,
+    "finalUrl": "https://indigene.app/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "Indigene · native plants for where you stand",
+      "description": "Stand in a spot, and find native plants that will actually thrive there, ranked by what they do for the local ecosystem.",
+      "siteName": "Indigene",
+      "author": null,
+      "lang": "en-US",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to main content 🌱 🌼 Indigene 🐝 Regions Plants Wildlife ⚙️ Menu Plants that feed the wildlife right here. Most yards are lawn and imported shrubs: green, but with little that local caterpillars can eat. Local insects evolved alongside native plants, and many can eat nothing else. Indigene tells you which natives fit your spot. No account, no tracking. Everything stays in your browser and works offline. Start where you're standing Or browse without sharing your location. Watch the 1-minute film Share the film Why native plants? Most caterpillars can only eat the plants they evolved with,"
+    },
+    "jsErrors": 0,
+    "shot": "indigene-app.webp",
+    "shotBytes": 28000,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "blumify-io-people": {
+    "id": "blumify-io-people",
+    "url": "https://blumify.io/people",
+    "checkedAt": "2026-11-14T13:18:55.662Z",
+    "ok": true,
+    "loadMs": 12542,
+    "httpStatus": 200,
+    "finalUrl": "https://blumify.io/people",
+    "meta": {
+      "title": "What they said, every day: AI leaders' interviews and podcasts · Blumify",
+      "description": "Interviews, podcasts and talks from Sam Altman, Dario Amodei, Jensen Huang and other AI leaders, found every day: what they said, checked quotes, and who changed a view lately.",
+      "siteName": "Blumify",
+      "author": null,
+      "lang": "en-AU",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Blumify People Markets Following Pricing Sign in People Who we follow, how often they speak, and who changed a view lately. Follow up to 3 people free. Search people AI · 29 Finance · 67 Most active Changed a view A–Z EM Elon Musk CEO of Tesla and SpaceX 14 this week · 782 in all “I've said many times I think work is going to be optional.” 10 Nov 2026 Follow Elon Musk AW Alexandr Wang Chief AI officer at Meta 12 this week · 193 in all “I think we're just so early in the realm of what AI products will look like that I think a lot of the interesting differentiation about the products kind of get"
+    },
+    "jsErrors": 0,
+    "shot": "blumify-io-people.webp",
+    "shotBytes": 24792,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "someonewashere-app": {
+    "id": "someonewashere-app",
+    "url": "https://someonewashere.app/",
+    "checkedAt": "2026-11-14T13:18:55.944Z",
+    "ok": true,
+    "loadMs": 17410,
+    "httpStatus": 200,
+    "finalUrl": "https://someonewashere.app/zh-hans/",
+    "meta": {
+      "title": "Someone Was Here：知道谁用过您的 Mac",
+      "description": "一款 Mac App：您不在时，任何人使用您的 Mac 都会被拍下照片，并告诉您是谁。它认得您的面孔，所以是您时它会保持安静。",
+      "siteName": "Someone Was Here",
+      "author": null,
+      "lang": "zh-Hans",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "SOMEONE WAS HERE 适用于 Mac，另有 iPhone App 有（别）人 来过。 您不在时，任何人使用您的 Mac，Mac 都会拍下对方的照片，并告诉您是谁。 HELLO 免费获取，就在 Mac App Store 下载 适用于 macOS 14 Sonoma 或更高版本。 在 Mac App Store 免费获取，另有免费的 iPhone App。 有人坐下来，它就拍下对方的照片。 有人在您的 Mac 闲置后使用它、在锁定屏幕上操作，或解锁它。一秒钟后，您就有了对方的照片，还有时间、对方是怎么进来的，以及停留了多久。 是您时，它会保持安静。 只需两分钟的设置，转几次头，它就能学会您的面孔，并直接在您的 Mac 上检查每张照片。您不会收到关于自己的提醒。 然后告诉您。 对方在您 Mac 前时，屏幕上什么都不会变。等它再次看到您，您的 Mac 会告诉您谁来过。添加手机提醒后，无论您在哪里，照片都会在几秒内送达您的 iPhone。 它什么都不隐藏。 它就在您的菜单栏里，您随时看得到。它是为保护您自己的 Mac 而设计的。如果您和别人共用空间，请告诉大家它在运行。 HELLO 每次拍照都会亮起 摄像头指示灯 HELLO 您的照片保留在 您的 Mac 上 HELLO 需要的账户 无 HELLO 广告和跟踪 零 回来时告诉您谁来过，这是免费的。手机提醒是一次性购买 4.99 "
+    },
+    "jsErrors": 0,
+    "shot": "someonewashere-app.webp",
+    "shotBytes": 19266,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "clova-email": {
+    "id": "clova-email",
+    "url": "https://clova.email/",
+    "checkedAt": "2026-11-14T13:19:24.523Z",
+    "ok": true,
+    "loadMs": 4909,
+    "httpStatus": 200,
+    "finalUrl": "https://clova.email/",
+    "meta": {
+      "title": "Clova.Email — a new email address for every company",
+      "description": "Give every company you deal with its own email address, all in one account. When one leaks or starts sending spam, delete it, not your life.",
+      "siteName": "Clova.Email",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "C lova.Email Inbox types Pricing MCP Data Explainer EN BR Log in / Sign up C lova.Email Zero Spam. Quiet by Design. Infinite inboxes, so nobody ever gets your real address. Give every company its own — when one leaks, you delete it, not your life. Start free No card required Permanent addresses, like any email Every account comes with permanent addresses that anyone can write to and that never expire. If one starts getting spam, delete it and make a new one. That works, but it's manual work. The solution? Three specialty inboxes, each for a different kind of sender: 01 · ONE-SENDER One sender,"
+    },
+    "jsErrors": 0,
+    "shot": "clova-email.webp",
+    "shotBytes": 13440,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "deathplanswitch-com": {
+    "id": "deathplanswitch-com",
+    "url": "https://deathplanswitch.com/",
+    "checkedAt": "2026-11-14T13:19:28.106Z",
+    "ok": true,
+    "loadMs": 5851,
+    "httpStatus": 200,
+    "finalUrl": "https://deathplanswitch.com/",
+    "meta": {
+      "title": "Death Plan Switch: if you disappear, the right people are told",
+      "description": "A free, self-hosted dead man's switch for independent web developers. It emails you once a week. If you stop answering, it asks your next of kin, then tells the people who need to act.",
+      "siteName": "Death Plan Switch",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "If you disappear, the right people are told. A small, self-hosted dead man's switch for independent web developers. It emails you once a week. If you stop answering, it asks your next of kin, then tells the people who need to act. Download from GitHub Free. MIT licence. PHP 8.1 or newer, no database. How it works Every step is counted from the weekly check-in email. The spacing below is to scale. Check-in Hour 0. You press a button. Reminder Hour 24, to both your addresses. Last reminder Hour 48. Next of kin asked Hour 72. \"Is everything all right?\" Reminded Hour 120. Contacts told Hour 144. E"
+    },
+    "jsErrors": 0,
+    "shot": "deathplanswitch-com.webp",
+    "shotBytes": 17084,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "proa-so": {
+    "id": "proa-so",
+    "url": "https://proa.so/",
+    "checkedAt": "2026-11-14T13:19:30.515Z",
+    "ok": true,
+    "loadMs": 3064,
+    "httpStatus": 200,
+    "finalUrl": "https://proa.so/",
+    "meta": {
+      "title": "Proa — The next era of web interfaces. Built in Rust.",
+      "description": "A batteries-included Rust web framework built around a new programming model for composable, multi-target rendering.",
+      "siteName": "Proa",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Proa Docs Ecosystem Proa UI Search ⌘ K The next era of web interfaces. Built in Rust. An extremely performant, batteries-included Rust web framework built around a new programming model for composable, multi-target rendering. Get started Watch intro One object. Every render target. HTML, Markdown, and other render targets, from one typed component. Watch multi-target rendering ProductCard::new(product) impl<L: DataLoader> MdRenderSync<L> for ProductCard { fn render_md(self, cx: &mut WebContext<L>) -> Result<(), WriteError> { md_sync! { r###\" # {self.product.name} {Link::new(\"Buy now\", self.pro"
+    },
+    "jsErrors": 0,
+    "shot": "proa-so.webp",
+    "shotBytes": 21028,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "ghanastreetgames-com": {
+    "id": "ghanastreetgames-com",
+    "url": "https://www.ghanastreetgames.com/",
+    "checkedAt": "2026-11-14T14:29:17.201Z",
+    "ok": true,
+    "loadMs": 11814,
+    "httpStatus": 200,
+    "finalUrl": "https://www.ghanastreetgames.com/",
+    "meta": {
+      "title": "Ghana Street Games — 3D Arcade",
+      "description": "35 playable Ghanaian street games: Four Corners, Laski, One Pole, penalties, neighbourhood Pilolo and Pampanaa, and more.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 2,
+      "text": "Made for the Ghanaian street ♫ ★ GHANA STREET GAMES Same street. A whole childhood. ENTER THE STREET ↓ Install game Play from your home screen 35 Ghanaian games"
+    },
+    "jsErrors": 0,
+    "shot": "ghanastreetgames-com.webp",
+    "shotBytes": 14762,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "kevs3d-co-uk-phoria2": {
+    "id": "kevs3d-co-uk-phoria2",
+    "url": "https://kevs3d.co.uk/phoria2/",
+    "checkedAt": "2026-11-14T13:19:38.022Z",
+    "ok": true,
+    "loadMs": 4029,
+    "httpStatus": 200,
+    "finalUrl": "https://kevs3d.co.uk/phoria2/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "phoria2",
+      "description": null,
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 2,
+      "text": "PHORIA PHO·RI·A (FÔR-) N. THE RELATIVE DIRECTIONS OF THE EYES DURING BINOCULAR FIXATION ON A GIVEN OBJECT npm install phoria2 copy GitHub Getting started - tutorials npm v1.7.0 kevs3d.co.uk North South East West Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec North South East West 0 10 20 30 40 50 60 chart({ mark: 'bar', data, x: 'month', y: 'sales', z: 'region' }) phoria2 is a small, fast JavaScript library for 3D on the web - charts, labelled scenes, dashboards and product viewers, on a WebGL 2 renderer with an API you can learn in an afternoon. Designed for ease-of-use by agents and humans "
+    },
+    "jsErrors": 0,
+    "shot": "kevs3d-co-uk-phoria2.webp",
+    "shotBytes": 22390,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "astrohelm-app": {
+    "id": "astrohelm-app",
+    "url": "https://astrohelm.app/",
+    "checkedAt": "2026-11-14T13:19:43.411Z",
+    "ok": true,
+    "loadMs": 2652,
+    "httpStatus": 200,
+    "finalUrl": "https://astrohelm.app/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "AstroHelm – Plate Solving & Push-To Telescope App for iOS and Android",
+      "description": "Find galaxies, nebulae and stars with your existing telescope. AstroHelm uses fast on-device plate solving to turn smartphones into precision push-to telescope finders.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Know exactly where you’re pointing Mount your smartphone on a telescope or camera. AstroHelm continuously plate-solves the sky to guide you directly to galaxies, nebulae, planets, and stars—or precisely frame them for photography. No GoTo mount or proprietary hardware required. Free to use. No subscription. See mounting options → NEW TO ASTRONOMY? See something incredible tonight A telescope opens up the wonders of the night sky — but getting started can be surprisingly difficult. What should you look at? How do you find it? What if you don't know the constellations? Personalized guide to the "
+    },
+    "jsErrors": 0,
+    "shot": "astrohelm-app.webp",
+    "shotBytes": 13418,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "thoreaubasic-com": {
+    "id": "thoreaubasic-com",
+    "url": "https://thoreaubasic.com/",
+    "checkedAt": "2026-11-14T13:19:44.636Z",
+    "ok": true,
+    "loadMs": 1516,
+    "httpStatus": 200,
+    "finalUrl": "https://thoreaubasic.com/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "Thoreau BASIC 3.6",
+      "description": "Thoreau BASIC 3.6: free 64-bit\n      BASIC for Windows x64 and bootable x64 UEFI. Text for 4K screens,\n      FN without parentheses, sprite visibility and pause, safe program\n      loading with exact error lines, native JIT and multicore PARFOR.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Thoreau BASIC What if BASIC never went out of fashion? What if it kept evolving? Booting straight into a BASIC prompt on your x64 PC. Or running as a Windows application. Playing 32-channel wavetable sound. Running with JIT compilation and multithreading. Drawing in 24-bit color, with no fixed resolution limit. And what if it kept the familiar GW-BASIC language, with explicit palette conversion for modern RGB graphics? Meet Thoreau BASIC. BASIC as if it never stopped growing. Version 3.6 · 28 October 2026 · Free Download 3.6 What it is Example Documentation itch.io Contact Download Windows x64"
+    },
+    "jsErrors": 0,
+    "shot": "thoreaubasic-com.webp",
+    "shotBytes": 17686,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "museumofages-org-w-vinci": {
+    "id": "museumofages-org-w-vinci",
+    "url": "https://museumofages.org/w/vinci",
+    "checkedAt": "2026-11-14T13:29:45.213Z",
+    "ok": true,
+    "loadMs": 7707,
+    "httpStatus": 200,
+    "finalUrl": "https://museumofages.org/w/vinci",
+    "meta": {
+      "title": "Leonardo da Vinci | Museum of Ages, a digital museum",
+      "description": "Museum of Ages, a digital museum. The past rebuilt in 3D. We mark what is known and what is guessed. Each wing tells one story from one age, in its setting, built in 3D from sources.",
+      "siteName": "Museum of Ages",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 2,
+      "text": "The past rebuilt in 3D We mark what is known and what is guessed. 0 WINGS OPEN · 1 IN PREPARATION Walking through every room once, so your walk runs smoothly IIIIIIIVVVI THE FIRE · RETURN The pupil’s angel Leonardo, early 20s 1 / 17 They say Leonardo’s angel outdid his master. The master, they say, never painted again. Read more ↓ 25 things to see EXIT Plan NEXT A woman called Lisa Menu The past rebuilt in 3D. We mark what is known and what is guessed. Vergangene Zeiten in 3D nachgebaut. Wir kennzeichnen, was belegt ist und was wir vermuten. Leonardo da Vinci Leonardo da Vinci | Museum of Ages"
+    },
+    "jsErrors": 0,
+    "shot": "museumofages-org-w-vinci.webp",
+    "shotBytes": 20330,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "peterszentkiralyi-eu-darkplug": {
+    "id": "peterszentkiralyi-eu-darkplug",
+    "url": "https://peterszentkiralyi.eu/darkplug/",
+    "checkedAt": "2026-11-14T13:20:43.488Z",
+    "ok": false,
+    "loadMs": 1959,
+    "httpStatus": 404,
+    "finalUrl": "https://peterszentkiralyi.eu/darkplug/",
+    "error": "HTTP 404"
+  },
+  "epoyraz-github-io-nes-contra-us": {
+    "id": "epoyraz-github-io-nes-contra-us",
+    "url": "https://epoyraz.github.io/nes-contra-us/",
+    "checkedAt": "2026-11-14T13:20:14.407Z",
+    "ok": true,
+    "loadMs": 5434,
+    "httpStatus": 200,
+    "finalUrl": "https://epoyraz.github.io/nes-contra-us/",
+    "meta": {
+      "title": "Contra — NES Native Port (WebAssembly)",
+      "description": null,
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "CONTRA NES native port — running in your browser via WebAssembly This port needs your own copy of the Contra (USA) NES ROM. It stays in your browser and is never uploaded. Choose Contra (USA) .nes file Press Enter (or tap START) to begin. ←↑→↓ move · A fire · S/Space jump · Enter Start · Shift Select On-screen: A = jump · B = fire Online: both players use these same keys on their own computer. Player 1 picks 2 PLAYERS with Shift on the title screen. Nintendo ⇓ ⇓ ⇓ ⇓"
+    },
+    "jsErrors": 0,
+    "shot": "epoyraz-github-io-nes-contra-us.webp",
+    "shotBytes": 10994,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "music-xy-dev": {
+    "id": "music-xy-dev",
+    "url": "https://music.xy.dev/",
+    "checkedAt": "2026-11-14T14:05:52.548Z",
+    "ok": true,
+    "loadMs": 3790,
+    "httpStatus": 200,
+    "finalUrl": "https://music.xy.dev/",
+    "shotNote": "screenshot timed out after 12s",
+    "meta": {
+      "title": "XY Music",
+      "description": null,
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "XY MUSIC Scores Gymnopedie 1 Erik Satie(1866 – 1925) Clair de Lune (C.Debussy) Craude.A.Debussy Coldplay - Amsterdam Composer not listed Prelude I in C major, BWV 846 - Well Tempered Clavier [First Book] Johann Sebastian Bach (1685 - 1750) Fur Elise Ludwig Van Beethoven Sonata in C - Full First Movement W.A Mozart Moonlight Sonata 1st movement Ludwig van Beethoven Nocturne (F.Chopin Op.9. No.1) F.Chopin,Op.9 No.1 Chopin - Nocturne Op 9 No 2 E Flat Major Chopin River Flows In You Yiruma Arr. Just Piano God Rest Ye Merry, Gentlemen (SATB) Sir John Stainer Gymnopedie 1 Erik Satie(1866 – 1925) Dow"
+    },
+    "jsErrors": 0,
+    "shot": "music-xy-dev.webp",
+    "shotBytes": 25844,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "slidebyside-com": {
+    "id": "slidebyside-com",
+    "url": "https://slidebyside.com/",
+    "checkedAt": "2026-11-14T13:20:45.590Z",
+    "ok": true,
+    "loadMs": 4627,
+    "httpStatus": 200,
+    "finalUrl": "https://slidebyside.com/",
+    "meta": {
+      "title": "SlideBySide: present together, live",
+      "description": "Upload a PDF or PowerPoint, share a link, and present together: shared slide control, live cursors and drawing. No account needed.",
+      "siteName": "SlideBySide",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "SlideBySide Guides Sign in Present together, side by side . Don't share your screen, share your slides. Upload a PDF or PowerPoint and share the link. Everyone follows the same slide, with live cursors, shared control and drawing. Drop your slides here or click to browse · PDF, PPT, PPTX · up to 40 MB From Google Drive From OneDrive No sign-up needed Works in any browser Free to start Q3 Review.pdf · Slide 4 / 12 LIVE · 3 Revenue grew 38% 🚀 BraveOtter LunarPanda SwiftHeron B L S 3 people following along Live in three steps No installs, no meeting software, no accounts for your audience. Uploa"
+    },
+    "jsErrors": 0,
+    "shot": "slidebyside-com.webp",
+    "shotBytes": 22390,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "catcopter-com": {
+    "id": "catcopter-com",
+    "url": "https://catcopter.com/",
+    "checkedAt": "2026-11-14T14:06:20.720Z",
+    "ok": true,
+    "loadMs": 10995,
+    "httpStatus": 200,
+    "finalUrl": "https://catcopter.com/",
+    "meta": {
+      "title": "Catcopter: flying cat battles in your browser",
+      "description": "A free multiplayer browser game: cute cats with propellers on their paws fly, shoot and brawl for catnip over tropical islands. Five classes, team modes, no download.",
+      "siteName": "Catcopter",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Catcopter Catcopter Flying cats · paw rotors · catnip YOUR CAT'S NAME SERVER Auto · lowest ping Europe Frankfurt · 43 cats flying 365 ms North America Atlanta · 38 cats flying 248 ms Play Catnip Brawl · as a Gunship How to play Settings Join our Discord Find players · share clips · shape the game Game mode Catnip Brawl 17 cats flying Team Battle 9 cats flying Steal the Chicken 7 cats flying Tube Race 5 cats flying Catnip Brawl · Everyone for themselves. Grab catnip, knock it out of the others. Pick your cat Striker Gunship Flak Bomber Mechanic Gunship Paw rotors · hovers Four paw rotors and a "
+    },
+    "jsErrors": 0,
+    "shot": "catcopter-com.webp",
+    "shotBytes": 24864,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "brickbrag-com": {
+    "id": "brickbrag-com",
+    "url": "https://brickbrag.com/",
+    "checkedAt": "2026-11-14T13:20:53.793Z",
+    "ok": true,
+    "loadMs": 18042,
+    "httpStatus": 200,
+    "finalUrl": "https://brickbrag.com/",
+    "meta": {
+      "title": "Brickbrag – build it brick by brick, then go and explore",
+      "description": "Brickbrag is a free browser game: one shared world of bricks. Build with bricks that snap, turn and carry weight – or race, fly and ride the bus through what everyone else built.",
+      "siteName": "Brickbrag",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to the game Brickbrag Build Made by players Explore Sponsors What’s new Play free in your browser Build it brick by brick. Then go and explore. One shared world of bricks, right in your browser. Build something that stays – or go and see what everyone else built. Play now – free In your browser · nothing to install 58 players in the last 24 hours Phone or computer · no sign-up I like to build Houses, castles, whole streets – one brick at a time. I like to explore Race, fly, take the bus to the volcano. Build like with real bricks No mock-ups – all straight from the game. Put a brick where"
+    },
+    "jsErrors": 0,
+    "shot": "brickbrag-com.webp",
+    "shotBytes": 26466,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "offrun-dev": {
+    "id": "offrun-dev",
+    "url": "https://offrun.dev/",
+    "checkedAt": "2026-11-14T13:21:24.275Z",
+    "ok": true,
+    "loadMs": 4283,
+    "httpStatus": 200,
+    "finalUrl": "https://offrun.dev/",
+    "meta": {
+      "title": "Offrun | Claude Code and Codex in parallel on Mac, Windows, Linux",
+      "description": "Run Claude Code, Codex, Antigravity, Grok Build and Muse Code in parallel on Mac, Windows or Linux, with git worktrees to keep them apart and a second agent to review the diff.",
+      "siteName": null,
+      "author": "Founderly, Inc.",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content offrun.dev Docs Pricing Privacy FAQ Download for Windows Free , for Mac , Windows and Linux in beta Run every coding agent side by side Hit a limit, switch accounts, stay in flow. Download for Windows No card Signed by Founderly, Inc. Claude Code Codex AGY Grok Build Muse Code Offrun, live. As you scroll, Home changes: Agy stops to ask you something and the counts move. Then the agents view plays: Claude checks a product analytics dashboard on a pull request preview in the preview panel. On Overview the numbers count up and the charts morph from 7 to 30 days while live events a"
+    },
+    "jsErrors": 0,
+    "shot": "offrun-dev.webp",
+    "shotBytes": 17974,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "typeui-sh-micro-interactions": {
+    "id": "typeui-sh-micro-interactions",
+    "url": "https://www.typeui.sh/micro-interactions",
+    "checkedAt": "2026-11-14T14:06:36.033Z",
+    "ok": true,
+    "loadMs": 5851,
+    "httpStatus": 200,
+    "finalUrl": "https://www.typeui.sh/micro-interactions",
+    "meta": {
+      "title": "UI Micro Interactions and AI Prompts | TypeUI",
+      "description": "Explore 113 interactive UI micro interactions for buttons, forms, selection controls, modals, navigation, and more. Preview each behavior and copy its implementation prompt with TypeUI Creative.",
+      "siteName": null,
+      "author": "Bergside LLC",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Check out all the best Black Friday deals for developers in 2026!Explore deals TypeUI Ctrl K Creative Insights Docs Changelog Roadmap Pricing 2.2k Get TypeUI Sign in Micro Interactions Explore 113 interactive UI micro interactions for buttons, forms, selection controls, modals, navigation, and more. Preview each behavior and copy its implementation prompt with TypeUI Creative. Search micro interactions Buttons Explore button micro interactions for confirmations, undo actions, copy feedback, loading states, and upload progress. Try each example and copy its implementation prompt. Explore all Pr"
+    },
+    "jsErrors": 0,
+    "shot": "typeui-sh-micro-interactions.webp",
+    "shotBytes": 16974,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "opper-ai-jevman-benchmark": {
+    "id": "opper-ai-jevman-benchmark",
+    "url": "https://opper.ai/jevman-benchmark/",
+    "checkedAt": "2026-11-14T13:21:03.512Z",
+    "ok": true,
+    "loadMs": 14462,
+    "httpStatus": 200,
+    "finalUrl": "https://opper.ai/jevman-benchmark/",
+    "meta": {
+      "title": "JevMan: a Pac-Man benchmark for decision models | Opper AI",
+      "description": "The JevMan benchmark ranks AI decision models on 100 real-time games of Pac-Man against the classic arcade ghosts. See who leads, watch them play or play against them.",
+      "siteName": "Opper AI",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "Models Rankings Apps JevMan Features Enterprise Pricing Docs $46.26 Login Sign up Decision benchmarks / JevMan JevMan: the Pac-Man benchmark for AI decision models Every model plays 100 real-time games against the classic arcade ghosts, and you can play against them. JEV 1.14 0 HIGH SCORE 30,480 HELD BY FAR, VS MIXED GHOSTS CLASSIC SAVE HIGHLIGHT ▶ PLAY VS AI 🍒 ACTIVITY Watch jev 1.14 Eevo-1.1 reflex SemIf d1-ultra Nimble v4 Max Perplexity Decider 1.2 d1.1 Eevo-1 Gemini Decision 1 jev 1.13 Qwen 3.8 Flash Next NVFP4 RizzoFlow GPT-6 Luna Clef Flash Clef Microsoft Decision 1 Winnow-12B NVFP4 Per"
+    },
+    "jsErrors": 0,
+    "shot": "opper-ai-jevman-benchmark.webp",
+    "shotBytes": 18734,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "impossiblemachines-xyz": {
+    "id": "impossiblemachines-xyz",
+    "url": "https://www.impossiblemachines.xyz/",
+    "checkedAt": "2026-11-14T14:06:30.912Z",
+    "ok": true,
+    "loadMs": 3139,
+    "httpStatus": 200,
+    "finalUrl": "https://www.impossiblemachines.xyz/",
+    "meta": {
+      "title": "Impossible Machines",
+      "description": "An interactive world where missing mechanisms appear between cause and effect.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "IMPOSSIBLE MACHINES Challenges Sources Obstacles Sinks Tap the bell to show what you want it to do. Ring bell × What is this?"
+    },
+    "jsErrors": 0,
+    "shot": "impossiblemachines-xyz.webp",
+    "shotBytes": 6344,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "parsimony-lasu-dev": {
+    "id": "parsimony-lasu-dev",
+    "url": "https://parsimony.lasu.dev/",
+    "checkedAt": "2026-11-14T13:21:37.819Z",
+    "ok": true,
+    "loadMs": 4358,
+    "httpStatus": 200,
+    "finalUrl": "https://parsimony.lasu.dev/",
+    "meta": {
+      "title": "Parsimony: which AI coding agent changes the least code?",
+      "description": "An open-source benchmark of how much code AI models add.",
+      "siteName": "Parsimony",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Parsimony Existing benchmarks measure solve rate and cost, but don't punish excess code, which makes a codebase harder to work with in the long term. Parsimony measures how much code AI models add. It takes the patches that benchmarks already publish and counts syntax units (calls, names, literals and so on) rather than lines: net syntax units = added − removed (method). Model leaderboards DeepSWE, all languages DeepSWE Python DeepSWE JavaScript DeepSWE TypeScript DeepSWE Go SWE-bench Verified Live Python Live JavaScript Live TypeScript Live Go SWEeper PHP SWE-Milestone, features PolyBench Pyt"
+    },
+    "jsErrors": 0,
+    "shot": "parsimony-lasu-dev.webp",
+    "shotBytes": 22478,
+    "embed": {
+      "ok": false,
+      "reason": "csp-frame-ancestors"
+    }
+  },
+  "uji-sh-ito": {
+    "id": "uji-sh-ito",
+    "url": "https://uji.sh/ito/",
+    "checkedAt": "2026-11-14T13:21:42.168Z",
+    "ok": true,
+    "loadMs": 3787,
+    "httpStatus": 200,
+    "finalUrl": "https://uji.sh/ito/",
+    "meta": {
+      "title": "ito playground · uji",
+      "description": "Create and try terminal interfaces with Lua.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content uji / ito playground Source ↗ ITO / AN INTERACTIVE WORKSHOP Make something with Lua. Build your own terminal UI. Start here 01 Input flow 02 Counter 03 Daily list 04 Preferences 05 Little shop main.lua ito.md 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 local ito = require(\"ito\") local phase = ito.state(\"choose\") local selected = ito.state(1) local draft = ito.state(\"\") local saved = ito.state(\"\") local items = { \"Morning walk\", \"Read a chapter\", \"Make something\" } local function edit() draft.value = items[selected.value] ph"
+    },
+    "jsErrors": 0,
+    "shot": "uji-sh-ito.webp",
+    "shotBytes": 14194,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "swurf-org": {
+    "id": "swurf-org",
+    "url": "https://swurf.org/",
+    "checkedAt": "2026-11-14T13:21:37.334Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://swurf.org/",
+    "meta": {
+      "title": "Swurf — swipe through the real web",
+      "description": "Swurf shows you one real website at a time. Swipe to the next. It learns what you like, never repeats a page, and needs no account.",
+      "siteName": "Swurf",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "› ‹ swurf · Welcome to Swurf ··· swipe ← → between pages · scroll ↑ ↓ to read the page you're on"
+    },
+    "jsErrors": 0,
+    "shot": "swurf-org.webp",
+    "shotBytes": 15750,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "fable52-games": {
+    "id": "fable52-games",
+    "url": "https://fable52.games/",
+    "checkedAt": "2026-11-14T14:07:21.031Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://fable52.games/",
+    "meta": {
+      "title": "Fable 5.2 Games — Play One-Prompt Single-File HTML Games Online",
+      "description": "Play 30+ browser games built autonomously by Claude Fable 5.2, many shipped as one self-contained HTML file. Read the exact prompts, inspect the source, download and remix.",
+      "siteName": "Fable52.games",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "fable52.games Arcade FAQ Submit One prompt → one HTML file → one game Fable 5.2 Games Arcade — Play One-Prompt Single-File HTML Games 3D and 2D games built autonomously by Claude Fable 5.2, most from a single prompt and many as one self-contained .html file. Play instantly, read the prompt next to the game, and inspect every line of source. Browse the arcade Submit a game FEATURED Saltline The original one-prompt FPS: cut three uplink relays in a rainy container port while drones and robot dogs hunt you. 8h Autonomous Build 1.4MB Pure HTML Zero External Assets Play Saltline now All games 34 br"
+    },
+    "jsErrors": 0,
+    "shot": "fable52-games.webp",
+    "shotBytes": 22416,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "agent-reviews": {
+    "id": "agent-reviews",
+    "url": "https://agent.reviews/",
+    "checkedAt": "2026-11-14T13:21:51.447Z",
+    "ok": true,
+    "loadMs": 16665,
+    "httpStatus": 200,
+    "finalUrl": "https://agent.reviews/",
+    "meta": {
+      "title": "agent.reviews · Where agents choose and review software",
+      "description": "Where agents choose and review software. After real tasks, coding agents like Claude Code, Codex, Cursor and Antigravity review the tools they used: a rating out of 5, what worked and what got in the way.",
+      "siteName": "agent.reviews",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content / agent . reviews Sign in By Armature Add to your agent Where agents choose and review software Discover, read and let your agent write reviews Search a tool or a category Search Source control Deploy & hosting Databases Coding agents AI APIs All tools Free to read and to review Never your code, prompts or secrets Your name is never shown npm 4.5 (11,703 reviews ) New since last review: used --package-lock-only uninstall/install to swap a devDependency without node_modules, then npm ci. Both worked cleanly and fast. Claude Code Nov 13 Metronome 4.0 (650 reviews ) Evaluated as t"
+    },
+    "jsErrors": 0,
+    "shot": "agent-reviews.webp",
+    "shotBytes": 20040,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "hjkl-duy-run": {
+    "id": "hjkl-duy-run",
+    "url": "https://hjkl.duy.run/",
+    "checkedAt": "2026-11-14T14:07:30.768Z",
+    "ok": true,
+    "loadMs": 5091,
+    "httpStatus": 200,
+    "finalUrl": "https://hjkl.duy.run/",
+    "meta": {
+      "title": "hjkl — learn Vim by doing",
+      "description": "Learn Vim in your browser with short, hands-on editing challenges. Practice motions, text objects, search, marks, counts, and repeats in a real Vim editor — free, no sign-up.",
+      "siteName": "hjkl",
+      "author": "Duy Hua",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Practice skills hjkl Worm Fix a typo x h l ×6 Change a word w b ciw ×6 Remove a line j k dd ×6 Trim a phrase v h l d ×6 Move a sentence dd j k p ×6 Insert text i a I A o O ×6 Replace a character r ×6 Copy text yy yw p P ×6 Use counts 3w 2dd 3x 3p ×6 Find within a line f F t T ; , ×6 Search documents / ? n N ×6 Edit text objects ci\" ci' ci( diw daw ×6 Repeat edits . ×6 Match delimiters % ×6 Jump through files 12G gg G ctrl-o ctrl-i ×6 Set and return to marks ma 'a `a ×6 h j k l move · space select · a all · n none · s shuffle · ctrl enter start GitHub duy.run No skills selected Start"
+    },
+    "jsErrors": 0,
+    "shot": "hjkl-duy-run.webp",
+    "shotBytes": 16968,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "tkgally-github-io-500-clocks": {
+    "id": "tkgally-github-io-500-clocks",
+    "url": "https://tkgally.github.io/500-clocks/",
+    "checkedAt": "2026-11-14T13:21:40.753Z",
+    "ok": true,
+    "loadMs": 8757,
+    "httpStatus": 200,
+    "finalUrl": "https://tkgally.github.io/500-clocks/",
+    "meta": {
+      "title": "Five Hundred Clocks",
+      "description": "A living gallery of unusual, creative, and beautiful ways to display the current time.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 501,
+      "text": "Five Hundred Clocks All 500 clocks Cellular Automata & Algorithms · 53 Historical & Cultural Horology · 57 Word & Typographic · 62 Physical & Mechanical · 58 Cosmic & Biological · 54 Generative & Mathematical · 48 Games, Toys & Puzzles · 55 Everyday Objects & Signals · 56 Art & Craft · 57 1× 10× 60× 600× 3600× now 21:22:14 Now"
+    },
+    "jsErrors": 0,
+    "shot": "tkgally-github-io-500-clocks.webp",
+    "shotBytes": 35400,
+    "embed": {
+      "ok": false,
+      "reason": "timeout"
+    }
+  },
+  "hissingkitty-com-hacker-churn": {
+    "id": "hissingkitty-com-hacker-churn",
+    "url": "https://hissingkitty.com/hacker-churn",
+    "checkedAt": "2026-11-14T13:22:29.031Z",
+    "ok": false,
+    "loadMs": 2607,
+    "httpStatus": 403,
+    "finalUrl": "https://hissingkitty.com/hacker-churn",
+    "error": "HTTP 403"
+  },
+  "jevcards-com": {
+    "id": "jevcards-com",
+    "url": "https://jevcards.com/",
+    "checkedAt": "2026-11-14T14:07:31.629Z",
+    "ok": true,
+    "loadMs": 6922,
+    "httpStatus": 200,
+    "finalUrl": "https://opper.ai/decision-benchmarks/jevcards/",
+    "meta": {
+      "title": "Jev Cards",
+      "description": "A visual quiz for people and models: race Jev, TypeSafe's decision model, on the same picture cards.",
+      "siteName": "Jev Cards",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Models Rankings Apps Jev Cards Features Enterprise Pricing Docs MUSIC LIVE TONIGHT: PEOPLE AGAINST A MODEL Jev Cards 790 picture cards: fruit, flags, maps, chess, illusions. Jev sees the same picture you do and answers in about a quarter of a second. Can you keep up? How does Jev see the cards? YOU vs JEV 1.14 JEV HAS WON 6,953 OF 9,058 GAMES SO FAR Sprint 10 cards against the clock, with Jev's ghost racing the same cards. Lowest total wins: your time plus 15 s for every miss. NO TIME YET Versus 10 rounds at the buzzer, live. 10 seconds a card. Most points wins: 1,000 a right answer, up to 50 "
+    },
+    "jsErrors": 0,
+    "shot": "jevcards-com.webp",
+    "shotBytes": 18260,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "thisandthat-chat-enron": {
+    "id": "thisandthat-chat-enron",
+    "url": "https://www.thisandthat.chat/enron/",
+    "checkedAt": "2026-11-14T13:22:22.102Z",
+    "ok": true,
+    "loadMs": 5061,
+    "httpStatus": 200,
+    "finalUrl": "https://www.thisandthat.chat/enron/",
+    "meta": {
+      "title": "What did Enron know? The Enron Brain",
+      "description": null,
+      "siteName": null,
+      "author": null,
+      "lang": null,
+      "hasViewportMeta": false,
+      "canvasCount": 0,
+      "text": "this+that Product Solutions Resources Customers Pricing Log in Get started ENRON The Enron Brain · 1999–2002 Overview Methodology Organizations Inside Enron WE BUILT ENRON A COMPANY BRAIN What did Enron know, and when did it know it? We gave an AI 45,047 of Enron's emails, and it wrote 214 pages about the companies, regulators and banks Enron dealt with. Every fact cites the email it came from. When the mail shows a fact stopped being true, the page expires it on that date. No one edited a page or a fact. Explore Dynegy → How we did it AN EMAIL IN THE CORPUS tana.jones@enron.com · March 2, 200"
+    },
+    "jsErrors": 0,
+    "shot": "thisandthat-chat-enron.webp",
+    "shotBytes": 18194,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "adrs-systems": {
+    "id": "adrs-systems",
+    "url": "https://adrs.systems/",
+    "checkedAt": "2026-11-14T13:22:31.119Z",
+    "ok": true,
+    "loadMs": 2062,
+    "httpStatus": 200,
+    "finalUrl": "https://adrs.systems/",
+    "meta": {
+      "title": "ADRs4AI — Your thinking stops disappearing. Your decisions start compounding.",
+      "description": "Your thinking stops disappearing. Your decisions start compounding. ADRs4AI is the toolkit for deliberative programming.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "ADRs4AI get started the idea blog github ADRs4AI Your thinking stops disappearing. Your decisions start compounding. The template A repository starter: ADR & seed templates, the directives, the inbox protocol, task-runner recipes. Adopt whole or by feature — it works from your first seed. The VS Code extension Tree views of your open questions, diagnostics that catch malformed records as you type, deep links, and an MCP server so your agents can query the record. Also on Open VSX. The iOS client Your project's open questions, in your pocket: sign in, import a repo, review, and one-tap Accept t"
+    },
+    "jsErrors": 0,
+    "shot": "adrs-systems.webp",
+    "shotBytes": 22864,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "3anddoneapp-com-try": {
+    "id": "3anddoneapp-com-try",
+    "url": "https://3anddoneapp.com/try",
+    "checkedAt": "2026-11-14T13:22:33.085Z",
+    "ok": true,
+    "loadMs": 4566,
+    "httpStatus": 200,
+    "finalUrl": "https://3anddoneapp.com/try",
+    "meta": {
+      "title": "try 3 & Done — see your three things",
+      "description": "A real list is on the table. Pick the three you'd do today, then see the three the brain picked that morning — and why. No signup.",
+      "siteName": "3 & Done",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "3 & done. sign in a real list. you choose three. one tuesday in october, thirty-one things on it. pick the three you'd do today — i'm choosing too, and then i'll show you mine. i'll start choosing in 1 choosing mine… mine are chosen. read the book club book · pay the water bill before the 15th · book the review room these are my three set up autopay for the electricity bill cancel the streaming subscription pay the water bill before the 15th thu · oct 15 try that bakery across town put winter tires on the car finish the compliance training oct 31 go through the box of cables send the signed le"
+    },
+    "jsErrors": 0,
+    "shot": "3anddoneapp-com-try.webp",
+    "shotBytes": 11702,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "rhun-app": {
+    "id": "rhun-app",
+    "url": "https://rhun.app/",
+    "checkedAt": "2026-11-14T13:22:31.677Z",
+    "ok": true,
+    "loadMs": 3905,
+    "httpStatus": 200,
+    "finalUrl": "https://rhun.app/",
+    "meta": {
+      "title": "rhun: a small, fast code editor written in assembly",
+      "description": "A small, fast code editor for Windows, Linux and macOS. Written in assembly.",
+      "siteName": "rhun",
+      "author": "Vladyslav Shvedov",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "Skip to content rhun . Docs GitHub Discord Get rhun Auto Light Dark Agents do the heavy lifting. Keep your code editor light. Less weight. More flow. A small, fast code editor. Written in assembly. Get rhun Explore rhun Editor Terminal Git Agents Themes Tabs, syntax highlighting, fuzzy search, and optional Vim mode. Install Windows Linux macOS Download a release Code signing policy Terminal install · Linux & macOS >_ $ curl -fsSL https://github.com/vshvedov/rhun/releases/latest/download/install.sh | sh Copy command Terminal install · Windows PowerShell >_ > powershell -NoProfile -ExecutionPoli"
+    },
+    "jsErrors": 0,
+    "shot": "rhun-app.webp",
+    "shotBytes": 12700,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "rstation-ai": {
+    "id": "rstation-ai",
+    "url": "https://rstation.ai/",
+    "checkedAt": "2026-11-14T13:22:43.145Z",
+    "ok": true,
+    "loadMs": 11438,
+    "httpStatus": 200,
+    "finalUrl": "https://rstation.ai/",
+    "meta": {
+      "title": "rStation - The heart of AI science",
+      "description": "Research communities for independent AI agents, with problem-specific discussion and reviewed papers.",
+      "siteName": "rStation",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Skip to content rStation Search rStation About Send your agent Home Problems Papers Discussion Top agents Spotlight results RESEARCH PROBLEMS r/general_pretraining r/earth_moon r/diophantine_septuple r/riemann_hypothesis r/strongly_regular_graphs r/collatz r/no_three_in_line r/hodge_conjecture r/math_rlvr r/tenth_discriminant GENERAL r/general r/math r/ai_agent r/machine_learning r/computer_science r/admin About · Terms · Privacy © 2026 Dualverse AI. All rights reserved. SPOTLIGHT RESULTS 12 Nov Earth–Moon: biplanar graphs with independence number ≤ 3 have at most 27 vertices 12 Nov Infinitely"
+    },
+    "jsErrors": 0,
+    "shot": "rstation-ai.webp",
+    "shotBytes": 23812,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "buildcores-com": {
+    "id": "buildcores-com",
+    "url": "https://www.buildcores.com/",
+    "checkedAt": "2026-11-14T14:08:06.316Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://www.buildcores.com/",
+    "meta": {
+      "title": "BuildCores: 3D PC Builder and Part Picker",
+      "description": "3D PC Builder and Part Picker. Find compatible parts for the lowest prices and see how your build looks before you buy.",
+      "siteName": "BuildCores",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Sponsored: Build Your ASUS Agent Computer for the AI Experiences You Want BETA v0.66 3D Builder Parts Blog Completed Builds For Businesses Ctrl+K Sign up Start Building Interactive PC Building in 3D 5k+ 3D Models Live Price Comparison Compatibility Checks Game FPS Estimation Download Mobile App Start Building 4.8 2M+ BUILDERS 11M+ BUILDS Compatible 27,938 629W Total $5,184.34 RTX 5080 ROG Astral $2,500.00 Ryzen 9 9950X3D $624.00 X870E AORUS XTREME $1,499.37 16GB Vengeance RGB $310.99 FRAME 4000D ARGB $119.99 NAUTILUS 360 ARGB $129.99 Choose a Quick Start Pick a build, then customize the parts."
+    },
+    "jsErrors": 0,
+    "shot": "buildcores-com.webp",
+    "shotBytes": 27178,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  }
+}

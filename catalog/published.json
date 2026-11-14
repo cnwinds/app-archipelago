@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "hackerbooks-org",
+    "name": "HackerBooks",
+    "url": "https://hackerbooks.org/",
+    "category": "edu",
+    "tags": [
+      "书单",
+      "数据"
+    ],
+    "blurb": "把 2007 年以来 Hacker News 评论里提到的几千本书整理成榜单，按有多少不同的人推荐来排名。",
+    "score": 99,
+    "author": "roansh",
+    "postedAt": "2026-11-01T15:58:28Z",
+    "embed": false,
+    "shot": "hackerbooks-org.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50326821",
+      "points": 1870
+    }
+  },
+  {
+    "id": "permit-petercai-com",
+    "name": "Permit Pending",
+    "url": "https://permit.petercai.com/",
+    "category": "game",
+    "tags": [
+      "模拟经营",
+      "城市建造"
+    ],
+    "blurb": "一款城市建造游戏：你是市长，知道城市需要什么，但每个项目都得先过规划委员会、邻居、上诉法庭和下一次选举。",
+    "score": 96,
+    "author": "pcai",
+    "postedAt": "2026-10-20T18:29:09Z",
+    "embed": false,
+    "shot": "permit-petercai-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50170593",
+      "points": 941
+    }
+  },
+  {
+    "id": "bigwords-page",
+    "name": "Bigwords.page",
+    "url": "https://bigwords.page/",
+    "category": "productivity",
+    "tags": [
+      "大字展示",
+      "免注册"
+    ],
+    "blurb": "输入一句话，让它铺满整个屏幕。接机牌、倒计时、Wi-Fi 密码都能做，内容就存在网址里，发个链接就能用。",
+    "score": 93,
+    "author": "SpeakingOfBrad",
+    "postedAt": "2026-10-07T15:44:21Z",
+    "embed": true,
+    "shot": "bigwords-page.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=49994443",
+      "points": 728
+    }
+  },
+  {
+    "id": "guitoro-com",
+    "name": "Guitoro",
+    "url": "https://guitoro.com/",
+    "category": "music",
+    "tags": [
+      "吉他",
+      "键盘演奏"
+    ],
+    "blurb": "用键盘就能扫弦的虚拟吉他。可以放慢歌曲，看清每个和弦和每根弦；有民谣、古典、电吉他和贝斯，界面支持中文。",
+    "score": 90,
+    "author": "gloja",
+    "postedAt": "2026-10-13T19:11:48Z",
+    "embed": false,
+    "shot": "guitoro-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50077020",
+      "points": 573
+    }
+  },
+  {
+    "id": "hackertv-org",
+    "name": "HackerTV",
+    "url": "https://hackertv.org/",
+    "category": "edu",
+    "tags": [
+      "视频",
+      "频道"
+    ],
+    "blurb": "把 Hacker News 上被反复推荐的视频做成 24 小时播出的电视频道，所有人看到的节目表都一样。",
+    "score": 89,
+    "author": "dsalzman",
+    "postedAt": "2026-11-03T01:18:09Z",
+    "embed": false,
+    "shot": "hackertv-org.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50346755",
+      "points": 490
+    }
+  },
+  {
+    "id": "watched-earth",
+    "name": "watched.earth",
+    "url": "https://www.watched.earth/",
+    "category": "edu",
+    "tags": [
+      "卫星",
+      "地图"
+    ],
+    "blurb": "输入地球上任意一个地点，看过去 7 天有哪些卫星从它上空经过，以及这些卫星实际拍下的照片。",
+    "score": 89,
+    "author": "a585gupt",
+    "postedAt": "2026-11-09T17:51:31Z",
+    "embed": true,
+    "shot": "watched-earth.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50428907",
+      "points": 490
+    }
+  },
+  {
+    "id": "hackertimes-ca",
+    "name": "Hacker Times",
+    "url": "https://hackertimes.ca/",
+    "category": "productivity",
+    "tags": [
+      "新闻阅读",
+      "排版"
+    ],
+    "blurb": "用《纽约时报》式的报纸版面来读 Hacker News，定时更新，标题重新拟写，链接指向原始来源。",
+    "score": 88,
+    "author": "polpenn",
+    "postedAt": "2026-11-03T01:53:34Z",
+    "embed": false,
+    "shot": "hackertimes-ca.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50346981",
+      "points": 477
+    }
+  },
+  {
+    "id": "carrierexplode-com",
+    "name": "Carrier-Explode",
+    "url": "https://carrierexplode.com/",
+    "category": "productivity",
+    "tags": [
+      "手机",
+      "查询"
+    ],
+    "blurb": "把 iPhone、Pixel、Galaxy 固件里的运营商配置解码出来对比：APN、VoLTE、5G、Wi-Fi 通话，以及每个版本改了什么。",
+    "score": 87,
+    "author": "simplyalec",
+    "postedAt": "2026-10-09T18:10:55Z",
+    "embed": true,
+    "shot": "carrierexplode-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50024499",
+      "points": 433
+    }
+  },
+  {
+    "id": "titleart-dvy-io",
+    "name": "TitleArt",
+    "url": "https://titleart.dvy.io/",
+    "category": "creative",
+    "tags": [
+      "艺术字",
+      "复古"
+    ],
+    "blurb": "在浏览器里做 1997 年风格的艺术字，经典 WordArt 的样式、形状和 3D 效果都有。",
+    "score": 87,
+    "author": "davidbarker",
+    "postedAt": "2026-10-26T03:23:57Z",
+    "embed": false,
+    "shot": "titleart-dvy-io.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50238708",
+      "points": 411
+    }
+  },
+  {
+    "id": "stillwet-art",
+    "name": "stillwet",
+    "url": "https://stillwet.art/",
+    "category": "ai",
+    "tags": [
+      "AI 绘画",
+      "过程回放"
+    ],
+    "blurb": "让 AI 模型用代码操作模拟的油画和水彩颜料来作画，不经过图像生成器，可以回放每幅画是怎么一笔笔画出来的。",
+    "score": 86,
+    "author": "alstonite",
+    "postedAt": "2026-10-02T00:27:56Z",
+    "embed": true,
+    "shot": "stillwet-art.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=49928566",
+      "points": 392
+    }
+  },
+  {
+    "id": "wikihack-netlify-app",
+    "name": "WikiHack",
+    "url": "https://wikihack.netlify.app/",
+    "category": "edu",
+    "tags": [
+      "维基百科",
+      "榜单"
+    ],
+    "blurb": "Hacker News 上被链接最多的维基百科条目，按有多少不同的评论者引用来排名，适合随手翻到冷知识。",
+    "score": 85,
+    "author": "aizk",
+    "postedAt": "2026-11-02T05:06:30Z",
+    "embed": true,
+    "shot": "wikihack-netlify-app.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50333339",
+      "points": 339
+    }
+  },
+  {
+    "id": "llmspeed-dev",
+    "name": "llmspeed",
+    "url": "https://llmspeed.dev/",
+    "category": "ai",
+    "tags": [
+      "本地大模型",
+      "硬件选购"
+    ],
+    "blurb": "选一套硬件和一个模型，直接感受本地大模型的输出速度。每秒字数和首字延迟来自实测基准，买硬件前先体验。",
+    "score": 84,
+    "author": "albinstman",
+    "postedAt": "2026-10-17T04:36:53Z",
+    "embed": true,
+    "shot": "llmspeed-dev.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50127979",
+      "points": 331
+    }
+  },
+  {
+    "id": "p-migdal-pl-warsaw-vibe-voxel",
+    "name": "体素华沙",
+    "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+    "category": "creative",
+    "tags": [
+      "3D 地图",
+      "体素"
+    ],
+    "blurb": "用 1 米见方的体素重建的华沙市中心，数据来自 OpenStreetMap、激光雷达和市政树木数据库，可以切换日期、时刻和天气。",
+    "score": 84,
+    "author": "stared",
+    "postedAt": "2026-11-02T16:25:26Z",
+    "embed": true,
+    "shot": "p-migdal-pl-warsaw-vibe-voxel.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50339221",
+      "points": 328
+    }
+  },
+  {
+    "id": "quake-srp-pages-dev",
+    "name": "Quake SRP",
+    "url": "https://quake-srp.pages.dev/",
+    "category": "game",
+    "tags": [
+      "射击",
+      "WebAssembly"
+    ],
+    "blurb": "1996 年的《雷神之锤》用 Rust 重写并编译成 WebAssembly，在浏览器里直接玩共享版章节。",
+    "score": 81,
+    "author": "ilreb",
+    "postedAt": "2026-10-09T05:22:58Z",
+    "embed": false,
+    "shot": "quake-srp-pages-dev.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50016312",
+      "points": 241
+    }
+  },
+  {
+    "id": "syscall-sh",
+    "name": "syscall.sh",
+    "url": "https://syscall.sh/",
+    "category": "productivity",
+    "tags": [
+      "开发参考",
+      "Linux"
+    ],
+    "blurb": "Linux 系统调用速查表，覆盖 38 种处理器架构，每个调用的编号、参数和寄存器都能查到。",
+    "score": 81,
+    "author": "guitmz",
+    "postedAt": "2026-11-02T09:29:16Z",
+    "embed": false,
+    "shot": "syscall-sh.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50334704",
+      "points": 238
+    }
+  },
+  {
+    "id": "termsheetplease-com",
+    "name": "Term Sheet, Please",
+    "url": "https://termsheetplease.com/",
+    "category": "game",
+    "tags": [
+      "模拟",
+      "审查"
+    ],
+    "blurb": "《Papers, Please》式的游戏，不过你审的是创业公司：检查财务数据、追问记录里的疑点，决定给谁投资。",
+    "score": 81,
+    "author": "bolau",
+    "postedAt": "2026-11-11T19:12:16Z",
+    "embed": true,
+    "shot": "termsheetplease-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50457230",
+      "points": 243
+    }
+  },
+  {
+    "id": "tinyvalencia-com",
+    "name": "Tiny València",
+    "url": "https://tinyvalencia.com/?lat=39.473800&lng=-0.376800&zoom=17.20",
+    "category": "creative",
+    "tags": [
+      "像素画",
+      "等距地图"
+    ],
+    "blurb": "一张等距像素画风格的瓦伦西亚地图，约 120 平方公里，一个街区一个街区画出来，可以从市中心一路缩放到海滩。",
+    "score": 81,
+    "author": "leugim",
+    "postedAt": "2026-11-10T15:12:16Z",
+    "embed": true,
+    "shot": "tinyvalencia-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50441518",
+      "points": 258
+    }
+  },
+  {
+    "id": "tng-episodle-com",
+    "name": "TNG Episodle",
+    "url": "https://tng.episodle.com/",
+    "category": "game",
+    "tags": [
+      "猜谜",
+      "每日一题"
+    ],
+    "blurb": "《星际迷航：下一代》剧集竞猜，在 6 次机会内猜出是哪一集。",
+    "score": 81,
+    "author": "francisofascii",
+    "postedAt": "2026-10-30T23:51:24Z",
+    "embed": true,
+    "shot": "tng-episodle-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50311686",
+      "points": 245
+    }
+  },
+  {
+    "id": "isometricsf-com",
+    "name": "Isometric SF",
+    "url": "https://isometricsf.com/",
+    "category": "creative",
+    "tags": [
+      "像素画",
+      "等距地图"
+    ],
+    "blurb": "整个旧金山湾区的等距像素画地图，可以搜索地点、城镇或地址，把当前视角分享给别人。",
+    "score": 80,
+    "author": "juscha1",
+    "postedAt": "2026-11-13T17:58:37Z",
+    "embed": true,
+    "shot": "isometricsf-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50487228",
+      "points": 222
+    }
+  },
+  {
+    "id": "lab-specr-net-rigged-draw",
+    "name": "How random are you?",
+    "url": "https://lab.specr.net/rigged-draw/",
+    "category": "game",
+    "tags": [
+      "实验",
+      "语音"
+    ],
+    "blurb": "尽量随机地大声念数字，浏览器里的预测器会在你开口前先封存它的猜测，看它能比瞎猜准多少。需要麦克风。",
+    "score": 80,
+    "author": "vunderba",
+    "postedAt": "2026-10-13T16:57:57Z",
+    "embed": false,
+    "shot": "lab-specr-net-rigged-draw.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50074909",
+      "points": 217
+    }
+  },
+  {
+    "id": "legendofhyrule-com",
+    "name": "The Legend of Hyrule",
+    "url": "https://legendofhyrule.com/",
+    "category": "edu",
+    "tags": [
+      "游戏史",
+      "时间线"
+    ],
+    "blurb": "《塞尔达传说》的时间线和海拉鲁历史，从创世讲起，到《时之笛》之后分出的三条分支。",
+    "score": 80,
+    "author": "jsomau",
+    "postedAt": "2026-10-18T13:06:54Z",
+    "embed": false,
+    "shot": "legendofhyrule-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50140769",
+      "points": 231
+    }
+  },
+  {
+    "id": "celphase-github-io-duck-pond",
+    "name": "The Duck Pond",
+    "url": "https://celphase.github.io/duck-pond/",
+    "category": "music",
+    "tags": [
+      "声音合成",
+      "空间音频"
+    ],
+    "blurb": "一片有野鸭的池塘，每一声鸭叫都是实时合成的，声音大小和方位随你站在岸边的位置变化，还可以扔豌豆喂鸭子。",
+    "score": 78,
+    "author": "celphase",
+    "postedAt": "2026-10-17T13:28:46Z",
+    "embed": true,
+    "shot": "celphase-github-io-duck-pond.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50131006",
+      "points": 180
+    }
+  },
+  {
+    "id": "readrare-com",
+    "name": "Read Rare",
+    "url": "https://readrare.com/",
+    "category": "edu",
+    "tags": [
+      "文献",
+      "科技史"
+    ],
+    "blurb": "一个书架，摆着 50 多份少见的科技文档和绝版书，比如乔布斯的 Top 100 邮件、Netflix 文化手册，都可以免费读。",
+    "score": 78,
+    "author": "miletus",
+    "postedAt": "2026-10-09T17:39:44Z",
+    "embed": true,
+    "shot": "readrare-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50024055",
+      "points": 191
+    }
+  },
+  {
+    "id": "artmuseum-artfrompixels-com",
+    "name": "3D 艺术史博物馆",
+    "url": "https://artmuseum.artfrompixels.com/",
+    "category": "edu",
+    "tags": [
+      "艺术史",
+      "3D 漫游"
+    ],
+    "blurb": "一座可以走进去的 3D 艺术史博物馆，跨越一千多年的流派和画家，展厅里挂的是真实画作，内容来自维基百科。",
+    "score": 77,
+    "author": "jasontr",
+    "postedAt": "2026-10-07T12:51:08Z",
+    "embed": false,
+    "shot": "artmuseum-artfrompixels-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=49992057",
+      "points": 174
+    }
+  },
+  {
+    "id": "bigwhalehunting-com-workforce",
+    "name": "市值与员工数",
+    "url": "https://bigwhalehunting.com/workforce/",
+    "category": "edu",
+    "tags": [
+      "数据可视化",
+      "股市"
+    ],
+    "blurb": "把标普 500 公司画成按市值定大小的气泡，里面用小人表示员工数，一眼看出谁的人均市值高、谁雇的人多。",
+    "score": 77,
+    "author": "vfxGer",
+    "postedAt": "2026-10-25T15:05:39Z",
+    "embed": true,
+    "shot": "bigwhalehunting-com-workforce.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50232312",
+      "points": 178
+    }
+  },
+  {
+    "id": "grounds-top",
+    "name": "grounds.top",
+    "url": "https://grounds.top/",
+    "category": "edu",
+    "tags": [
+      "数据可视化",
+      "航班"
+    ],
+    "blurb": "2026 年 11 月 13 日美国全国停飞期间的航班地图，可以回放，对比当晚在飞的航班和平常周五的差距。",
+    "score": 77,
+    "author": "gvsi",
+    "postedAt": "2026-11-13T23:17:39Z",
+    "embed": false,
+    "shot": "grounds-top.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50491545",
+      "points": 166
+    }
+  },
+  {
+    "id": "uberblok-storagebits-workers-dev",
+    "name": "Uberblok",
+    "url": "https://uberblok.storagebits.workers.dev/en/",
+    "category": "edu",
+    "tags": [
+      "文件系统",
+      "交互讲解"
+    ],
+    "blurb": "一座讲 ZFS 文件系统内部原理的交互式博物馆，一个展厅讲一个设计，旁边配着真实源码。",
+    "score": 74,
+    "author": "storagebits",
+    "postedAt": "2026-10-21T13:04:25Z",
+    "embed": false,
+    "shot": "uberblok-storagebits-workers-dev.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50180257",
+      "points": 126
+    }
+  },
+  {
+    "id": "uncracked-city",
+    "name": "Uncracked City",
+    "url": "https://uncracked.city/",
+    "category": "game",
+    "tags": [
+      "推理",
+      "AI 角色"
+    ],
+    "blurb": "以真实城市为背景的侦探游戏，每天一个新案子：搜查地点、审问会撒谎的 AI 嫌疑人、抓住破绽、写出报告。",
+    "score": 74,
+    "author": "passkey1510",
+    "postedAt": "2026-11-03T21:20:03Z",
+    "embed": true,
+    "shot": "uncracked-city.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50358352",
+      "points": 128
+    }
+  },
+  {
+    "id": "ghanastreetgames-com",
+    "name": "Ghana Street Games",
+    "url": "https://www.ghanastreetgames.com/",
+    "category": "game",
+    "tags": [
+      "小游戏合集",
+      "童年游戏"
+    ],
+    "blurb": "35 个可以直接在浏览器里玩的加纳街头游戏，比如 Four Corners、点球和 Pilolo。",
+    "score": 73,
+    "author": "samuelaidoo45",
+    "postedAt": "2026-11-08T15:31:52Z",
+    "embed": true,
+    "shot": "ghanastreetgames-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50414117",
+      "points": 116
+    }
+  },
+  {
+    "id": "indigene-app",
+    "name": "Indigene",
+    "url": "https://indigene.app/",
+    "category": "edu",
+    "tags": [
+      "植物",
+      "生态"
+    ],
+    "blurb": "按你所在的位置推荐适合种的本地原生植物，并按它们对当地生态的贡献排序。",
+    "score": 73,
+    "author": "olivierlacan",
+    "postedAt": "2026-10-12T23:25:20Z",
+    "embed": true,
+    "shot": "indigene-app.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50064470",
+      "points": 120
+    }
+  },
+  {
+    "id": "pcdealcheck-com",
+    "name": "PC DealCheck",
+    "url": "https://app.pcdealcheck.com/check",
+    "category": "productivity",
+    "tags": [
+      "比价",
+      "电脑硬件"
+    ],
+    "blurb": "贴一段整机电脑的商品信息或截图，它按零件逐个对比市价，告诉你这台整机值不值。价格数据是美国市场的。",
+    "score": 73,
+    "author": "adlep",
+    "postedAt": "2026-11-04T15:25:33Z",
+    "embed": true,
+    "shot": "pcdealcheck-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50366929",
+      "points": 122
+    }
+  },
+  {
+    "id": "wonderhop-io-en",
+    "name": "Wonderhop",
+    "url": "https://wonderhop.io/en/",
+    "category": "game",
+    "tags": [
+      "每日一题",
+      "问答"
+    ],
+    "blurb": "每日问答游戏：猜大多数人会给的答案，或者猜没人会给的答案。每天 4 局，每题 30 到 40 秒，不用注册。",
+    "score": 73,
+    "author": "mtlduo",
+    "postedAt": "2026-10-13T23:10:04Z",
+    "embed": true,
+    "shot": "wonderhop-io-en.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50080246",
+      "points": 124
+    }
+  },
+  {
+    "id": "museumofages-org-w-vinci",
+    "name": "Museum of Ages · 达芬奇馆",
+    "url": "https://museumofages.org/w/vinci",
+    "category": "edu",
+    "tags": [
+      "历史",
+      "3D 漫游"
+    ],
+    "blurb": "用代码搭建的 3D 达芬奇展馆，有导览，并且标明哪些内容是确知的、哪些是推测的。",
+    "score": 70,
+    "author": "micstradev",
+    "postedAt": "2026-10-14T10:00:24Z",
+    "embed": false,
+    "shot": "museumofages-org-w-vinci.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50085022",
+      "points": 90
+    }
+  },
+  {
+    "id": "brickbrag-com",
+    "name": "Brickbrag",
+    "url": "https://brickbrag.com/",
+    "category": "game",
+    "tags": [
+      "积木",
+      "多人世界"
+    ],
+    "blurb": "所有玩家共享的一个积木世界：可以一块一块地搭，也可以在别人搭好的东西里赛车、飞行、坐公交。",
+    "score": 69,
+    "author": "neuling",
+    "postedAt": "2026-10-12T21:03:36Z",
+    "embed": false,
+    "shot": "brickbrag-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50063042",
+      "points": 82
+    }
+  },
+  {
+    "id": "catcopter-com",
+    "name": "Catcopter",
+    "url": "https://catcopter.com/",
+    "category": "game",
+    "tags": [
+      "多人对战",
+      "空战"
+    ],
+    "blurb": "多人在线游戏：爪子上装着螺旋桨的猫在热带岛屿上空飞行、射击、抢猫薄荷。五种职业，有团队模式，不用下载。",
+    "score": 69,
+    "author": "pawelwentpawel",
+    "postedAt": "2026-10-30T15:29:40Z",
+    "embed": true,
+    "shot": "catcopter-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50305320",
+      "points": 85
+    }
+  },
+  {
+    "id": "impossiblemachines-xyz",
+    "name": "Impossible Machines",
+    "url": "https://www.impossiblemachines.xyz/",
+    "category": "game",
+    "tags": [
+      "解谜",
+      "机关"
+    ],
+    "blurb": "一个解谜世界：你只指定起因和想要的结果，中间缺的机关会自己出现。",
+    "score": 69,
+    "author": "bhaprayan",
+    "postedAt": "2026-10-22T23:54:28Z",
+    "embed": true,
+    "shot": "impossiblemachines-xyz.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50202746",
+      "points": 82
+    }
+  },
+  {
+    "id": "music-xy-dev",
+    "name": "XY Music",
+    "url": "https://music.xy.dev/",
+    "category": "music",
+    "tags": [
+      "乐谱",
+      "记谱法"
+    ],
+    "blurb": "XY 记谱法的乐谱站，可以直接看用它记下的曲子，比如萨蒂的《裸体歌舞》第一首和德彪西的《月光》。",
+    "score": 69,
+    "author": "jmole",
+    "postedAt": "2026-10-13T17:43:05Z",
+    "embed": true,
+    "shot": "music-xy-dev.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50075665",
+      "points": 87
+    }
+  },
+  {
+    "id": "opper-ai-jevman-benchmark",
+    "name": "JevMan",
+    "url": "https://opper.ai/jevman-benchmark/",
+    "category": "ai",
+    "tags": [
+      "模型评测",
+      "吃豆人"
+    ],
+    "blurb": "让 AI 决策模型各玩 100 局吃豆人来排名的基准测试，可以看它们怎么玩，也可以自己上场和它们比。",
+    "score": 69,
+    "author": "felix089",
+    "postedAt": "2026-10-08T16:34:13Z",
+    "embed": false,
+    "shot": "opper-ai-jevman-benchmark.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50007993",
+      "points": 82
+    }
+  },
+  {
+    "id": "slidebyside-com",
+    "name": "SlideBySide",
+    "url": "https://slidebyside.com/",
+    "category": "productivity",
+    "tags": [
+      "演示",
+      "协作"
+    ],
+    "blurb": "上传 PDF 或 PPT，分享一个链接，所有人同步翻页，还能看到彼此的光标和涂画。不用共享屏幕，也不用注册。",
+    "score": 69,
+    "author": "denismenace",
+    "postedAt": "2026-10-28T17:07:09Z",
+    "embed": false,
+    "shot": "slidebyside-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50276883",
+      "points": 84
+    }
+  },
+  {
+    "id": "typeui-sh-micro-interactions",
+    "name": "TypeUI 微交互",
+    "url": "https://www.typeui.sh/micro-interactions",
+    "category": "productivity",
+    "tags": [
+      "界面设计",
+      "提示词"
+    ],
+    "blurb": "113 个界面微交互示例，按钮、表单、弹窗、导航都有，每个都能现场试，还能复制一段让 AI 实现它的提示词。",
+    "score": 69,
+    "author": "elwingo1",
+    "postedAt": "2026-10-22T18:32:57Z",
+    "embed": true,
+    "shot": "typeui-sh-micro-interactions.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50199290",
+      "points": 80
+    }
+  },
+  {
+    "id": "swurf-org",
+    "name": "Swurf",
+    "url": "https://swurf.org/",
+    "category": "productivity",
+    "tags": [
+      "网站发现",
+      "随机漫游"
+    ],
+    "blurb": "一次只给你看一个真实的网站，左右滑动换下一个。它会记住你的喜好，不重复，也不用注册。",
+    "score": 68,
+    "author": "webtjb096",
+    "postedAt": "2026-10-23T06:54:52Z",
+    "embed": false,
+    "shot": "swurf-org.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50205320",
+      "points": 78
+    }
+  },
+  {
+    "id": "tkgally-github-io-500-clocks",
+    "name": "Five Hundred Clocks",
+    "url": "https://tkgally.github.io/500-clocks/",
+    "category": "creative",
+    "tags": [
+      "生成艺术",
+      "时钟"
+    ],
+    "blurb": "500 种显示当前时间的方式，从元胞自动机到古代计时法，全部装在一个 6.3 MB 的网页文件里。",
+    "score": 68,
+    "author": "tkgally",
+    "postedAt": "2026-10-18T04:04:58Z",
+    "embed": false,
+    "shot": "tkgally-github-io-500-clocks.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50137820",
+      "points": 75
+    }
+  },
+  {
+    "id": "uji-sh-ito",
+    "name": "Ito 工作坊",
+    "url": "https://uji.sh/ito/",
+    "category": "edu",
+    "tags": [
+      "编程入门",
+      "Lua"
+    ],
+    "blurb": "交互式教程，在浏览器里用 Lua 一步步写出自己的终端界面，从输入框、计数器到每日清单。",
+    "score": 68,
+    "author": "cat-whisperer",
+    "postedAt": "2026-10-14T22:23:53Z",
+    "embed": false,
+    "shot": "uji-sh-ito.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50096300",
+      "points": 74
+    }
+  },
+  {
+    "id": "fable52-games",
+    "name": "fable52.games",
+    "url": "https://fable52.games/",
+    "category": "game",
+    "tags": [
+      "小游戏合集",
+      "AI 生成"
+    ],
+    "blurb": "30 多个由 AI 一次生成的网页小游戏，很多只有一个网页文件。可以直接玩，也可以看生成它的提示词和源码。",
+    "score": 67,
+    "author": "felixne",
+    "postedAt": "2026-11-12T15:30:01Z",
+    "embed": true,
+    "shot": "fable52-games.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50469007",
+      "points": 72
+    }
+  },
+  {
+    "id": "hjkl-duy-run",
+    "name": "hjkl",
+    "url": "https://hjkl.duy.run/",
+    "category": "edu",
+    "tags": [
+      "Vim",
+      "练习"
+    ],
+    "blurb": "在浏览器里练 Vim 的小关卡：改错字、换单词、删行、移动句子，用的是真正的 Vim 编辑器，不用注册。",
+    "score": 67,
+    "author": "dh1011",
+    "postedAt": "2026-11-03T03:10:04Z",
+    "embed": true,
+    "shot": "hjkl-duy-run.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50347552",
+      "points": 72
+    }
+  },
+  {
+    "id": "jevcards-com",
+    "name": "Jev Cards",
+    "url": "https://opper.ai/decision-benchmarks/jevcards/",
+    "category": "ai",
+    "tags": [
+      "看图问答",
+      "人机对战"
+    ],
+    "blurb": "看图问答，和视觉模型比谁快谁准。790 张图卡，有水果、国旗、地图、国际象棋和视错觉。",
+    "score": 67,
+    "author": "totisjosema",
+    "postedAt": "2026-10-20T15:11:56Z",
+    "embed": true,
+    "shot": "jevcards-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50167617",
+      "points": 72
+    }
+  },
+  {
+    "id": "thisandthat-chat-enron",
+    "name": "The Enron Brain",
+    "url": "https://www.thisandthat.chat/enron/",
+    "category": "ai",
+    "tags": [
+      "知识库",
+      "AI 生成"
+    ],
+    "blurb": "让 AI 读完 4.5 万封安然公司邮件后写成的一部维基，每条事实都标了出处，可以当作“公司大脑”来翻阅。",
+    "score": 67,
+    "author": "jreynar",
+    "postedAt": "2026-10-23T12:02:53Z",
+    "embed": false,
+    "shot": "thisandthat-chat-enron.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50207620",
+      "points": 71
+    }
+  },
+  {
+    "id": "3anddoneapp-com-try",
+    "name": "3 & done",
+    "url": "https://3anddoneapp.com/try",
+    "category": "productivity",
+    "tags": [
+      "任务管理",
+      "免注册"
+    ],
+    "blurb": "给你一张真实的 31 项待办清单，挑出今天要做的三件，再看它当天早上替你挑的三件和理由。不用注册。",
+    "score": 66,
+    "author": "dmayle",
+    "postedAt": "2026-10-19T13:07:07Z",
+    "embed": false,
+    "shot": "3anddoneapp-com-try.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50151980",
+      "points": 61
+    }
+  },
+  {
+    "id": "buildcores-com",
+    "name": "BuildCores",
+    "url": "https://www.buildcores.com/",
+    "category": "productivity",
+    "tags": [
+      "装机",
+      "3D"
+    ],
+    "blurb": "在浏览器里用 3D 模型装一台电脑：挑兼容的配件、比价，买之前先看看装出来是什么样子。",
+    "score": 66,
+    "author": "ozaiworld",
+    "postedAt": "2026-11-08T17:45:08Z",
+    "embed": true,
+    "shot": "buildcores-com.webp",
+    "source": {
+      "type": "hn",
+      "link": "https://news.ycombinator.com/item?id=50415379",
+      "points": 61
+    }
+  }
+]

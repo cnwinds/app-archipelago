@@ -7,11 +7,45 @@
 - `index.html`：页面骨架与 HUD（顶栏、类别面板、Tweaks 面板、试玩弹窗）
 - `src/main.js`：渲染器、相机控制、昼夜预设、光效强度、交互逻辑
 - `src/world.js`：程序化生成岛屿、建筑、主题道具、海面与天空
-- `src/data.js`：类别与示例作品数据（目前为演示数据）
+- `src/data.js`：六个类别的定义；作品从 `catalog/published.json` 读取（构建时打包进去）
 - `src/style.css`：HUD 样式
-- `scripts/shot.mjs`：用 puppeteer-core 驱动本机 Chrome 截图，输出到 `shots/`（已 gitignore）
+- `scripts/shot.mjs`：用 puppeteer-core 驱动本机 Chrome 截图，输出到根目录 `shots/`（已 gitignore，临时验证脚本也放这里）
+- `scripts/catalog/`：作品收录流水线，见下一节
+- `catalog/`：流水线的数据文件和全部候选的截图（`catalog/shots/`，不对外）
+- `public/catalog/shots/`：只含已发布作品的封面，由发布脚本从 `catalog/shots/` 复制过来（要入库，服务器构建时需要；不要手动往里放图，发布时会清掉多余文件）
 
-技术栈：Three.js + Vite，纯静态前端，无后端。
+技术栈：Three.js + Vite，纯静态前端，无后端。每个作品有独立链接 `/#/app/<id>`。
+
+## 作品收录流水线
+
+四步，各自一个脚本，中间结果都是 `catalog/` 下的 JSON：
+
+| 步骤 | 命令 | 读 | 写 |
+|---|---|---|---|
+| 发现 | `npm run catalog:discover -- --days 45 --min-points 30 --limit 90` | Show HN 接口 | `catalog/sources.json`（候选，也可以手工加条目） |
+| 体检取素材 | `npm run catalog:ingest -- --concurrency 3` | `sources.json` | `catalog/drafts.json`、`catalog/shots/<id>.webp` |
+| 审核 | `npm run catalog:review` 生成 `catalog/review.html`（不入库），对着它手写 `catalog/curation.json` | `drafts.json` | `curation.json` |
+| 发布 | `npm run catalog:publish` | 以上三个 | `catalog/published.json`（前端读这个，不要手改）、`public/catalog/shots/` |
+
+- `curation.json` 按作品 id 记录人工决定：`status`（`approved` / `rejected`）、`category`、`name`、`tags`、`blurb`，拒绝时写 `reason`。可选 `score`（覆盖品质分）和 `"embed": false`（强制新标签页打开，比如需要麦克风的作品）
+- 中文介绍只写作品页面自己说了的内容，不确定的不写；收录标准是“点开就能用，不用下载或注册”
+- 品质分目前只有一个真实信号：`20 + 25.5 × log10(HN 分数)`，限制在 40 到 99。90 以上是城堡，70 以上是房屋。“新作”指发布 3 天内，不要为了好看放宽
+- `ingest` 默认只处理还没有草稿的候选；`--only id,id` 重查指定作品，`--force` 全部重查，`--late 25000` 给加载慢的作品多等一会儿再截图，`--embed-shots shots/embed` 保存嵌入后的画面供人工复查
+
+体检脚本的几个设计点，改之前先了解：
+
+- **嵌入检测是真的放进 iframe 里跑**，父页面伪装成 `https://isle.ai-news.top`，iframe 的 `sandbox` 属性要和 `src/main.js` 的 `openPlay()` 保持一致。只看响应头不够
+- **能加载不等于能玩**：依赖跨源隔离的作品（很多 WASM 游戏移植，如 Quake）在 iframe 里加载成功但无法运行，脚本会判为 `needs-cross-origin-isolation`
+- 嵌入测试必须用新开的标签页。复用刚单独打开过作品的标签页，有的作品会截出空白
+- 浏览器的截图是全局串行的，并发高时单帧会超时。每帧单独容错，一帧都没拿到才算失败。并发建议不超过 3
+- 重查时如果新截图的细节（文件大小）不到旧封面的一半，保留旧封面，避免网络慢的时候把封面换成加载画面。想强制换封面就先删掉图片文件
+- `drafts.json` 里的 `embed.warnings` 只是给审核人看的软信号（嵌入后画面明显变空、只在嵌入时出现的报错），网络慢时会误报
+
+### 网络可达性
+
+- **流水线只能在能访问海外的机器上跑（目前是本机）**。阿里云服务器访问不了 Hacker News、`*.github.io`、`*.vercel.app`、`*.pages.dev`、`*.workers.dev`、itch.io、huggingface.co，或者极慢
+- 用自定义域名的作品大多能从国内直接打开。`scripts/catalog/reach.sh` 可以从服务器批量探测，用法见文件头。它只测主页面，不测页面里引用的资源，结果偏乐观
+- 如果要做作品代理（gh-proxy 那种思路）：上游必须在海外；每个作品要用独立子域名，不能挂在主站同源路径下，否则 iframe 的 `allow-same-origin` 会让作品拿到主站权限；只代理已发布的作品，不能做成开放代理
 
 ## 本地开发
 
