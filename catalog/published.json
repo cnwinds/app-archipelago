@@ -378,6 +378,77 @@
     }
   },
   {
+    "id": "bruno-simon-com",
+    "name": "Bruno Simon 作品集",
+    "url": "https://bruno-simon.com/",
+    "category": "game",
+    "tags": [
+      "3D",
+      "Three.js",
+      "作品集"
+    ],
+    "blurb": "Bruno Simon 的创意作品集：整个网站是一个可以点进去游玩的 3D 场景。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "bruno-simon-com.webp",
+    "source": null
+  },
+  {
+    "id": "chat-webllm-ai",
+    "name": "WebLLM Chat",
+    "url": "https://chat.webllm.ai/",
+    "category": "ai",
+    "tags": [
+      "大模型",
+      "本地运行",
+      "隐私"
+    ],
+    "blurb": "大语言模型直接在浏览器里运行的聊天应用，不经过服务器，对话留在本机。",
+    "score": 80,
+    "author": "WebLLM Team",
+    "postedAt": null,
+    "embed": true,
+    "shot": "chat-webllm-ai.webp",
+    "source": null
+  },
+  {
+    "id": "desmos-com-calculator",
+    "name": "Desmos 图形计算器",
+    "url": "https://www.desmos.com/calculator?lang=zh-CN",
+    "category": "edu",
+    "tags": [
+      "数学",
+      "函数图像"
+    ],
+    "blurb": "输入表达式就能画出图像的在线图形计算器。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "desmos-com-calculator.webp",
+    "source": null
+  },
+  {
+    "id": "excalidraw-com",
+    "name": "Excalidraw",
+    "url": "https://excalidraw.com/",
+    "category": "creative",
+    "tags": [
+      "白板",
+      "手绘",
+      "协作"
+    ],
+    "blurb": "手绘风格的在线协作白板，适合随手画示意图。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "excalidraw-com.webp",
+    "source": null
+  },
+  {
     "id": "isometricsf-com",
     "name": "Isometric SF",
     "url": "https://isometricsf.com/",
@@ -397,6 +468,24 @@
       "link": "https://news.ycombinator.com/item?id=50487228",
       "points": 222
     }
+  },
+  {
+    "id": "jsoncrack-com-editor",
+    "name": "JSON Crack",
+    "url": "https://jsoncrack.com/editor",
+    "category": "productivity",
+    "tags": [
+      "JSON",
+      "可视化",
+      "开发工具"
+    ],
+    "blurb": "把 JSON、YAML、CSV、XML 等数据画成图，方便查看、格式化、转换和校验。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "jsoncrack-com-editor.webp",
+    "source": null
   },
   {
     "id": "lab-specr-net-rigged-draw",
@@ -439,6 +528,177 @@
       "link": "https://news.ycombinator.com/item?id=50140769",
       "points": 231
     }
+  },
+  {
+    "id": "monkeytype-com",
+    "name": "Monkeytype",
+    "url": "https://monkeytype.com/",
+    "category": "productivity",
+    "tags": [
+      "打字",
+      "练习"
+    ],
+    "blurb": "界面极简、可高度自定义的打字测试，有多种模式，可以记录进度、练习速度。",
+    "score": 80,
+    "author": "Miodec",
+    "postedAt": null,
+    "embed": false,
+    "shot": "monkeytype-com.webp",
+    "source": null
+  },
+  {
+    "id": "musiclab-chromeexperiments-com-song-maker",
+    "name": "Song Maker",
+    "url": "https://musiclab.chromeexperiments.com/Song-Maker/",
+    "category": "music",
+    "tags": [
+      "作曲",
+      "Chrome Music Lab"
+    ],
+    "blurb": "Chrome Music Lab 的一个实验：在格子上点几下就能写出一首歌并分享。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "musiclab-chromeexperiments-com-song-maker.webp",
+    "source": null
+  },
+  {
+    "id": "ncase-me-trust",
+    "name": "信任的进化",
+    "url": "https://ncase.me/trust/",
+    "category": "edu",
+    "tags": [
+      "博弈论",
+      "互动讲解"
+    ],
+    "blurb": "Nicky Case 的互动讲解：用博弈论说明我们为什么信任、如何信任彼此。约 30 分钟，有中文翻译。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "ncase-me-trust.webp",
+    "source": null
+  },
+  {
+    "id": "patatap-com",
+    "name": "Patatap",
+    "url": "https://patatap.com/",
+    "category": "music",
+    "tags": [
+      "声音",
+      "动画"
+    ],
+    "blurb": "随身的动画与声音玩具：手指一碰，就奏出带着跳动图形的旋律。注意：含闪烁画面。",
+    "score": 80,
+    "author": "jonobr1",
+    "postedAt": null,
+    "embed": true,
+    "shot": "patatap-com.webp",
+    "source": null
+  },
+  {
+    "id": "play2048-co",
+    "name": "2048",
+    "url": "https://play2048.co/",
+    "category": "game",
+    "tags": [
+      "益智",
+      "数字"
+    ],
+    "blurb": "滑动方块，把相同的数字合并起来，目标是拼出 2048。Gabriele Cirulli 的原版。",
+    "score": 80,
+    "author": "Gabriele Cirulli",
+    "postedAt": null,
+    "embed": false,
+    "shot": "play2048-co.webp",
+    "source": null
+  },
+  {
+    "id": "squoosh-app",
+    "name": "Squoosh",
+    "url": "https://squoosh.app/",
+    "category": "productivity",
+    "tags": [
+      "图片压缩",
+      "本地处理"
+    ],
+    "blurb": "在浏览器里压缩图片并对比不同编码的效果，图片不会离开你的设备。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": false,
+    "shot": "squoosh-app.webp",
+    "source": null
+  },
+  {
+    "id": "strudel-cc",
+    "name": "Strudel",
+    "url": "https://strudel.cc/",
+    "category": "music",
+    "tags": [
+      "实时编程",
+      "TidalCycles"
+    ],
+    "blurb": "在浏览器里用代码现场写音乐的环境，把 TidalCycles 的模式语言移植到了 JavaScript。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": false,
+    "shot": "strudel-cc.webp",
+    "source": null
+  },
+  {
+    "id": "tldraw-com",
+    "name": "tldraw",
+    "url": "https://www.tldraw.com/",
+    "category": "creative",
+    "tags": [
+      "白板",
+      "协作"
+    ],
+    "blurb": "免费、即开即用的在线白板，支持多人协作，无需注册。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "tldraw-com.webp",
+    "source": null
+  },
+  {
+    "id": "visualgo-net-en",
+    "name": "VisuAlgo",
+    "url": "https://visualgo.net/en",
+    "category": "edu",
+    "tags": [
+      "算法",
+      "数据结构",
+      "动画"
+    ],
+    "blurb": "用动画演示数据结构与算法，从排序到图结构，源自新加坡国立大学的教学项目。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "visualgo-net-en.webp",
+    "source": null
+  },
+  {
+    "id": "weavesilk-com",
+    "name": "Silk",
+    "url": "https://weavesilk.com/",
+    "category": "creative",
+    "tags": [
+      "生成艺术",
+      "绘画"
+    ],
+    "blurb": "拖动鼠标画出流动、对称的丝状光纹的生成艺术小品，带配乐。",
+    "score": 80,
+    "author": null,
+    "postedAt": null,
+    "embed": true,
+    "shot": "weavesilk-com.webp",
+    "source": null
   },
   {
     "id": "celphase-github-io-duck-pond",

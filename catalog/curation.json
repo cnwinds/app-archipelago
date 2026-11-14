@@ -85,5 +85,20 @@
   "rhun-app": { "status": "rejected", "reason": "桌面软件，需要下载" },
   "3anddoneapp-com-try": { "status": "approved", "category": "productivity", "name": "3 & done", "tags": ["任务管理", "免注册"], "blurb": "给你一张真实的 31 项待办清单，挑出今天要做的三件，再看它当天早上替你挑的三件和理由。不用注册。" },
   "buildcores-com": { "status": "approved", "category": "productivity", "name": "BuildCores", "tags": ["装机", "3D"], "blurb": "在浏览器里用 3D 模型装一台电脑：挑兼容的配件、比价，买之前先看看装出来是什么样子。" },
-  "rstation-ai": { "status": "rejected", "reason": "面向 AI agent 的研究社区，不是给人试玩的作品" }
+  "rstation-ai": { "status": "rejected", "reason": "面向 AI agent 的研究社区，不是给人试玩的作品" },
+  "play2048-co": { "status": "approved", "category": "game", "name": "2048", "tags": ["益智", "数字"], "blurb": "滑动方块，把相同的数字合并起来，目标是拼出 2048。Gabriele Cirulli 的原版。", "score": 80 },
+  "bruno-simon-com": { "status": "approved", "category": "game", "name": "Bruno Simon 作品集", "tags": ["3D", "Three.js", "作品集"], "blurb": "Bruno Simon 的创意作品集：整个网站是一个可以点进去游玩的 3D 场景。", "score": 80 },
+  "chat-webllm-ai": { "status": "approved", "category": "ai", "name": "WebLLM Chat", "tags": ["大模型", "本地运行", "隐私"], "blurb": "大语言模型直接在浏览器里运行的聊天应用，不经过服务器，对话留在本机。", "score": 80 },
+  "excalidraw-com": { "status": "approved", "category": "creative", "name": "Excalidraw", "tags": ["白板", "手绘", "协作"], "blurb": "手绘风格的在线协作白板，适合随手画示意图。", "score": 80 },
+  "tldraw-com": { "status": "approved", "category": "creative", "name": "tldraw", "tags": ["白板", "协作"], "blurb": "免费、即开即用的在线白板，支持多人协作，无需注册。", "score": 80 },
+  "weavesilk-com": { "status": "approved", "category": "creative", "name": "Silk", "tags": ["生成艺术", "绘画"], "blurb": "拖动鼠标画出流动、对称的丝状光纹的生成艺术小品，带配乐。", "score": 80 },
+  "squoosh-app": { "status": "approved", "category": "productivity", "name": "Squoosh", "tags": ["图片压缩", "本地处理"], "blurb": "在浏览器里压缩图片并对比不同编码的效果，图片不会离开你的设备。", "score": 80 },
+  "jsoncrack-com-editor": { "status": "approved", "category": "productivity", "name": "JSON Crack", "tags": ["JSON", "可视化", "开发工具"], "blurb": "把 JSON、YAML、CSV、XML 等数据画成图，方便查看、格式化、转换和校验。", "score": 80 },
+  "monkeytype-com": { "status": "approved", "category": "productivity", "name": "Monkeytype", "tags": ["打字", "练习"], "blurb": "界面极简、可高度自定义的打字测试，有多种模式，可以记录进度、练习速度。", "score": 80 },
+  "musiclab-chromeexperiments-com-song-maker": { "status": "approved", "category": "music", "name": "Song Maker", "tags": ["作曲", "Chrome Music Lab"], "blurb": "Chrome Music Lab 的一个实验：在格子上点几下就能写出一首歌并分享。", "score": 80 },
+  "patatap-com": { "status": "approved", "category": "music", "name": "Patatap", "tags": ["声音", "动画"], "blurb": "随身的动画与声音玩具：手指一碰，就奏出带着跳动图形的旋律。注意：含闪烁画面。", "score": 80 },
+  "strudel-cc": { "status": "approved", "category": "music", "name": "Strudel", "tags": ["实时编程", "TidalCycles"], "blurb": "在浏览器里用代码现场写音乐的环境，把 TidalCycles 的模式语言移植到了 JavaScript。", "score": 80 },
+  "desmos-com-calculator": { "status": "approved", "category": "edu", "name": "Desmos 图形计算器", "tags": ["数学", "函数图像"], "blurb": "输入表达式就能画出图像的在线图形计算器。", "score": 80 },
+  "ncase-me-trust": { "status": "approved", "category": "edu", "name": "信任的进化", "tags": ["博弈论", "互动讲解"], "blurb": "Nicky Case 的互动讲解：用博弈论说明我们为什么信任、如何信任彼此。约 30 分钟，有中文翻译。", "score": 80 },
+  "visualgo-net-en": { "status": "approved", "category": "edu", "name": "VisuAlgo", "tags": ["算法", "数据结构", "动画"], "blurb": "用动画演示数据结构与算法，从排序到图结构，源自新加坡国立大学的教学项目。", "score": 80 }
 }

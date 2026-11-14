@@ -52,7 +52,8 @@ for (const src of sources) {
     blurb: c.blurb,
     score: c.score ?? scoreFromSignals(src.source),
     author: src.source?.author ?? d.meta?.author ?? null,
-    postedAt: src.source?.postedAt ?? d.checkedAt,
+    // Only a real posting date counts. Hand-added works have none and must not look new.
+    postedAt: src.source?.postedAt ?? null,
     // A reviewer can force a new tab with `"embed": false`, e.g. for works that need the
     // microphone or camera, which our sandboxed iframe does not hand out.
     embed: d.embed.ok && c.embed !== false,

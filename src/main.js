@@ -488,7 +488,7 @@ function openPanel(app) {
         ${app.isNew ? '<span class="badge new">NEW</span>' : ''}
       </div>
       <h2>${esc(app.name)}</h2>
-      <p class="author">${app.author ? esc(app.author) + ' · ' : ''}${daysAgo(app.ageDays)} · ${esc(app.host)}</p>
+      <p class="author">${[app.author && esc(app.author), app.ageDays !== null && daysAgo(app.ageDays), esc(app.host)].filter(Boolean).join(' · ')}</p>
       <p class="desc">${esc(app.desc)}</p>
       <dl class="stats">
         <div><dt>品质分</dt><dd>${app.score}</dd></div>

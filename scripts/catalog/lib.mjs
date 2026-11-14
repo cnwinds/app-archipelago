@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, renameSync, existsSync, mkdirSync } from 'node:fs';
 import { dirname } from 'node:path';
 
 export const PATHS = {
@@ -16,9 +16,23 @@ export function readJson(path, fallback) {
   return JSON.parse(readFileSync(path, 'utf8'));
 }
 
+const TRANSIENT = new Set(['UNKNOWN', 'EBUSY', 'EPERM', 'EACCES']);
+
+// Write beside the target, then swap it in, so a crash never leaves a half-written file.
+// On Windows a file watcher or virus scanner can hold the target for a moment: retry briefly.
 export function writeJson(path, data) {
   mkdirSync(dirname(path), { recursive: true });
-  writeFileSync(path, JSON.stringify(data, null, 2) + '\n');
+  const tmp = `${path}.tmp`;
+  writeFileSync(tmp, JSON.stringify(data, null, 2) + '\n');
+  for (let attempt = 1; ; attempt++) {
+    try {
+      renameSync(tmp, path);
+      return;
+    } catch (e) {
+      if (!TRANSIENT.has(e.code) || attempt === 20) throw e;
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 100);
+    }
+  }
 }
 
 export function parseArgs(argv, defaults = {}) {

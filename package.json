@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "catalog:discover": "node scripts/catalog/discover-hn.mjs",
+    "catalog:add": "node scripts/catalog/add.mjs",
     "catalog:ingest": "node scripts/catalog/ingest.mjs",
     "catalog:review": "node scripts/catalog/review.mjs",
     "catalog:publish": "node scripts/catalog/publish.mjs"

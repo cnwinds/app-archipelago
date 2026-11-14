@@ -30,7 +30,8 @@ export function loadApps(now = Date.now()) {
   for (const p of published) {
     const cat = cats.get(p.category);
     if (!cat) continue;
-    const ageDays = Math.max(0, (now - Date.parse(p.postedAt)) / 86400000);
+    // Works without a known posting date (added by hand) have no age and are never "new".
+    const ageDays = p.postedAt ? Math.max(0, (now - Date.parse(p.postedAt)) / 86400000) : null;
     apps.push({
       id: p.id,
       name: p.name,
@@ -39,7 +40,7 @@ export function loadApps(now = Date.now()) {
       score: p.score,
       tier: p.score >= 90 ? 2 : p.score >= 70 ? 1 : 0,
       ageDays,
-      isNew: ageDays < NEW_WITHIN_DAYS,
+      isNew: ageDays !== null && ageDays < NEW_WITHIN_DAYS,
       tags: p.tags,
       desc: p.blurb,
       url: p.url,

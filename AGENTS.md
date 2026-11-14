@@ -18,11 +18,12 @@
 
 ## 作品收录流水线
 
-四步，各自一个脚本，中间结果都是 `catalog/` 下的 JSON：
+候选有两个来源（自动发现、手工添加），之后三步，各自一个脚本，中间结果都是 `catalog/` 下的 JSON：
 
 | 步骤 | 命令 | 读 | 写 |
 |---|---|---|---|
-| 发现 | `npm run catalog:discover -- --days 45 --min-points 30 --limit 90` | Show HN 接口 | `catalog/sources.json`（候选，也可以手工加条目） |
+| 发现 | `npm run catalog:discover -- --days 45 --min-points 30 --limit 90` | Show HN 接口 | `catalog/sources.json`（候选） |
+| 手工添加 | `npm run catalog:add -- <网址> [<网址> ...]` | 命令行 | `catalog/sources.json`（没有 `source` 字段的候选） |
 | 体检取素材 | `npm run catalog:ingest -- --concurrency 3` | `sources.json` | `catalog/drafts.json`、`catalog/shots/<id>.webp` |
 | 审核 | `npm run catalog:review` 生成 `catalog/review.html`（不入库），对着它手写 `catalog/curation.json` | `drafts.json` | `curation.json` |
 | 发布 | `npm run catalog:publish` | 以上三个 | `catalog/published.json`（前端读这个，不要手改）、`public/catalog/shots/` |
@@ -30,6 +31,8 @@
 - `curation.json` 按作品 id 记录人工决定：`status`（`approved` / `rejected`）、`category`、`name`、`tags`、`blurb`，拒绝时写 `reason`。可选 `score`（覆盖品质分）和 `"embed": false`（强制新标签页打开，比如需要麦克风的作品）
 - 中文介绍只写作品页面自己说了的内容，不确定的不写；收录标准是“点开就能用，不用下载或注册”
 - 品质分目前只有一个真实信号：`20 + 25.5 × log10(HN 分数)`，限制在 40 到 99。90 以上是城堡，70 以上是房屋。“新作”指发布 3 天内，不要为了好看放宽
+- 手工添加的作品没有发布日期和热度信号：不显示发布时间，永远不算“新作”，品质分默认 60，要更显眼只能由审核人在 `curation.json` 里写 `score`。首批 15 个经典作品统一给了 80，是人为定的占位值
+- 有些站点用 Cloudflare 质询拦截自动访问（neal.fun、shadertoy.com、slowroads.io 返回 403），流水线验证不了，体检记为失败。不要伪装浏览器去绕过
 - `ingest` 默认只处理还没有草稿的候选；`--only id,id` 重查指定作品，`--force` 全部重查，`--late 25000` 给加载慢的作品多等一会儿再截图，`--embed-shots shots/embed` 保存嵌入后的画面供人工复查
 
 体检脚本的几个设计点，改之前先了解：

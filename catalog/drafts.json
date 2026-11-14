@@ -2311,5 +2311,436 @@
       "ok": true,
       "reason": null
     }
+  },
+  "hextris-io": {
+    "id": "hextris-io",
+    "url": "https://hextris.io/",
+    "checkedAt": "2026-11-14T15:35:37.014Z",
+    "ok": false,
+    "error": "net::ERR_CERT_COMMON_NAME_INVALID at https://hextris.io/"
+  },
+  "slowroads-io": {
+    "id": "slowroads-io",
+    "url": "https://slowroads.io/",
+    "checkedAt": "2026-11-14T15:35:38.050Z",
+    "ok": false,
+    "loadMs": 13580,
+    "httpStatus": 403,
+    "finalUrl": "https://slowroads.io/",
+    "error": "HTTP 403"
+  },
+  "neal-fun-infinite-craft": {
+    "id": "neal-fun-infinite-craft",
+    "url": "https://neal.fun/infinite-craft/",
+    "checkedAt": "2026-11-14T15:35:51.679Z",
+    "ok": false,
+    "loadMs": 13247,
+    "httpStatus": 403,
+    "finalUrl": "https://neal.fun/infinite-craft/",
+    "error": "HTTP 403"
+  },
+  "play2048-co": {
+    "id": "play2048-co",
+    "url": "https://play2048.co/",
+    "checkedAt": "2026-11-14T15:35:37.012Z",
+    "ok": true,
+    "loadMs": 14573,
+    "httpStatus": 200,
+    "finalUrl": "https://play2048.co/",
+    "meta": {
+      "title": "2048 • Play the Free Online Game",
+      "description": "Join the tiles and reach 2048! Experience this popular and addictive puzzle game in its original version, available to play completely free and loved by millions. Do you have what it takes to reach 2048?",
+      "siteName": "2048",
+      "author": "Gabriele Cirulli",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "2048 WELCOME TO 2048! Would you like to learn how to play? Play Tutorial SCORE 0 BEST 0 Give Feedback N or R New Game 1 2 3 play2048.co © 2014—2026 Gabriele Cirulli. All rights reserved."
+    },
+    "jsErrors": 0,
+    "shot": "play2048-co.webp",
+    "shotBytes": 5598,
+    "embed": {
+      "ok": false,
+      "reason": "csp-frame-ancestors"
+    }
+  },
+  "bruno-simon-com": {
+    "id": "bruno-simon-com",
+    "url": "https://bruno-simon.com/",
+    "checkedAt": "2026-11-14T15:45:36.181Z",
+    "ok": true,
+    "loadMs": 5342,
+    "httpStatus": 200,
+    "finalUrl": "https://bruno-simon.com/",
+    "meta": {
+      "title": "Bruno          🚗   🌳",
+      "description": "Bruno Simon's creative portfolio",
+      "siteName": "Three.js Journey",
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": ""
+    },
+    "jsErrors": 0,
+    "shot": "bruno-simon-com.webp",
+    "shotBytes": 23728,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "chat-webllm-ai": {
+    "id": "chat-webllm-ai",
+    "url": "https://chat.webllm.ai/",
+    "checkedAt": "2026-11-14T15:36:23.916Z",
+    "ok": true,
+    "loadMs": 18702,
+    "httpStatus": 200,
+    "finalUrl": "https://chat.webllm.ai/",
+    "meta": {
+      "title": "WebLLM Chat",
+      "description": "Chat with AI large language models running natively in your browser. Enjoy private, server-free, seamless AI conversations.",
+      "siteName": "WebLLM Chat",
+      "author": "WebLLM Team",
+      "lang": "zh-Hans",
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "WebLLM Chat AI Models Running in Browser 角色模版 设置 新的聊天 0 条对话 2026/11/14 23:36:42 新的聊天 新的聊天 共 0 条对话 Edit Conversation 有什么可以帮你的吗 预设提示词 Edit Conversation Quick Prompts 清除聊天 Llama-3.2-1B-Instruct-q4f32_1-MLC 发送 1 TEXT_FOR_MEASURE"
+    },
+    "jsErrors": 0,
+    "shot": "chat-webllm-ai.webp",
+    "shotBytes": 6696,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "excalidraw-com": {
+    "id": "excalidraw-com",
+    "url": "https://excalidraw.com/",
+    "checkedAt": "2026-11-14T15:37:24.874Z",
+    "ok": true,
+    "loadMs": 10127,
+    "httpStatus": 200,
+    "finalUrl": "https://excalidraw.com/",
+    "meta": {
+      "title": "Excalidraw Whiteboard",
+      "description": "Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.",
+      "siteName": "Excalidraw",
+      "author": null,
+      "lang": "zh-CN",
+      "hasViewportMeta": true,
+      "canvasCount": 2,
+      "text": "Excalidraw 您的绘图已保存在您的浏览器存储中。 浏览器存储可能会被无意清除。 将您的工作定期保存到一个文件，以避免丢失。 打开 Ctrl+O 帮助 ? 实时协作... Sign up 导出、首选项、语言…… 选择工具并开始绘图！ 要移动画布，请按住鼠标滚轮或空格同时拖拽鼠标，或使用抓手工具。 形状 V R D O A L P T N E Try Excalidraw+ 14-day free trial 画布动作 100% 快捷键和帮助"
+    },
+    "jsErrors": 0,
+    "shot": "excalidraw-com.webp",
+    "shotBytes": 7242,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "shadertoy-com": {
+    "id": "shadertoy-com",
+    "url": "https://www.shadertoy.com/",
+    "checkedAt": "2026-11-14T15:38:16.143Z",
+    "ok": false,
+    "loadMs": 4818,
+    "httpStatus": 403,
+    "finalUrl": "https://www.shadertoy.com/",
+    "error": "HTTP 403"
+  },
+  "tldraw-com": {
+    "id": "tldraw-com",
+    "url": "https://www.tldraw.com/",
+    "checkedAt": "2026-11-14T15:37:32.688Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://www.tldraw.com/",
+    "meta": {
+      "title": "tldraw • very good free whiteboard",
+      "description": "A free and instant virtual whiteboarding with online collaboration. No signup required. Works on all devices: mobile, tablets, and desktop.",
+      "siteName": "tldraw",
+      "author": null,
+      "lang": "zh-cn",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "tldraw - free and instant collaborative whiteboarding 聚焦画布 登录以分享"
+    },
+    "jsErrors": 0,
+    "shot": "tldraw-com.webp",
+    "shotBytes": 4810,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "weavesilk-com": {
+    "id": "weavesilk-com",
+    "url": "https://weavesilk.com/",
+    "checkedAt": "2026-11-14T15:38:21.027Z",
+    "ok": true,
+    "loadMs": 11901,
+    "httpStatus": 200,
+    "finalUrl": "https://weavesilk.com/",
+    "meta": {
+      "title": "Silk – Interactive Generative Art",
+      "description": "Create beautiful flowing art with Silk.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 3,
+      "text": "New Share Pinterest Email Fullscreen Save Picture Controls Undo To save, right click the thumbnail and choose Save Image As.... Drag colors to blend. No rotational symmetry Mirror across center On Spiral towards center Off ? About Silk was made by Yuri Vishnevsky, with music and sound crafted by Mat Jarvis. Art shared with Silk is licensed under Creative Commons. If you enjoyed Silk, please let me know! Hide thumbnail Press Space to start anew. Press Z to undo. Try different colors and symmetries. Sally forth, you weaver of wonder, sower of silken waves."
+    },
+    "jsErrors": 0,
+    "shot": "weavesilk-com.webp",
+    "shotBytes": 4044,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "squoosh-app": {
+    "id": "squoosh-app",
+    "url": "https://squoosh.app/",
+    "checkedAt": "2026-11-14T15:38:46.125Z",
+    "ok": true,
+    "loadMs": 2141,
+    "httpStatus": 200,
+    "finalUrl": "https://squoosh.app/",
+    "meta": {
+      "title": "Squoosh",
+      "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "Drop OR Paste Or try one of these: 2.8MB 2.9MB 1.6MB 13KB Small Smaller images mean faster load times. Squoosh can reduce file size and maintain high quality. Simple Open your image, inspect the differences, then save instantly. Feeling adventurous? Adjust the settings for even smaller files. Secure Worried about privacy? Images never leave your device since Squoosh does all the work locally. Privacy Source on Github Install"
+    },
+    "jsErrors": 0,
+    "shot": "squoosh-app.webp",
+    "shotBytes": 23118,
+    "embed": {
+      "ok": false,
+      "reason": "needs-cross-origin-isolation"
+    }
+  },
+  "jsoncrack-com-editor": {
+    "id": "jsoncrack-com-editor",
+    "url": "https://jsoncrack.com/editor",
+    "checkedAt": "2026-11-14T15:47:27.032Z",
+    "ok": true,
+    "loadMs": 867,
+    "httpStatus": 200,
+    "finalUrl": "https://jsoncrack.com/editor",
+    "meta": {
+      "title": "Editor | JSON Crack",
+      "description": "JSON Crack Editor is a tool for visualizing into graphs, analyzing, editing, formatting, querying, transforming and validating JSON, CSV, YAML, XML, and more.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 3,
+      "text": "JSON CRACK File View Tools Upgrade to Pro Editor Valid Live Transform JSON 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 { \"fruits\": [ { \"name\": \"Apple\", \"color\": \"#FF0000\", \"details\": { \"type\": \"Pome\", \"season\": \"Fall\" }, \"nutrients\": { \"calories\": 52, \"fiber\": \"2.4g\", \"vitaminC\": \"4.6mg\" } }, { \"name\": \"Banana\", \"color\": \"#FFFF00\", \"details\": { \"type\": \"Berry\", \"season\": \"Year-round\" }, \"nutrients\": { \"calories\": 89, \"fiber\": \"2.6g\", \"potassium\": \"358mg\" } }, { \"name\": \"Orange\", \"color\": \"#FFA500\", \"details\": { \"type\": \"Citrus\", \"sea"
+    },
+    "jsErrors": 0,
+    "shot": "jsoncrack-com-editor.webp",
+    "shotBytes": 18066,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "monkeytype-com": {
+    "id": "monkeytype-com",
+    "url": "https://monkeytype.com/",
+    "checkedAt": "2026-11-14T15:39:18.730Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://monkeytype.com/",
+    "meta": {
+      "title": "Monkeytype | A minimalistic, customizable typing test",
+      "description": "The most customizable typing test website with a minimal design and a ton of features. Test yourself in various modes, track your progress and improve your speed.",
+      "siteName": null,
+      "author": "Miodec",
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "我们重视您的隐私！ 在本网站上，我们使用 Cookie 和类似功能来处理终端设备信息和个人数据（例如 IP 地址或浏览器信息）。处理用于整合内容、外部服务和第三方元素、统计分析/测量、个性化广告和社交媒体整合等目的。根据功能，数据最多可传递给 724 个第三方 并由他们处理。此同意是自愿的，使用我们的网站不需要此同意，可以随时使用左下角的图标撤销。 在设备上存储和/或访问信息 使用精确的地理位置数据 根据主动请求的信息识别设备 Selling, Sharing, Targeted Advertising 个性化广告和内容、广告和内容衡量、受众研究和服务开发 全部拒绝 全部接受 自定义选择 | Cookies | 了解更多信息 | 条款 | 特征 Check out our merch store! monkeytype.store We use cookies by the way Cookies enhance your experience and help us improve our website. accept all reject non-essential more options monkey see monkeytype punctuation numbers time words quote zen custom 15 30 60 120 english Cl"
+    },
+    "jsErrors": 0,
+    "shot": "monkeytype-com.webp",
+    "shotBytes": 10068,
+    "embed": {
+      "ok": false,
+      "reason": "x-frame-options"
+    }
+  },
+  "musiclab-chromeexperiments-com-song-maker": {
+    "id": "musiclab-chromeexperiments-com-song-maker",
+    "url": "https://musiclab.chromeexperiments.com/Song-Maker/",
+    "checkedAt": "2026-11-14T15:39:52.285Z",
+    "ok": true,
+    "loadMs": null,
+    "loadTimedOut": true,
+    "httpStatus": 200,
+    "finalUrl": "https://musiclab.chromeexperiments.com/Song-Maker/",
+    "meta": {
+      "title": "Chrome Music Lab - Song Maker",
+      "description": "Song Maker, an experiment in Chrome Music Lab, is a simple way for anyone to make and share a song.",
+      "siteName": null,
+      "author": null,
+      "lang": null,
+      "hasViewportMeta": true,
+      "canvasCount": 2,
+      "text": "GamePad Menu RestartAbout Back SONG MAKER Play Marimba Electronic MicSettingsUndoSave Tempo"
+    },
+    "jsErrors": 1,
+    "shot": "musiclab-chromeexperiments-com-song-maker.webp",
+    "shotBytes": 7208,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "strudel-cc": {
+    "id": "strudel-cc",
+    "url": "https://strudel.cc/",
+    "checkedAt": "2026-11-14T15:41:51.299Z",
+    "ok": true,
+    "loadMs": 10376,
+    "httpStatus": 200,
+    "finalUrl": "https://strudel.cc/",
+    "meta": {
+      "title": "Strudel REPL",
+      "description": "Strudel is a music live coding environment for the browser, porting the TidalCycles pattern language to JavaScript.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "strudel REPL (warm) play update share learn 1 $: s(\"[bd <hh oh>]*2\").bank(\"tr909\").dec(.4) welcome patterns sounds reference export console settings welcome You have found strudel, a new live coding platform to write dynamic music pieces in the browser! It is free and open-source and made for beginners and experts alike. To get started: 1. hit play - 2. change something - 3. hit update To get started, check out the interactive tutorial. Also feel free to join the discord channel to ask any questions, give feedback or just say hello. about strudel is a JavaScript version of tidalcycles, which i"
+    },
+    "jsErrors": 0,
+    "shot": "strudel-cc.webp",
+    "shotBytes": 15356,
+    "embed": {
+      "ok": false,
+      "reason": "needs-cross-origin-isolation"
+    }
+  },
+  "patatap-com": {
+    "id": "patatap-com",
+    "url": "https://patatap.com/",
+    "checkedAt": "2026-11-14T15:41:51.298Z",
+    "ok": true,
+    "loadMs": 16042,
+    "httpStatus": 200,
+    "finalUrl": "https://patatap.com/",
+    "meta": {
+      "title": "Patatap",
+      "description": "Patatap is a portable animation and sound kit. With the touch of a finger create melodies charged with moving shapes. Warning: contains flashing images.",
+      "siteName": "Patatap",
+      "author": "jonobr1",
+      "lang": null,
+      "hasViewportMeta": true,
+      "canvasCount": 0,
+      "text": "Patatap is a portable animation and sound kit. With the touch of a finger create melodies charged with moving shapes. Warning: contains flashing images. × Support the makers of Patatap: If you like Patatap you might like our other projects Typatone and Curaturae. Patatap was made with Two.js: a two dimensional drawing api for the web. lullatone · jono · inquiries · conversion table · terms © 2014—2024 0 / 26"
+    },
+    "jsErrors": 0,
+    "shot": "patatap-com.webp",
+    "shotBytes": 2482,
+    "shotNote": "kept the previous cover: the new capture had 47% of its detail",
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "desmos-com-calculator": {
+    "id": "desmos-com-calculator",
+    "url": "https://www.desmos.com/calculator",
+    "checkedAt": "2026-11-14T15:42:21.171Z",
+    "ok": true,
+    "loadMs": 2413,
+    "httpStatus": 200,
+    "finalUrl": "https://www.desmos.com/calculator?lang=zh-CN",
+    "meta": {
+      "title": "Desmos | 图形计算器",
+      "description": null,
+      "siteName": "Desmos",
+      "author": null,
+      "lang": "zh-CN",
+      "hasViewportMeta": true,
+      "canvasCount": 1,
+      "text": "未命名图表 保存 登录 注册 表达式1: 1 2 登录或注册，留存数学之美！ 技术支持 \"x\" x \"y\" y \"a\" 平方 a2 \"a\" 订阅， \"b\" ，基线 ab 7 7 8 8 9 9 除以 ÷ 功能 ( ( ) ) 小于 < 大于 > 4 4 5 5 6 6 times × | \"a\" | |a| , , 小于或等于 ≤ 大于或等于 ≥ 1 1 2 2 3 3 负 − A B C 根号开始，，根号结束 pi π 0 0 . . 等于 = 正数 +"
+    },
+    "jsErrors": 0,
+    "shot": "desmos-com-calculator.webp",
+    "shotBytes": 6560,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "ncase-me-trust": {
+    "id": "ncase-me-trust",
+    "url": "https://ncase.me/trust/",
+    "checkedAt": "2026-11-14T15:42:36.447Z",
+    "ok": true,
+    "loadMs": 1998,
+    "httpStatus": 200,
+    "finalUrl": "https://ncase.me/trust/",
+    "meta": {
+      "title": "The Evolution of Trust",
+      "description": "an interactive guide to the game theory of why & how we trust each other",
+      "siteName": null,
+      "author": null,
+      "lang": null,
+      "hasViewportMeta": false,
+      "canvasCount": 1,
+      "text": "THE EVOLUTION OF TRUST playing time: 30 min • by nicky case, july 2017 PLAY → ON fan-translations: (add one!) Español de España Español Latino Français Bahasa Indonesia Deutsch Italiano Svenska Nederlands dansk Esperanto Русский Português do Brasil Türkçe Polski Magyar Filipino Slovenski jezik hrvatski eesti Česky latviešu valoda suomi Català Română Shqip Հայերեն македонски јазик ελληνικά Українська български език Tiếng Việt 한국어 日本語 中文（简体） 中文（臺灣） ไทย فارسی العربية"
+    },
+    "jsErrors": 0,
+    "shot": "ncase-me-trust.webp",
+    "shotBytes": 33184,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
+  },
+  "visualgo-net-en": {
+    "id": "visualgo-net-en",
+    "url": "https://visualgo.net/en",
+    "checkedAt": "2026-11-14T15:43:01.842Z",
+    "ok": true,
+    "loadMs": 5039,
+    "httpStatus": 200,
+    "finalUrl": "https://visualgo.net/en",
+    "meta": {
+      "title": "visualising data structures and algorithms through animation - VisuAlgo",
+      "description": "VisuAlgo was conceptualised in 2011 by Associate Professor Steven Halim (NUS School of Computing) as a tool to help his students better understand data structures and algorithms, by allowing them to learn the basics on their own and at their own pace. Together with his students from the National University of Singapore, a series of visualizations were developed and consolidated, from simple sorting algorithms to complex graph data structures. Though specifically designed for the use of NUS students taking various data structure and algorithm classes (CS1010/equivalent, CS2040/equivalent (inclusive of IT5003)), CS3230, CS3233, and CS4234), as advocators of online learning, we hope that curious minds around the world will find these visualizations useful as well.",
+      "siteName": null,
+      "author": null,
+      "lang": "en",
+      "hasViewportMeta": false,
+      "canvasCount": 0,
+      "text": "7 VisuAlgo.net / en zh id Login VisuAlgo.net/en visualising data structures and algorithms through animation ▿ Featured story: Visualizing Algorithms with a Click Featured blog: Digitising as many static Computer Science textbooks examples into equivalent VisuAlgo animation VisuAlgo project continues to be funded by Optiver (started mid 2023, to continue to mid 2026 and possibly beyond). The focus for 2026 expansion project is to explore new Information Visualization techniques, perhaps AI-assisted. Do You Know? Next Random Tip You can visualize the recursion tree (or DAG, if there are overlap"
+    },
+    "jsErrors": 0,
+    "shot": "visualgo-net-en.webp",
+    "shotBytes": 24572,
+    "embed": {
+      "ok": true,
+      "reason": null
+    }
   }
 }

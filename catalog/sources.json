@@ -1168,5 +1168,100 @@
       "author": "stephenchung",
       "postedAt": "2026-10-16T14:35:43Z"
     }
+  },
+  {
+    "id": "play2048-co",
+    "url": "https://play2048.co/",
+    "title": "play2048.co"
+  },
+  {
+    "id": "hextris-io",
+    "url": "https://hextris.io/",
+    "title": "hextris.io"
+  },
+  {
+    "id": "slowroads-io",
+    "url": "https://slowroads.io/",
+    "title": "slowroads.io"
+  },
+  {
+    "id": "neal-fun-infinite-craft",
+    "url": "https://neal.fun/infinite-craft/",
+    "title": "neal.fun"
+  },
+  {
+    "id": "bruno-simon-com",
+    "url": "https://bruno-simon.com/",
+    "title": "bruno-simon.com"
+  },
+  {
+    "id": "chat-webllm-ai",
+    "url": "https://chat.webllm.ai/",
+    "title": "chat.webllm.ai"
+  },
+  {
+    "id": "excalidraw-com",
+    "url": "https://excalidraw.com/",
+    "title": "excalidraw.com"
+  },
+  {
+    "id": "tldraw-com",
+    "url": "https://www.tldraw.com/",
+    "title": "tldraw.com"
+  },
+  {
+    "id": "shadertoy-com",
+    "url": "https://www.shadertoy.com/",
+    "title": "shadertoy.com"
+  },
+  {
+    "id": "weavesilk-com",
+    "url": "https://weavesilk.com/",
+    "title": "weavesilk.com"
+  },
+  {
+    "id": "squoosh-app",
+    "url": "https://squoosh.app/",
+    "title": "squoosh.app"
+  },
+  {
+    "id": "jsoncrack-com-editor",
+    "url": "https://jsoncrack.com/editor",
+    "title": "jsoncrack.com"
+  },
+  {
+    "id": "monkeytype-com",
+    "url": "https://monkeytype.com/",
+    "title": "monkeytype.com"
+  },
+  {
+    "id": "musiclab-chromeexperiments-com-song-maker",
+    "url": "https://musiclab.chromeexperiments.com/Song-Maker/",
+    "title": "musiclab.chromeexperiments.com"
+  },
+  {
+    "id": "patatap-com",
+    "url": "https://patatap.com/",
+    "title": "patatap.com"
+  },
+  {
+    "id": "strudel-cc",
+    "url": "https://strudel.cc/",
+    "title": "strudel.cc"
+  },
+  {
+    "id": "desmos-com-calculator",
+    "url": "https://www.desmos.com/calculator",
+    "title": "desmos.com"
+  },
+  {
+    "id": "ncase-me-trust",
+    "url": "https://ncase.me/trust/",
+    "title": "ncase.me"
+  },
+  {
+    "id": "visualgo-net-en",
+    "url": "https://visualgo.net/en",
+    "title": "visualgo.net"
   }
 ]
