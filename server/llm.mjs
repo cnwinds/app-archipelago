@@ -54,17 +54,23 @@ export function createLlm(cfg, { log = () => {}, fetchImpl = fetch } = {}) {
       body: JSON.stringify({
         model: cfg.model,
         temperature: 0.2,
-        max_tokens: 500,
+        // The answer is ~150 tokens, but reasoning models (GLM, Qwen-thinking, ...) spend
+        // the same budget on their thinking first. 500 was enough for qwen-plus and cut
+        // glm-5.3-flash off mid-JSON; the answer is short, so the headroom costs nothing.
+        max_tokens: 2000,
         response_format: { type: 'json_object' },
         messages: [
           { role: 'system', content: SYSTEM },
           { role: 'user', content: JSON.stringify(payload) },
         ],
       }),
-      signal: AbortSignal.timeout(30000),
+      signal: AbortSignal.timeout(60000),
     });
     if (!res.ok) throw new Error(`LLM ${res.status}: ${(await res.text()).slice(0, 200)}`);
-    const content = (await res.json()).choices?.[0]?.message?.content ?? '';
+    const choice = (await res.json()).choices?.[0];
+    const content = choice?.message?.content ?? '';
+    if (choice?.finish_reason === 'length') throw new Error('LLM output cut off by max_tokens');
+    if (!content.trim()) throw new Error('LLM returned an empty answer');
     return JSON.parse(content.replace(/^```(?:json)?\s*|\s*```$/g, ''));
   }
 
