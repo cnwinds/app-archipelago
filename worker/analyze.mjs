@@ -2,8 +2,9 @@
 // fast, can it run inside an iframe on our site, what does the page say about itself and
 // what does it look like.
 //
-// This is the old scripts/catalog/ingest.mjs `ingest()` turned into a function: it returns the
-// result and the screenshots instead of writing files, and the api decides what to keep.
+// This is the old scripts/catalog/ingest.mjs `ingest()` (removed; see git history) turned into a
+// function: it returns the result and the screenshots instead of writing files, and the api
+// decides what to keep.
 //
 // Design points worth knowing before changing anything:
 //  - The embed test really loads the work in an iframe, with the parent faked as our own origin

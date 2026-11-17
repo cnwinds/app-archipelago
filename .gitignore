@@ -2,7 +2,6 @@ node_modules
 dist
 /shots
 .env
-catalog/review.html
 # Runtime state of the intake service: database, screenshots, published catalog, backups
 /data
 /secrets
