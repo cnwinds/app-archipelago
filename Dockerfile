@@ -37,10 +37,14 @@ ARG NPM_REGISTRY
 ARG APK_MIRROR
 # font-noto-cjk matters: without it every Chinese page is screenshotted as empty boxes.
 RUN if [ -n "$APK_MIRROR" ]; then sed -i "s#dl-cdn.alpinelinux.org#$APK_MIRROR#g" /etc/apk/repositories; fi \
- && apk add --no-cache chromium font-noto-cjk font-noto-emoji nss freetype harfbuzz ca-certificates
+ && apk add --no-cache chromium font-noto-cjk font-noto-emoji nss freetype harfbuzz ca-certificates \
+      mesa-dri-gallium mesa-egl mesa-gles
+# Alpine's Chromium has no SwiftShader; WebGL comes from Mesa's llvmpipe (CHROME_GPU=mesa).
+# Without it every 3D work is screenshotted blank.
 ENV NODE_ENV=production \
     CHROME_PATH=/usr/bin/chromium-browser \
     CHROME_NO_SANDBOX=1 \
+    CHROME_GPU=mesa \
     HOME=/tmp
 WORKDIR /app
 COPY package.json package-lock.json ./

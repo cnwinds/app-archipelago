@@ -86,11 +86,20 @@ async function embedTest(page, url) {
   return { ok: false, reason: 'timeout' };
 }
 
+// How Chromium gets a WebGL context. Without one, every 3D work screenshots as a blank page and
+// the embed test cannot tell "broken" from "needs a GPU". Pick with CHROME_GPU.
+const GPU_FLAGS = {
+  // A developer machine with a real graphics card (Windows).
+  desktop: ['--use-angle=d3d11', '--enable-gpu', '--ignore-gpu-blocklist'],
+  // Mesa's software renderer (llvmpipe) through ANGLE. This is what the docker image uses: Alpine's
+  // Chromium ships no SwiftShader, so the flags below give "WebGL is disabled" there.
+  mesa: ['--use-gl=angle', '--use-angle=gl-egl', '--ignore-gpu-blocklist'],
+  // The software renderer bundled with Chrome from Google (Windows, macOS, most Linux builds).
+  swiftshader: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'],
+};
+
 function chromeArgs(proxy) {
-  const gpu =
-    process.env.CHROME_GPU === 'desktop'
-      ? ['--use-angle=d3d11', '--enable-gpu', '--ignore-gpu-blocklist']
-      : ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'];
+  const gpu = GPU_FLAGS[process.env.CHROME_GPU] ?? GPU_FLAGS.swiftshader;
   return [
     ...gpu,
     '--mute-audio',
