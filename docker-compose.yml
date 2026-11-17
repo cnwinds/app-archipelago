@@ -66,6 +66,13 @@ services:
     environment:
       API_URL: http://api:3000
       WORKER_TOKEN: ${WORKER_TOKEN:?run scripts/server-init.sh first}
+      # Optional relay outside the country: connections to these hosts (default *.github.io, which
+      # loses many packets from here) go through it. Empty = off. Example: an HTTP proxy on the
+      # host, http://host.docker.internal:7890. Falls back to a direct connection if it is down.
+      UPSTREAM_PROXY: ${UPSTREAM_PROXY:-}
+      UPSTREAM_PROXY_HOSTS: ${UPSTREAM_PROXY_HOSTS:-*.github.io}
+    extra_hosts:
+      - host.docker.internal:host-gateway
     networks: [back]
     # The server is small and shared: one page at a time, hard memory ceiling, no swap.
     mem_limit: 1200m

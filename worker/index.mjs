@@ -5,7 +5,7 @@
 import { hostname } from 'node:os';
 import { setTimeout as sleep } from 'node:timers/promises';
 import { createAnalyzer, withTimeout } from './analyze.mjs';
-import { startEgressProxy } from './egress-proxy.mjs';
+import { matchesRelayHost, parseRelay, startEgressProxy } from './egress-proxy.mjs';
 
 const API_URL = (process.env.API_URL || 'http://localhost:3000').replace(/\/$/, '');
 const TOKEN = process.env.WORKER_TOKEN || '';
@@ -32,13 +32,29 @@ async function api(path, body) {
 
 // On a developer machine the proxy would refuse everything (local DNS answers with fake private
 // addresses), so it can be switched off there. On the server it must stay on.
+// Optional relay: an HTTP proxy outside the country that every connection to the listed hosts
+// (default *.github.io, which loses many packets on the way from here) goes through. Off unless
+// UPSTREAM_PROXY is set. See egress-proxy.mjs for how it is kept inside the address check.
+const relay = parseRelay(process.env.UPSTREAM_PROXY, process.env.UPSTREAM_PROXY_HOSTS);
 let proxyUrl;
 if (process.env.EGRESS_PROXY !== '0') {
-  await startEgressProxy({ port: 3128, log });
+  await startEgressProxy({ port: 3128, log, relay });
   proxyUrl = 'http://127.0.0.1:3128';
 }
 const analyzer = createAnalyzer({ proxy: proxyUrl });
-log(`worker ${WORKER_ID} ready; api ${API_URL}; egress proxy ${proxyUrl ?? 'off'}`);
+log(`worker ${WORKER_ID} ready; api ${API_URL}; egress proxy ${proxyUrl ?? 'off'}; relay ${relay && proxyUrl ? `${relay.host}:${relay.port} for ${relay.hosts.join(',')}` : 'off'}`);
+
+// Through the relay the load time says how fast the relay is, not how fast a visitor in China
+// will get the work, so for those hosts it is not used: they are reported as slow from here.
+function noteRelayedReach(url, result) {
+  if (!relay || !proxyUrl || !result.ok) return;
+  try {
+    if (matchesRelayHost(new URL(url).hostname, relay.hosts)) {
+      result.reach = 'slow';
+      result.relayed = true;
+    }
+  } catch {}
+}
 
 let stopping = false;
 let lastJobAt = 0; // 0 = the browser is not running
@@ -72,6 +88,7 @@ while (!stopping) {
       result = { ok: false, error: String(e.message || e).slice(0, 200), errorKind: 'network', checkedAt: new Date().toISOString() };
       await analyzer.close();
     }
+    noteRelayedReach(job.candidate.url, result);
     const { cover, embedShot, ...rest } = result;
     await api(`/internal/jobs/${job.id}/result`, {
       result: rest,
