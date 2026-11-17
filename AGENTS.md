@@ -30,7 +30,7 @@ Show HN 每日发现 ┐
 - **候选来源三个**：api 每天自动从 Show HN 发现一次（窗口 7 天、至少 30 分，靠去重幂等）；任何人在 `/submit` 投稿；审核人在审核台点“添加网址”。审核台还有“立即发现”按钮
 - **投稿永远先进审核，不会自动上线**。每个访客每天最多 5 个，全站每天 60 个，页面里有给机器人看的蜜罐字段。不接受 IP 地址、内网/本站地址、80/443 以外端口、代码仓库/应用商店/视频/文档这类链接
 - **体检失败会重试**：网络类失败最多 3 次（10 分钟、6 小时后），证书错误不重试，其余 2 次，之后进审核台“失败”页，由人决定重查还是拒绝。worker 中途失联的任务会回到队列，连续 3 次后放弃
-- **AI 起草**（`server/llm.mjs`）：OpenAI 兼容接口，默认阿里云百炼 `qwen-plus`，由环境变量 `LLM_BASE_URL` / `LLM_API_KEY` / `LLM_MODEL` 配置。没有 key 时只用页面自己的标题和描述预填，分类和介绍由审核人写。AI 标出的风险只会预填“建议拒绝”，不会自动拒绝或通过；页面文字当作不可信输入处理。AI 只填审核人还没写的字段
+- **AI 起草**（`server/llm.mjs`）：OpenAI 兼容接口，由环境变量 `LLM_BASE_URL` / `LLM_API_KEY` / `LLM_MODEL` 配置（代码默认值是阿里云百炼 `qwen-plus`）。线上用的是同一台服务器上 sub2api 网关（`http://101.132.237.21:8080/v1`）的 `glm-5.3-flash`，key 只在服务器 `.env` 里。这是推理模型，思考过程会占用 `max_tokens`，所以请求上限给到 2000（500 会把 JSON 截断），单次起草约 10–40 秒，后台跑不挡 worker；起草总时限 85 秒，要小于 nginx 的 90 秒读超时（审核台“重新起草”按钮同步等它）。没有 key 时只用页面自己的标题和描述预填，分类和介绍由审核人写。AI 标出的风险只会预填“建议拒绝”，不会自动拒绝或通过；页面文字当作不可信输入处理。AI 只填审核人还没写的字段
 - **审核台**（`/admin/`）：待审核、检查中、失败、已上线、已拒绝/下架五个分栏；封面和“放进群岛 iframe 之后的样子”并排；键盘：J/K 上一个/下一个、A 通过、R 拒绝、E 改名称、X 勾选（用于批量）、O 打开原站、/ 搜索、1–5 切换分栏、表单里 Ctrl+Enter 通过。通过后立即重新生成 `published.json`，站点几秒内就能看到
 - **每周复查已上线作品**（每 7 天一轮，每小时最多 20 个后台分析，投稿不受限）：复查失败不会下架，只在审核台标红；复查从不替换已有封面；嵌入判断里只有明确的结论（X-Frame-Options、CSP frame-ancestors、需要跨源隔离等）才会改变“能否嵌入”，超时和报错不算数。重新体检（人工触发）只在新封面细节不少于旧封面一半时才换封面
 - **每晚备份**（中国时间 3 点后一次，保留 7 份）：`data/backups/app-<日期>.db` 加一份 `.curation.json` 导出，后者不依赖 sqlite 也能读
@@ -109,7 +109,7 @@ npm run build               # 产物在 dist/
 ssh root@101.132.237.21 'cd /opt/app-archipelago && git pull && docker compose up -d --build'
 ```
 
-首次部署或换新服务器：先 `sh scripts/server-init.sh`，再运行上面的命令。要开启 AI 起草：在服务器 `.env` 里填 `LLM_API_KEY`，然后 `docker compose up -d api`（api 启动日志里会显示 `ai qwen-plus` 或 `ai off`）。
+首次部署或换新服务器：先 `sh scripts/server-init.sh`，再运行上面的命令。要开启或更换 AI 起草：在服务器 `.env` 里填 `LLM_BASE_URL` / `LLM_API_KEY` / `LLM_MODEL`（`.env` 权限 600），然后 `docker compose up -d api`（api 启动日志里会显示 `ai <模型名>` 或 `ai off`）。换模型前先用 `docker exec` 在 api 容器里调一次 `createLlm(...).draft(...)`，看是否被截断、是否支持 `response_format: json_object`。
 
 服务器很小且共享：2 核、3.5 GB 内存、磁盘已用近 9 成，还跑着十几个其他服务。不要调高 worker 的并发和内存上限；清理 Docker 构建缓存（`docker builder prune`）前先问用户，它会影响同机其他项目的构建速度。
 

@@ -47,7 +47,7 @@ export function ruleDraft(candidate) {
 export function createLlm(cfg, { log = () => {}, fetchImpl = fetch } = {}) {
   const enabled = Boolean(cfg.apiKey);
 
-  async function ask(payload) {
+  async function ask(payload, timeoutMs = 60000) {
     const res = await fetchImpl(`${cfg.baseUrl}/chat/completions`, {
       method: 'POST',
       headers: { 'content-type': 'application/json', authorization: `Bearer ${cfg.apiKey}` },
@@ -64,7 +64,7 @@ export function createLlm(cfg, { log = () => {}, fetchImpl = fetch } = {}) {
           { role: 'user', content: JSON.stringify(payload) },
         ],
       }),
-      signal: AbortSignal.timeout(60000),
+      signal: AbortSignal.timeout(timeoutMs),
     });
     if (!res.ok) throw new Error(`LLM ${res.status}: ${(await res.text()).slice(0, 200)}`);
     const choice = (await res.json()).choices?.[0];
@@ -91,9 +91,14 @@ export function createLlm(cfg, { log = () => {}, fetchImpl = fetch } = {}) {
         canEmbed: candidate.analysis?.embed?.ok ?? null,
         hnTitle: candidate.origin === 'hn' ? candidate.title : undefined,
       };
+      // The reviewer's "redraft" button waits for this, behind nginx's 90 s read timeout:
+      // two slow attempts must not add up to more than that.
+      const deadline = Date.now() + 85000;
       for (let attempt = 1; attempt <= 2; attempt++) {
+        const left = deadline - Date.now();
+        if (left < 10000) break;
         try {
-          return { ...sanitizeDraft(await ask(payload)), source: 'llm', model: cfg.model };
+          return { ...sanitizeDraft(await ask(payload, Math.min(60000, left))), source: 'llm', model: cfg.model };
         } catch (e) {
           log(`llm draft failed for ${candidate.id} (attempt ${attempt}): ${e.message}`);
         }
