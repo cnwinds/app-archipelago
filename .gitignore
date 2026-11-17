@@ -1,7 +1,8 @@
-node_modules
+﻿node_modules
 dist
 /shots
 .env
+.env.bak.*
 # Runtime state of the intake service: database, screenshots, published catalog, backups
 /data
 /secrets
