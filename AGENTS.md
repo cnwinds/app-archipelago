@@ -1,4 +1,4 @@
-# App Archipelago（应用群岛）
+﻿# App Archipelago（应用群岛）
 
 用 3D 群岛地图展示 Web 应用/游戏的导航站。每个类别是一座岛，精品是城堡，新作品带光柱。作品由服务器上的收录服务自动发现、体检、起草介绍，人工在审核台点通过后立即上线，不用重新构建。
 
@@ -31,6 +31,7 @@ Show HN 每日发现 ┐
 - **投稿永远先进审核，不会自动上线**。每个访客每天最多 5 个，全站每天 60 个，页面里有给机器人看的蜜罐字段。不接受 IP 地址、内网/本站地址、80/443 以外端口、代码仓库/应用商店/视频/文档这类链接
 - **体检失败会重试**：网络类失败最多 3 次（10 分钟、6 小时后），证书错误不重试，其余 2 次，之后进审核台“失败”页，由人决定重查还是拒绝。worker 中途失联的任务会回到队列，连续 3 次后放弃
 - **AI 起草**（`server/llm.mjs`）：OpenAI 兼容接口，由环境变量 `LLM_BASE_URL` / `LLM_API_KEY` / `LLM_MODEL` 配置（代码默认值是阿里云百炼 `qwen-plus`）。线上用的是同一台服务器上 sub2api 网关（`http://101.132.237.21:8080/v1`）的 `glm-5.3-flash`，key 只在服务器 `.env` 里。这是推理模型，思考过程会占用 `max_tokens`，所以请求上限给到 2000（500 会把 JSON 截断），单次起草约 10–40 秒，后台跑不挡 worker；起草总时限 85 秒，要小于 nginx 的 90 秒读超时（审核台“重新起草”按钮同步等它）。没有 key 时只用页面自己的标题和描述预填，分类和介绍由审核人写。AI 标出的风险只会预填“建议拒绝”，不会自动拒绝或通过；页面文字当作不可信输入处理。AI 只填审核人还没写的字段
+- **页面没有文字时看封面图**：很多作品全画在 canvas 上，HTML 里只有标题（例如 p5.js 作品，页面只有 790 字节），纯文本模型没有依据，按规则会把介绍留空，而“通过”要求介绍非空，审核人就得自己写。配置 `LLM_VISION_MODEL`（同一网关、同一 key）后，文本模型没写出介绍、且有封面图时，会再让视觉模型看封面，只描述图里直接看得到的内容，空白/黑屏/加载画面则仍然留空。结果标 `blurbFrom: 'image'`，把握最高只到“中”，审核台会提示“介绍是看封面图写的，请核对”。线上用的是 `z-ai/glm-4.6v`（约 10–15 秒）；`qwen3-vl-flash` 在这个网关上会 502/429，别用。截图里的文字同样当作不可信输入
 - **审核台**（`/admin/`）：待审核、检查中、失败、已上线、已拒绝/下架五个分栏；封面和“放进群岛 iframe 之后的样子”并排；键盘：J/K 上一个/下一个、A 通过、R 拒绝、E 改名称、X 勾选（用于批量）、O 打开原站、/ 搜索、1–5 切换分栏、表单里 Ctrl+Enter 通过。通过后立即重新生成 `published.json`，站点几秒内就能看到
 - **每周复查已上线作品**（每 7 天一轮，每小时最多 20 个后台分析，投稿不受限）：复查失败不会下架，只在审核台标红；复查从不替换已有封面；嵌入判断里只有明确的结论（X-Frame-Options、CSP frame-ancestors、需要跨源隔离等）才会改变“能否嵌入”，超时和报错不算数。重新体检（人工触发）只在新封面细节不少于旧封面一半时才换封面
 - **每晚备份**（中国时间 3 点后一次，保留 7 份）：`data/backups/app-<日期>.db` 加一份 `.curation.json` 导出，后者不依赖 sqlite 也能读
@@ -57,6 +58,7 @@ Show HN 每日发现 ┐
 worker 是整套系统里最不可信的部分：它要打开陌生人提交的网址，而服务器上的内网地址（阿里云元数据 `100.100.100.200`、同机其他容器的端口）是能连通的。下面这些都不能破坏：
 
 - Chromium 必须通过 worker 自带的出站代理（`--proxy-server`，并带 `--proxy-bypass-list=<-loopback>`）。代理自己解析 DNS，只连解析结果全部是公网的地址，只放行 80/443，所以重定向、子资源和 DNS 重绑定都挡得住。不要为了“本机方便”在服务器上关掉它（`EGRESS_PROXY=0` 只给开发机用）
+- 可选的海外中转（`UPSTREAM_PROXY`，默认只对 `UPSTREAM_PROXY_HOSTS=*.github.io` 生效）：这些主机的 HTTPS 隧道先过我们自己的公网地址检查，再用**检查通过的 IP**（不是域名）向中转要 CONNECT，所以中转没法被用来二次解析域名；中转不可用或拒绝时自动回退直连。只放“DNS 由平台自己管”的后缀，别加任何人都能随便指向别处的域名。走了中转的作品，加载耗时反映的是中转而不是国内访客的体验，所以 worker 一律把它们记为 `reach: slow`、`relayed: true`
 - worker 不持有任何密钥，只带一个 `WORKER_TOKEN`；它只能调用 api 的 `/internal/*`，且在独立的 `back` 网络里，够不到 nginx
 - api 不发布端口。公开接口和管理接口只回应来自 nginx 的请求（`EDGE_HOST=web`），所以被攻破的 worker 也碰不到管理接口。nginx 对 `/internal/` 返回 404
 - 管理接口由 nginx 的 `auth_basic` 保护；管理写接口要求 JSON 请求体和同源 `Origin`，防止浏览器自动带口令造成的跨站请求
@@ -67,6 +69,8 @@ worker 是整套系统里最不可信的部分：它要打开陌生人提交的�
 
 - 收录服务整套跑在阿里云服务器上，所以体检看到的是国内用户的真实体验；加载超过 15 秒的作品会标 `reach: slow`，详情面板会提示“这个作品在国内加载比较慢”
 - 2026-11-17 从服务器实测：`hn.algolia.com` 200（0.45 秒）；`news.ycombinator.com`、Reddit、itch.io 不通；`*.github.io` 能通但要 7 秒左右；`*.pages.dev` 能通。之前记录的“服务器访问不了 Hacker News”不准确，发现只用 Algolia 接口，不需要访问 HN 本站。网络状况会变，别当成定论
+- **GitHub 这一段丢包，别的方向没事**（2026-11-17 在服务器上实测，每项 10 次）：baidu.com 和 cloudflare 直连 0 次卡顿；`*.github.io` 直连 6/10 次超过 2 秒，中位 5.9 秒，还有超时，卡顿是 TCP 连接/TLS 握手重传，按 2 秒一档（2.2、4.2、6.2、16.2 秒）；`raw.githubusercontent.com` 好得多（2/10）。GitHub Pages 的 4 个 IP 各有快有慢，换 IP 没用。公开的 gh-proxy 实例（gh-proxy.com、ghfast.top）只代理 `github.com` 的 raw/release/archive，**不代理 `github.io`**（实测 404/403），mirror.ghproxy.com 已失效，所以“用 gh-proxy 加速体检”走不通
+- 服务器上有一个别的服务的 clash（宿主机进程，`/etc/clash`，规则只有 `GEOIP,CN,DIRECT` 和 `MATCH,select`，出口在新加坡），监听 `*:7890/7891/7892`（`allow-lan: true`），**没有认证，iptables 全放行**，从 worker 容器经 Docker 网关能直接用。线上的海外中转就是它（`UPSTREAM_PROXY=http://host.docker.internal:7890`，compose 里加了 `extra_hosts: host.docker.internal:host-gateway`）。经它访问 `github.io` 中位降到约 2.4 秒、最坏约 4 秒、不再超时，但它自己的链路也会卡（访问 Google/Cloudflare 也有 3–5/10 次超过 2 秒）。它是否对公网开放取决于阿里云安全组，我在本机验证不了（本机开着 TUN 会伪造连接成功）；建议改成只监听 127.0.0.1 或加口令。注意：被攻破的 worker 能借它去连宿主机回环和内网，所以别扩大它的用途
 - 用自定义域名的作品大多能从国内直接打开。上线前最初那批作品的主页面测速：49 个里 45 个能打开，2 个打不开，2 个被拒（只测主文档，偏乐观）
 - 本机现在不能给线上 worker 干活：`/internal/` 不对外开放。要做的话需要另开一个受保护的入口
 - 如果要做作品代理（gh-proxy 那种思路）：上游必须在海外；每个作品要用独立子域名，不能挂在主站同源路径下，否则 iframe 的 `allow-same-origin` 会让作品拿到主站权限；只代理已发布的作品，不能做成开放代理。目前没做，受影响的主要是 `*.github.io`、`*.workers.dev` 这类平台子域名作品
@@ -75,7 +79,7 @@ worker 是整套系统里最不可信的部分：它要打开陌生人提交的�
 
 ```powershell
 npm install
-npm test                    # node:test，70 项左右，几秒钟
+npm test                    # node:test，近 90 项，几秒钟
 $env:CHECK_DNS='0'; npm run server    # 收录服务，默认 3000 端口，数据放 ./data（已 gitignore）
 $env:CHROME_PATH='C:\Program Files\Google\Chrome\Application\chrome.exe'; $env:EGRESS_PROXY='0'; npm run worker
 npx vite --port 5317        # 把 /api 和 /catalog 代理到收录服务；开发时 /admin/ 没有口令

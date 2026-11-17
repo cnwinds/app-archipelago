@@ -63,6 +63,9 @@ export const config = {
     baseUrl: (env.LLM_BASE_URL || 'https://dashscope.aliyuncs.com/compatible-mode/v1').replace(/\/$/, ''),
     apiKey: env.LLM_API_KEY || '',
     model: env.LLM_MODEL || 'qwen-plus',
+    // Optional model that can read images. Used only for works whose page has no text to write
+    // the blurb from (canvas-only works): it describes the cover. Empty = off.
+    visionModel: env.LLM_VISION_MODEL || '',
   },
 
   // Daily "N works waiting for review" message. NOTIFY_FORMAT: feishu | wecom | json

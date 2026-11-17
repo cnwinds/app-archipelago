@@ -39,6 +39,7 @@ services:
       LLM_BASE_URL: ${LLM_BASE_URL:-https://dashscope.aliyuncs.com/compatible-mode/v1}
       LLM_API_KEY: ${LLM_API_KEY:-}
       LLM_MODEL: ${LLM_MODEL:-qwen-plus}
+      LLM_VISION_MODEL: ${LLM_VISION_MODEL:-}
       NOTIFY_WEBHOOK: ${NOTIFY_WEBHOOK:-}
       NOTIFY_FORMAT: ${NOTIFY_FORMAT:-json}
       SITE_URL: ${SITE_URL:-https://isle.ai-news.top}

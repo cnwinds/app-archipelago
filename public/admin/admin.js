@@ -489,7 +489,7 @@ function buildForm(c, { ok, live, ai }) {
   const aiLine = h(
     'div',
     { class: 'ai-line' },
-    ai ? `${ai.source === 'llm' ? `AI 起草（${ai.model ?? '模型'}，把握${{ high: '高', medium: '中', low: '低' }[ai.confidence] ?? '低'}）` : '没有可用的 AI，只填了页面标题'} · ${ago(ai.at)}` : S.stats?.aiEnabled ? '还没有 AI 草稿' : 'AI 起草没有配置，介绍请手写',
+    ai ? `${ai.source === 'llm' ? `AI 起草（${ai.model ?? '模型'}，把握${{ high: '高', medium: '中', low: '低' }[ai.confidence] ?? '低'}）${ai.blurbFrom === 'image' ? ' · 页面没有文字，介绍是看封面图写的，请核对' : ''}` : '没有可用的 AI，只填了页面标题'} · ${ago(ai.at)}` : S.stats?.aiEnabled ? '还没有 AI 草稿' : 'AI 起草没有配置，介绍请手写',
     S.stats?.aiEnabled && ok ? h('button', { class: 'btn small', type: 'button', onclick: redraft }, '重新起草') : null,
   );
 

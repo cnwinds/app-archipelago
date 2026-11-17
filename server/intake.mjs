@@ -1,8 +1,9 @@
 // The intake service: what happens to a candidate from the moment it is submitted to the moment
 // it is live. HTTP lives elsewhere; this file is the rules.
 
+import { readFileSync } from 'node:fs';
 import { CATEGORY_IDS } from '../shared/rules.mjs';
-import { saveCover, saveEmbedShot, writePublished } from './files.mjs';
+import { coverFile, saveCover, saveEmbedShot, writePublished } from './files.mjs';
 import { minutesFromNow, nowIso } from './store.mjs';
 import { checkSubmittedUrl, UserError } from './urlcheck.mjs';
 
@@ -86,11 +87,21 @@ export function createIntake({ store, config, llm, log = console.log }) {
     return store.claim(workerId, { hourlyCap: config.limits.analysesPerHour });
   }
 
+  // The cover as saved by the last good check, for the vision fallback; null if there is none.
+  function readCover(id) {
+    try {
+      const b = readFileSync(coverFile(paths, id));
+      return b.length <= 1024 * 1024 ? b : null;
+    } catch {
+      return null;
+    }
+  }
+
   async function draft(id, { force = false } = {}) {
     const c = store.get(id);
     if (!c || c.analysis?.ok !== true) return null;
     if (!force && c.curation?.ai) return c.curation.ai;
-    const d = await llm.draft(c);
+    const d = await llm.draft(c, { image: readCover(id) });
     const have = c.curation ?? {};
     const patch = { ai: { ...d, at: nowIso() } };
     // Pre-fill only what the reviewer has not touched.
