@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>审核台 · 应用群岛</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/admin/admin.css" />
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="/">应用群岛<b>审核台</b></a>
+      <nav id="tabs" class="tabs" aria-label="分类"></nav>
+      <div class="top-right">
+        <span id="health" class="health"></span>
+        <button id="btn-add" class="btn" type="button">＋ 添加网址</button>
+        <button id="btn-discover" class="btn" type="button">立即发现</button>
+      </div>
+    </header>
+
+    <section id="add-panel" class="add" hidden>
+      <label for="add-urls">一行一个网址，也可以直接粘贴一大段文字（空白分隔）。每次最多 50 个。</label>
+      <textarea id="add-urls" rows="4" placeholder="https://"></textarea>
+      <div class="add-actions">
+        <button id="add-go" class="btn primary" type="button">加入检查</button>
+        <button id="add-close" class="btn" type="button">收起</button>
+      </div>
+      <ul id="add-results" class="add-results"></ul>
+    </section>
+
+    <main class="layout">
+      <aside class="list-col">
+        <div class="list-tools">
+          <input id="q" type="search" placeholder="搜索名称、网址（按 / 聚焦）" autocomplete="off" />
+        </div>
+        <div id="bulkbar" class="bulkbar" hidden></div>
+        <ul id="list" class="list"></ul>
+        <div class="list-foot">
+          <span id="count"></span>
+          <button id="more" class="btn" type="button" hidden>加载更多</button>
+        </div>
+      </aside>
+
+      <section id="detail" class="detail" aria-live="polite"></section>
+    </main>
+
+    <footer class="keys">
+      <kbd>J</kbd><kbd>K</kbd> 上一个 / 下一个 <kbd>A</kbd> 通过 <kbd>R</kbd> 拒绝 <kbd>E</kbd> 改名称 <kbd>X</kbd> 勾选 <kbd>O</kbd> 打开原站
+      <kbd>/</kbd> 搜索 <kbd>1</kbd>–<kbd>5</kbd> 切换分栏 <kbd>Ctrl</kbd>+<kbd>Enter</kbd> 在表单里通过
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="/admin/admin.js"></script>
+  </body>
+</html>

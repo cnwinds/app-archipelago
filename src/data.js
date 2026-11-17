@@ -1,5 +1,3 @@
-import published from '../catalog/published.json';
-
 export function mulberry32(seed) {
   let a = seed;
   return function () {
@@ -23,8 +21,13 @@ export const CATEGORIES = [
 
 const NEW_WITHIN_DAYS = 3;
 
-// Works come from catalog/published.json, which scripts/catalog/publish.mjs writes.
-export function loadApps(now = Date.now()) {
+// The catalog is a file the intake service rewrites whenever a work is approved, so it is read
+// when the page opens, not baked into the build.
+export async function loadApps(now = Date.now()) {
+  const res = await fetch('/catalog/published.json', { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`catalog ${res.status}`);
+  const published = await res.json();
+
   const cats = new Map(CATEGORIES.map((c) => [c.id, c]));
   const apps = [];
   for (const p of published) {
@@ -46,7 +49,10 @@ export function loadApps(now = Date.now()) {
       url: p.url,
       host: new URL(p.url).hostname.replace(/^www\./, ''),
       embed: p.embed,
-      shot: `/catalog/shots/${p.shot}`,
+      // 'slow' = the server (in China, like most visitors) found it slow to load.
+      reach: p.reach ?? null,
+      // The address carries a hash of the picture, so a retaken cover is never served stale.
+      shot: `/catalog/shots/${p.shot}${p.shotV ? `?v=${p.shotV}` : ''}`,
       source: p.source,
       position: null,
     });

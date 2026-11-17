@@ -1,0 +1,128 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import http from 'node:http';
+import net from 'node:net';
+import { GuardError } from '../shared/netguard.mjs';
+import { startEgressProxy } from '../worker/egress-proxy.mjs';
+
+// A pretend internet: allowed.test is a "public" name that leads to our local upstream, everything
+// else is treated as an internal address. The real address check is covered in netguard.test.mjs.
+async function setup() {
+  let hits = 0;
+  const upstream = http.createServer((req, res) => {
+    hits += 1;
+    res.setHeader('content-type', 'text/plain');
+    res.end(`hello from ${req.headers.host}${req.url}`);
+  });
+  await new Promise((r) => upstream.listen(0, '127.0.0.1', r));
+  const upstreamPort = upstream.address().port;
+
+  const resolve = async (host) => {
+    if (host === 'allowed.test') return '127.0.0.1';
+    throw new GuardError('private', `${host} is not public`);
+  };
+  const proxy = await startEgressProxy({ port: 0, resolve });
+  const proxyPort = proxy.address().port;
+  return {
+    upstreamPort,
+    proxyPort,
+    hits: () => hits,
+    close: () => Promise.all([new Promise((r) => upstream.close(r)), new Promise((r) => proxy.close(r))]),
+  };
+}
+
+function viaProxy(proxyPort, targetUrl) {
+  return new Promise((resolve, reject) => {
+    const u = new URL(targetUrl);
+    const req = http.request({ host: '127.0.0.1', port: proxyPort, method: 'GET', path: targetUrl, headers: { host: u.host } }, (res) => {
+      let body = '';
+      res.on('data', (c) => (body += c));
+      res.on('end', () => resolve({ status: res.statusCode, body }));
+    });
+    req.on('error', reject);
+    req.end();
+  });
+}
+
+function connect(proxyPort, target) {
+  return new Promise((resolve, reject) => {
+    const s = net.connect(proxyPort, '127.0.0.1', () => s.write(`CONNECT ${target} HTTP/1.1\r\nHost: ${target}\r\n\r\n`));
+    let buf = '';
+    s.on('data', (c) => {
+      buf += c;
+      if (buf.includes('\r\n\r\n')) resolve({ socket: s, head: buf });
+    });
+    s.on('error', reject);
+    s.on('end', () => resolve({ socket: s, head: buf }));
+  });
+}
+
+test('forwards a request to a public name', async () => {
+  const t = await setup();
+  try {
+    const r = await viaProxy(t.proxyPort, `http://allowed.test:${t.upstreamPort}/hello?x=1`);
+    assert.equal(r.status, 200);
+    assert.equal(r.body, `hello from allowed.test:${t.upstreamPort}/hello?x=1`);
+  } finally {
+    await t.close();
+  }
+});
+
+test('refuses a name that leads somewhere internal, without touching it', async () => {
+  const t = await setup();
+  try {
+    const r = await viaProxy(t.proxyPort, `http://internal.test:${t.upstreamPort}/secret`);
+    assert.equal(r.status, 403);
+    assert.equal(t.hits(), 0);
+  } finally {
+    await t.close();
+  }
+});
+
+test('refuses requests that are not absolute http URLs', async () => {
+  const t = await setup();
+  try {
+    const r = await new Promise((resolve, reject) => {
+      http.get({ host: '127.0.0.1', port: t.proxyPort, path: '/just-a-path' }, (res) => {
+        res.resume();
+        res.on('end', () => resolve(res.statusCode));
+      }).on('error', reject);
+    });
+    assert.equal(r, 400);
+    assert.equal(t.hits(), 0);
+  } finally {
+    await t.close();
+  }
+});
+
+test('CONNECT to an internal name is refused', async () => {
+  const t = await setup();
+  try {
+    const { socket, head } = await connect(t.proxyPort, `internal.test:${t.upstreamPort}`);
+    assert.match(head, /^HTTP\/1\.1 403/);
+    socket.destroy();
+    assert.equal(t.hits(), 0);
+  } finally {
+    await t.close();
+  }
+});
+
+test('CONNECT to a public name is tunnelled', async () => {
+  const t = await setup();
+  try {
+    const { socket, head } = await connect(t.proxyPort, `allowed.test:${t.upstreamPort}`);
+    assert.match(head, /^HTTP\/1\.1 200/);
+    const reply = await new Promise((resolve) => {
+      let buf = '';
+      socket.on('data', (c) => {
+        buf += c;
+        if (buf.includes('hello from')) resolve(buf);
+      });
+      socket.write('GET /tunnel HTTP/1.1\r\nHost: allowed.test\r\nConnection: close\r\n\r\n');
+    });
+    assert.match(reply, /hello from allowed.test\/tunnel/);
+    socket.destroy();
+  } finally {
+    await t.close();
+  }
+});

@@ -20,7 +20,14 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(
 
 /* ---------------------------------------------------------------- data ---- */
 
-const apps = loadApps();
+// The catalog is fetched when the page opens. If that fails there is nothing to show, so say so.
+let apps;
+try {
+  apps = await loadApps();
+} catch (e) {
+  document.body.insertAdjacentHTML('beforeend', '<div class="load-error"><b>作品列表没有加载出来</b><span>请检查网络后刷新页面。</span></div>');
+  throw e;
+}
 const byCat = new Map(CATEGORIES.map((c) => [c.id, apps.filter((a) => a.cat === c)]));
 const STORAGE_KEY = 'archipelago-explored';
 const explored = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
@@ -500,6 +507,7 @@ function openPanel(app) {
         <button class="btn ghost" data-act="island">逛逛这座岛</button>
       </div>
       ${app.embed ? '' : '<p class="note">这个作品不能在本页内直接运行，会在新标签页打开。</p>'}
+      ${app.reach === 'slow' ? '<p class="note">这个作品在国内加载比较慢，打开后请多等一会儿。</p>' : ''}
       <p class="links">
         <a href="${esc(app.url)}" target="_blank" rel="noopener noreferrer">原站 ↗</a>
         ${hn ? `<a href="${esc(hn.link)}" target="_blank" rel="noopener noreferrer">HN 讨论 ↗</a>` : ''}

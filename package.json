@@ -7,6 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "server": "node --disable-warning=ExperimentalWarning server/index.mjs",
+    "worker": "node worker/index.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.mjs\"",
     "catalog:discover": "node scripts/catalog/discover-hn.mjs",
     "catalog:add": "node scripts/catalog/add.mjs",
     "catalog:ingest": "node scripts/catalog/ingest.mjs",
@@ -14,10 +17,10 @@
     "catalog:publish": "node scripts/catalog/publish.mjs"
   },
   "dependencies": {
-    "three": "^0.187.0"
+    "puppeteer-core": "^25.17.0"
   },
   "devDependencies": {
-    "puppeteer-core": "^25.17.0",
+    "three": "^0.187.0",
     "vite": "^8.3.8"
   }
 }

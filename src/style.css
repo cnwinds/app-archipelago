@@ -148,6 +148,27 @@ body:not(.ready) .tweaks {
   background: rgba(255, 207, 122, 0.16);
   color: var(--gold);
   border: 1px solid rgba(255, 207, 122, 0.3);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.sample-tag:hover {
+  background: rgba(255, 207, 122, 0.3);
+}
+
+.load-error {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-content: center;
+  gap: 6px;
+  text-align: center;
+  background: rgba(8, 12, 20, 0.86);
+  color: var(--ink);
+}
+.load-error span {
+  color: var(--muted);
+  font-size: 13px;
 }
 
 /* ---------- search ---------- */

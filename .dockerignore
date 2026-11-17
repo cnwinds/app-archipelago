@@ -3,3 +3,8 @@ dist
 shots
 .git
 .env
+data
+secrets
+catalog
+scripts
+test

@@ -1,11 +1,86 @@
+# web     nginx: the site, the submit and review pages, and the door to the api
+# api     the intake service: queue, review, publish, schedule
+# worker  Chromium behind an egress proxy; the only part that opens strangers' pages
+#
+# Two private networks keep the worker away from nginx: it can reach the api (and the internet,
+# through its own proxy) and nothing else.
+
 services:
   web:
     build:
       context: .
+      target: web
       args:
         NPM_REGISTRY: ${NPM_REGISTRY:-https://registry.npmjs.org}
     image: app-archipelago:latest
     container_name: app-archipelago
     ports:
       - "${BIND_ADDR:-127.0.0.1}:${PORT:-5320}:80"
+    volumes:
+      - ./data/public/catalog:/srv/catalog:ro
+      - ./secrets/admin.htpasswd:/etc/nginx/secrets/admin.htpasswd:ro
+    networks: [front]
+    depends_on: [api]
     restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      target: api
+    image: app-archipelago-api:latest
+    container_name: app-archipelago-api
+    # The directory ./data belongs to this user; scripts/server-init.sh sets that up.
+    user: "${DATA_UID:-1000}:${DATA_UID:-1000}"
+    environment:
+      DATA_DIR: /data
+      SEED_DIR: /seed
+      EDGE_HOST: web
+      WORKER_TOKEN: ${WORKER_TOKEN:?run scripts/server-init.sh first}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://dashscope.aliyuncs.com/compatible-mode/v1}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-qwen-plus}
+      NOTIFY_WEBHOOK: ${NOTIFY_WEBHOOK:-}
+      NOTIFY_FORMAT: ${NOTIFY_FORMAT:-json}
+      SITE_URL: ${SITE_URL:-https://isle.ai-news.top}
+    volumes:
+      - ./data:/data
+      - ./catalog:/seed:ro
+    networks: [front, back]
+    mem_limit: 256m
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: .
+      target: worker
+      args:
+        NPM_REGISTRY: ${NPM_REGISTRY:-https://registry.npmjs.org}
+        APK_MIRROR: ${APK_MIRROR:-}
+    image: app-archipelago-worker:latest
+    container_name: app-archipelago-worker
+    environment:
+      API_URL: http://api:3000
+      WORKER_TOKEN: ${WORKER_TOKEN:?run scripts/server-init.sh first}
+    networks: [back]
+    # The server is small and shared: one page at a time, hard memory ceiling, no swap.
+    mem_limit: 1200m
+    memswap_limit: 1200m
+    cpus: 1.5
+    pids_limit: 512
+    read_only: true
+    tmpfs:
+      - /tmp:size=256m
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    depends_on: [api]
+    restart: unless-stopped
+
+networks:
+  front: {}
+  back: {}

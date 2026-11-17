@@ -1,0 +1,5 @@
+# Files that run on the Linux server must keep LF line endings, whatever the editor on Windows does.
+*.sh text eol=lf
+Dockerfile text eol=lf
+nginx.conf text eol=lf
+docker-compose.yml text eol=lf

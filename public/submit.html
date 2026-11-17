@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>投稿作品 · 应用群岛</title>
+    <meta name="description" content="发现了好玩的网页应用或小游戏？贴上网址，自动检查，人工审核后登上应用群岛。" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/submit.css" />
+  </head>
+  <body>
+    <div class="sea" aria-hidden="true"><i></i><i></i><i></i></div>
+
+    <main class="wrap">
+      <a class="back" href="/">← 回到群岛</a>
+
+      <section class="card">
+        <div class="mark" aria-hidden="true"><span></span></div>
+        <h1>投稿作品</h1>
+        <p class="lead">发现了好玩的网页应用或小游戏？贴上网址，我们的浏览器会先替你打开看看，再由人工审核，通过后就会出现在群岛上。</p>
+
+        <form id="form" novalidate>
+          <label for="url">作品网址</label>
+          <input id="url" name="url" type="text" inputmode="url" placeholder="https://" autocomplete="off" spellcheck="false" required />
+
+          <label for="note">一句话推荐 <small>（可选）</small></label>
+          <textarea id="note" name="note" rows="2" maxlength="300" placeholder="它好玩在哪里？"></textarea>
+
+          <!-- Nobody sees this field; bots fill it in. -->
+          <div class="hp" aria-hidden="true">
+            <label>网站<input id="hp" name="website" type="text" tabindex="-1" autocomplete="off" /></label>
+          </div>
+
+          <button class="go" id="go" type="submit">提交检查</button>
+        </form>
+
+        <div id="result" class="result" hidden aria-live="polite">
+          <ol class="steps" id="steps">
+            <li>已收到</li>
+            <li>打开页面检查</li>
+            <li>人工审核</li>
+          </ol>
+          <h2 id="result-title"></h2>
+          <div id="result-body"></div>
+          <div class="result-actions" id="result-actions"></div>
+        </div>
+      </section>
+
+      <section class="rules">
+        <h3>什么样的作品会被收录</h3>
+        <ul>
+          <li><b>点开就能用</b>：不用下载，不用注册或登录。</li>
+          <li><b>是作品本身的网址</b>：代码仓库、应用商店、视频页、文章这类链接不算。</li>
+          <li><b>内容合规</b>：不含成人、赌博、诈骗内容。</li>
+          <li>网站在国内能打开最好；打开慢的作品会收录，并在页面上提醒。</li>
+        </ul>
+        <p class="fine">每人每天最多投 5 个。我们只记录一个无法还原成 IP 的指纹，用来限制刷量。</p>
+      </section>
+    </main>
+
+    <script type="module" src="/submit.js"></script>
+  </body>
+</html>
