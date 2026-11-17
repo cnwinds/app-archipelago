@@ -17,8 +17,8 @@ const SYSTEM = `你是导航站「应用群岛」的编辑助理，工作是为�
 - name：作品名。优先用页面标题里的作品名，去掉「 | 站点名」「 - 站点名」这类后缀；英文名保留原文，不要翻译。
 - tags：2 到 4 个中文标签，每个不超过 8 个字。
 - blurb：一到两句中文介绍，不超过 80 个字。只写页面自己说了的内容，不要推测，不要夸奖，不要营销话术。页面信息不足以介绍时，写空字符串。
-- flags：数组，只能包含 ${FLAGS.join('、')}，只在页面信息明确支持时才标记。
-- reject_reason：如果不适合收录（带了 flags，或者不是能直接试玩的网页作品），用一句中文说明建议拒绝的理由；否则写空字符串。
+- flags：数组，只能包含 ${FLAGS.join('、')}，只在页面信息明确支持时才标记。体检用的是没有声卡、没有显卡的无头浏览器，页面里出现的音频、摄像头、WebGL 相关报错只说明体检环境缺设备，不能当作作品坏了的证据，不要因此标 broken。
+- reject_reason：如果不适合收录（带了 flags，或者不是能直接试玩的网页作品），用一句中文说明建议拒绝的理由，不超过 40 个字；否则写空字符串。
 - confidence：high、medium 或 low，表示你对以上内容的把握。`;
 
 const clean = (v, max) => (typeof v === 'string' ? v.replace(/\s+/g, ' ').trim().slice(0, max) : '');
@@ -32,7 +32,9 @@ export function sanitizeDraft(raw) {
     tags: (Array.isArray(o.tags) ? o.tags : []).map((t) => clean(t, 12)).filter(Boolean).slice(0, 4),
     blurb: clean(o.blurb, 120),
     flags: (Array.isArray(o.flags) ? o.flags : []).filter((f) => FLAGS.includes(f)),
-    rejectReason: clean(o.reject_reason ?? o.rejectReason, 80),
+    // The reviewer's "reject as suggested" button files this text as the reason, so a hard cut
+    // mid-sentence is worse than a long one: the prompt asks for 40 characters, this is the guard.
+    rejectReason: clean(o.reject_reason ?? o.rejectReason, 120),
     confidence: ['high', 'medium', 'low'].includes(o.confidence) ? o.confidence : 'low',
   };
 }
